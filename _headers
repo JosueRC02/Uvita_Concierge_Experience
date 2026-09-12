@@ -1,0 +1,4 @@
+# Netlify: obliga al navegador a revalidar el contenido en cada visita.
+# Evita que se queden viendo versiones viejas (CSS/HTML/JS) tras cada cambio.
+/*
+  Cache-Control: public, max-age=0, must-revalidate
