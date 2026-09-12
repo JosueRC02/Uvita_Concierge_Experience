@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Emblema Uvita Concierge Experience">
+  <circle cx="32" cy="31" r="27" fill="none" stroke="#CDA347" stroke-width="1.8"/>
+  <g stroke="#063F3B" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M32 42 C31 35 32 29 34 25"/>
+    <path d="M34 25 C28 21 22 22 18 25"/>
+    <path d="M34 25 C30 19 24 16 18 16"/>
+    <path d="M34 25 C35 18 33 13 29 10"/>
+    <path d="M34 25 C40 21 46 21 50 24"/>
+    <path d="M34 25 C39 18 46 16 51 16"/>
+    <path d="M34 25 C36 18 40 13 45 11"/>
+    <path d="M20 46 C25 43 29 49 34 46 C39 43 44 49 48 46"/>
+  </g>
+</svg>
