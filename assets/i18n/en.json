@@ -93,5 +93,65 @@
       "privacy": "Privacy Policy",
       "terms": "Terms & Conditions"
     }
+  },
+  "pages": {
+    "experiencias": {
+      "metaTitle": "Tours & Experiences in Uvita | Uvita Concierge Experience",
+      "kicker": "Live the Costa Ballena",
+      "h1": "Tours & <em>Experiences</em>",
+      "lead": "Discover the best of our region with local experts. These are some of the experiences we can coordinate for you; final availability is always confirmed with each operator.",
+      "cta": "Check availability"
+    },
+    "whale": {
+      "metaTitle": "Whale Watching in Uvita | Uvita Concierge Experience",
+      "eyebrow": "Costa Ballena · July to October (approximate season)",
+      "h1": "Whale Watching",
+      "heroDesc": "Humpback whale watching in their natural habitat, with local operators who prioritize responsible observation.",
+      "kicker": "The experience",
+      "h2": "Humpback whales on the <em>Costa Ballena</em>",
+      "p1": "The Costa Ballena (Whale Coast) owes its name to the silhouette of Uvita's beach, which resembles a whale's tail, and to the humpback whales that visit these waters at certain times of the year. The whale watching tour is done by boat, accompanied by experienced local guides and captains.",
+      "p2": "Exact season dates, tour duration and sea conditions may vary. All specific information about schedules, prices and availability is confirmed directly with the operator before booking.",
+      "includesTitle": "What the experience includes",
+      "includes": ["Boat departure from the Uvita / Costa Ballena area.", "Accompaniment by local guides.", "Responsible observation, respecting the distance and behavior of the whales.", "Option to combine with snorkeling or beach, depending on the operator."],
+      "responsibleTitle": "Responsible observation",
+      "responsibleP": "We work with operators who follow good responsible tourism practices: keeping a prudent distance, avoiding routes that stress the animals and prioritizing the area's marine conservation.",
+      "cta": "Ask about dates and availability"
+    },
+    "corcovado": {
+      "metaTitle": "Corcovado National Park Tour | Uvita Concierge Experience",
+      "eyebrow": "Wild adventure · South Pacific",
+      "h1": "Corcovado National Park",
+      "heroDesc": "Unique biodiversity and unforgettable nature, in one of the last great tropical rainforests of Central America.",
+      "kicker": "The experience",
+      "h2": "Biodiversity and <em>wildlife</em>",
+      "p1": "Corcovado is renowned for its extremely high biodiversity: wild cats, monkeys, tapirs, birds and lush vegetation coexist in a single ecosystem. Hikes are always done with authorized guides and respecting the park's regulations.",
+      "p2": "Routes, schedules and entry permits depend on the operator and the current regulations of the National System of Conservation Areas. We confirm these details with you before booking.",
+      "recTitle": "Recommendations for your visit",
+      "recNote": "These are general recommendations; they do not replace the official guidance of the park or the tour operator.",
+      "rec": ["Closed shoes, ideal for humid trails.", "Reusable water bottle.", "Light rain jacket.", "Light, quick-drying clothing.", "Sun protection.", "Insect repellent.", "Comfortable backpack for long hikes."],
+      "cta": "Check availability"
+    },
+    "propietarios": {
+      "metaTitle": "Services for Villa Owners in Uvita | Uvita Concierge Experience",
+      "eyebrow": "Villas & properties",
+      "h1": "For villa owners and managers",
+      "heroDesc": "We care for your property as if it were our own. Reliable services so you and your guests enjoy a flawless experience.",
+      "kicker": "How we help you",
+      "h2": "Services for your <em>villa</em>",
+      "lead": "We coordinate every aspect of your property's daily operation, so you can trust that your guests will receive first-class attention even when you're not in the country.",
+      "cards": [
+        { "t": "Guest concierge", "d": "Personalized attention throughout the guest's stay." },
+        { "t": "Check-in / check-out", "d": "Reception and farewell coordinated on time." },
+        { "t": "Cleaning", "d": "Preparation and upkeep of the villa between stays." },
+        { "t": "Maintenance", "d": "Preventive monitoring and fixing of details." },
+        { "t": "Shopping", "d": "Stocking up before your guests arrive." },
+        { "t": "Villa preparation", "d": "A villa ready and presentable for every new booking." },
+        { "t": "Guest care", "d": "Support during the stay for any need." },
+        { "t": "Bookings", "d": "Coordination of reservations and availability." },
+        { "t": "Experiences", "d": "Recommendation and coordination of tours for your guests." },
+        { "t": "Transportation", "d": "Private and shared transfers as needed." }
+      ],
+      "cta": "Learn how we can help you"
+    }
   }
 }

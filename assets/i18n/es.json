@@ -93,5 +93,65 @@
       "privacy": "Política de Privacidad",
       "terms": "Términos y Condiciones"
     }
+  },
+  "pages": {
+    "experiencias": {
+      "metaTitle": "Tours & Experiencias en Uvita | Uvita Concierge Experience",
+      "kicker": "Vive la Costa Ballena",
+      "h1": "Tours & <em>Experiencias</em>",
+      "lead": "Conoce lo mejor de nuestra región con expertos locales. Estas son algunas de las experiencias que podemos coordinar para ti; la disponibilidad final siempre se confirma con cada operador.",
+      "cta": "Consultar disponibilidad"
+    },
+    "whale": {
+      "metaTitle": "Whale Watching en Uvita | Uvita Concierge Experience",
+      "eyebrow": "Costa Ballena · Julio a octubre (temporada aproximada)",
+      "h1": "Whale Watching",
+      "heroDesc": "Avistamiento de ballenas jorobadas en su hábitat natural, con operadores locales que priorizan la observación responsable.",
+      "kicker": "La experiencia",
+      "h2": "Ballenas jorobadas en la <em>Costa Ballena</em>",
+      "p1": "La Costa Ballena debe su nombre a la silueta de la playa de Uvita, que recuerda la cola de una ballena, y a la presencia de ballenas jorobadas que visitan estas aguas en ciertas épocas del año. El tour de whale watching se realiza en barco, acompañado de guías y capitanes locales con experiencia en la zona.",
+      "p2": "Las fechas exactas de temporada, la duración del recorrido y las condiciones del mar pueden variar. Toda la información específica de horarios, precios y disponibilidad se confirma directamente con el operador antes de reservar.",
+      "includesTitle": "Qué incluye la experiencia",
+      "includes": ["Salida en barco desde la zona de Uvita / Costa Ballena.", "Acompañamiento de guías locales.", "Observación responsable, respetando la distancia y el comportamiento de las ballenas.", "Posibilidad de combinar con snorkel o playa, según el operador."],
+      "responsibleTitle": "Observación responsable",
+      "responsibleP": "Trabajamos con operadores que siguen buenas prácticas de turismo responsable: mantener distancia prudente, evitar rutas que estresen a los animales y priorizar la conservación marina de la zona.",
+      "cta": "Consultar fechas y disponibilidad"
+    },
+    "corcovado": {
+      "metaTitle": "Tour Parque Nacional Corcovado | Uvita Concierge Experience",
+      "eyebrow": "Aventura salvaje · Pacífico Sur",
+      "h1": "Parque Nacional Corcovado",
+      "heroDesc": "Biodiversidad única y naturaleza inolvidable, en una de las últimas grandes selvas tropicales de Centroamérica.",
+      "kicker": "La experiencia",
+      "h2": "Biodiversidad y <em>vida silvestre</em>",
+      "p1": "Corcovado es reconocido por su altísima biodiversidad: felinos, monos, tapires, aves y una vegetación exuberante conviven en un mismo ecosistema. Las caminatas se realizan siempre con guías autorizados y respetando las regulaciones del parque.",
+      "p2": "Rutas, horarios y permisos de ingreso dependen del operador y de las regulaciones vigentes del Sistema Nacional de Áreas de Conservación. Confirmamos estos detalles contigo antes de reservar.",
+      "recTitle": "Recomendaciones para tu visita",
+      "recNote": "Estas son recomendaciones generales; no sustituyen las indicaciones oficiales del parque ni del operador del tour.",
+      "rec": ["Zapatos cerrados, ideales para senderos húmedos.", "Botella de agua reutilizable.", "Impermeable ligero.", "Ropa ligera y de secado rápido.", "Protección solar.", "Repelente de insectos.", "Mochila cómoda para caminatas largas."],
+      "cta": "Consultar disponibilidad"
+    },
+    "propietarios": {
+      "metaTitle": "Servicios para Propietarios de Villas en Uvita | Uvita Concierge Experience",
+      "eyebrow": "Villas & propiedades",
+      "h1": "Para propietarios y administradores de villas",
+      "heroDesc": "Cuidamos tu propiedad como si fuera nuestra. Servicios confiables para que tú y tus huéspedes disfruten de una experiencia impecable.",
+      "kicker": "Cómo te ayudamos",
+      "h2": "Servicios para tu <em>villa</em>",
+      "lead": "Coordinamos cada aspecto de la operación diaria de tu propiedad, para que puedas confiar en que tus huéspedes recibirán una atención de primer nivel incluso cuando tú no estás en el país.",
+      "cards": [
+        { "t": "Guest concierge", "d": "Atención personalizada durante toda la estadía del huésped." },
+        { "t": "Check-in / check-out", "d": "Recepción y despedida coordinadas con puntualidad." },
+        { "t": "Limpieza", "d": "Preparación y mantenimiento de la villa entre estadías." },
+        { "t": "Mantenimiento", "d": "Seguimiento preventivo y corrección de detalles." },
+        { "t": "Compras", "d": "Abastecimiento previo a la llegada de tus huéspedes." },
+        { "t": "Preparación de villas", "d": "Villa lista y presentable para cada nueva reserva." },
+        { "t": "Atención a huéspedes", "d": "Soporte durante la estadía ante cualquier necesidad." },
+        { "t": "Reservas", "d": "Coordinación de reservas y disponibilidad." },
+        { "t": "Experiencias", "d": "Recomendación y coordinación de tours para tus huéspedes." },
+        { "t": "Transporte", "d": "Traslados privados y compartidos según necesidad." }
+      ],
+      "cta": "Conoce cómo podemos ayudarte"
+    }
   }
 }

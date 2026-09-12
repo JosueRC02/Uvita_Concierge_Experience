@@ -161,8 +161,10 @@ mover el original a `originales/`, y actualizar la ruta en `data.json`.
 - [x] Fotos reales del tour de kayak, optimizadas a WebP (hero + Parque Marino Ballena).
 - [x] Panel `admin.html` (versión con localStorage).
 - [x] **Galería** de fotos (home, sección `#galeria`) con lightbox (clic para ampliar).
-- [x] **Sitio multilingüe** (home): Español, Inglés, Alemán, Francés, Italiano. Selector
-      con banderas, detección automática del idioma del navegador, persistencia y `hreflang`.
+- [x] **Sitio multilingüe** (ES/EN/DE/FR/IT): home + páginas internas (experiencias,
+      whale-watching, corcovado, propietarios) traducidas. Selector con banderas,
+      detección automática del idioma del navegador, persistencia y `hreflang`. Los cuerpos
+      de las páginas legales quedan en español (pendiente de revisión legal).
 
 ---
 
@@ -189,10 +191,11 @@ sitio por todo el mundo), gratis y no se cae si el backend falla. El frontend y 
 - [ ] **Instagram**: falta la URL oficial (el enlace se muestra solo cuando exista en `data.json`).
 - [ ] **Fotos reales** para: whale watching (con ballena), catarata Uvita, Corcovado,
       villa y "sobre nosotros". Hoy usan placeholders SVG. Se irán agregando poco a poco.
-- [ ] **Traducir las páginas internas** (i18n): el home ya está en 5 idiomas, pero los
-      cuerpos de `pages/*.html` (whale-watching, corcovado, propietarios, experiencias,
-      privacidad, términos) siguen en español. Falta agregarles `data-i18n` y sus textos
-      a los diccionarios. El selector de idioma ya aparece en ellas y recuerda el idioma.
+- [ ] **Traducir los cuerpos de las páginas legales** (privacidad, términos): siguen en
+      español a propósito, pendientes de la revisión legal final (ver más abajo). Su
+      navegación y pie de página sí cambian de idioma. El resto de páginas internas
+      (experiencias, whale-watching, corcovado, propietarios) ya están traducidas a los 5
+      idiomas.
 - [ ] **Páginas legales**: son una base. Falta revisión con asesoría legal en Costa Rica y
       completar: razón social / cédula jurídica, política de cancelación y reembolsos,
       medios de pago. (Hay comentarios `PENDIENTE` marcados dentro de esos HTML.)
