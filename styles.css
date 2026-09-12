@@ -106,6 +106,7 @@ p { margin: 0 0 1em; }
   color: var(--blanco);
   padding: 8px 20px;
   font-size: 0.8rem;
+  border-radius: 10px;
 }
 .btn-whatsapp:hover { background: var(--verde-selva); }
 .btn-whatsapp::before {
@@ -247,8 +248,8 @@ p { margin: 0 0 1em; }
   gap: 7px;
   background: none;
   border: 1px solid var(--verde-selva);
-  border-radius: 999px;
-  padding: 5px 11px;
+  border-radius: 10px;
+  padding: 6px 12px;
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--verde-selva);
