@@ -170,7 +170,7 @@
   }
 
   document.getElementById('addService').addEventListener('click', function () {
-    state.services.push({ id: '', name: '', description: '', icon: 'assets/icons/concierge.svg', active: true });
+    state.services.push({ id: '', name: '', description: '', icon: 'assets/icons/tours-actividades.svg', active: true });
     renderServices();
   });
 

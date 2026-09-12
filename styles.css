@@ -223,21 +223,24 @@ p { margin: 0 0 1em; }
   flex: none;
   display: block;
 }
-.lang-menu {
+.nav-actions .lang-menu {
+  display: block;
   position: absolute;
   top: calc(100% + 8px);
   right: 0;
-  min-width: 170px;
+  min-width: 180px;
   margin: 0;
   padding: 6px;
   list-style: none;
+  gap: 0;
   background: var(--blanco);
   border: 1px solid rgba(2,51,47,0.12);
   border-radius: 12px;
   box-shadow: var(--shadow-soft);
   z-index: 120;
 }
-.lang-menu li { margin: 0; }
+.lang-menu[hidden] { display: none; }
+.lang-menu li { margin: 0; width: 100%; }
 .lang-menu button {
   display: flex;
   align-items: center;
@@ -259,17 +262,19 @@ p { margin: 0 0 1em; }
 /* ===== Galería ===== */
 .gallery-grid {
   margin-top: 48px;
-  columns: 4 220px;
-  column-gap: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 14px;
 }
 .gallery-grid img {
   width: 100%;
-  margin-bottom: 14px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
   border-radius: var(--radius);
   cursor: zoom-in;
   transition: transform var(--transition), box-shadow var(--transition);
   box-shadow: 0 6px 16px rgba(2,51,47,0.10);
-  break-inside: avoid;
 }
 .gallery-grid img:hover { transform: translateY(-3px); box-shadow: var(--shadow-soft); }
 
@@ -390,19 +395,61 @@ p { margin: 0 0 1em; }
 
 /* ===== Grids ===== */
 .grid { display: grid; gap: 28px; margin-top: 48px; }
-.services-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.services-grid { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
 .experiences-grid { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
 
 .service-card {
   background: var(--blanco);
   border-radius: var(--radius);
-  padding: 32px 24px;
+  padding: 38px 26px;
   box-shadow: var(--shadow-soft);
   transition: transform var(--transition);
+  text-align: center;
 }
 .service-card:hover { transform: translateY(-6px); }
-.service-card img { margin-bottom: 16px; }
+.service-icon {
+  width: 84px;
+  height: 84px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  background: var(--verde-selva);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-icon img { width: 46px; height: 46px; margin: 0; }
+.service-card h3 { margin: 0 0 10px; }
 .service-card p { margin: 0; color: #4a6560; font-size: 0.95rem; }
+.service-photo {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* ===== Banda de eslogan ===== */
+.slogan-band {
+  background: var(--crema);
+  text-align: center;
+  padding: 64px 0 72px;
+}
+.slogan-band .container { max-width: 820px; }
+.slogan-palm { width: 54px; height: auto; margin: 0 auto 14px; opacity: 0.9; }
+.slogan-title {
+  font-family: var(--font-title);
+  color: var(--verde-selva);
+  font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0;
+}
+.slogan-script {
+  font-family: var(--font-script);
+  color: var(--dorado);
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  margin: 8px 0 0;
+}
 
 .experience-card {
   background: var(--blanco);

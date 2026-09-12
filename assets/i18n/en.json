@@ -31,16 +31,21 @@
     "We know our land"
   ],
   "services": {
-    "kicker": "What we offer",
-    "title": "Personalized <em>services</em>",
-    "lead": "We take care of every detail so you only have to worry about enjoying yourself.",
+    "kicker": "Your stay, our priority",
+    "title": "Our <em>services</em>",
+    "lead": "We take care of every detail so you can enjoy Uvita and its wonders to the fullest.",
     "items": {
-      "concierge": { "name": "Concierge", "desc": "Personal and for guests." },
-      "transporte": { "name": "Transportation", "desc": "Private and shared." },
-      "tours": { "name": "Tours & Experiences", "desc": "Nature, adventure and local culture." },
-      "villas": { "name": "Villa care", "desc": "Cleaning, maintenance and check-in/check-out." },
-      "gestiones": { "name": "Errands & Services", "desc": "Errands, bookings and personalized assistance." }
+      "tours-actividades": { "name": "Tours & activities", "desc": "We coordinate the best tours and experiences in Uvita and nearby." },
+      "transporte-privado": { "name": "Private transportation", "desc": "Safe, comfortable transfers to and from the airport, and to any destination." },
+      "servicios-especiales": { "name": "Special services", "desc": "Private chefs, massages, yoga, décor and more to make your stay unique." },
+      "recomendaciones-locales": { "name": "Local recommendations", "desc": "We share the best restaurants, hidden beaches and must-see spots." },
+      "reservas-coordinacion": { "name": "Bookings & coordination", "desc": "We handle all your reservations so you don't have to worry about a thing." },
+      "atencion-estadia": { "name": "Support during your stay", "desc": "We're available to assist you before, during and after your trip." }
     }
+  },
+  "slogan": {
+    "title": "Live Uvita in a unique, authentic and stress-free way.",
+    "script": "You enjoy, we take care of the rest."
   },
   "experiences": {
     "kicker": "Live the Costa Ballena",

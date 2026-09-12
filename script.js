@@ -304,16 +304,28 @@
       var card = document.createElement('article');
       card.className = 'service-card';
       if (service.icon) {
+        var badge = document.createElement('div');
+        badge.className = 'service-icon';
         var img = document.createElement('img');
         img.src = getRelativePath(service.icon);
-        img.alt = ''; img.width = 48; img.height = 48; img.loading = 'lazy';
-        card.appendChild(img);
+        img.alt = ''; img.width = 46; img.height = 46; img.loading = 'lazy';
+        badge.appendChild(img);
+        card.appendChild(badge);
       }
       var h3 = document.createElement('h3');
       h3.textContent = t.name || service.name || '';
       var p = document.createElement('p');
       p.textContent = t.desc || service.description || '';
       card.appendChild(h3); card.appendChild(p);
+
+      if (service.image) {
+        var photo = document.createElement('img');
+        photo.className = 'service-photo';
+        photo.src = getRelativePath(service.image);
+        photo.alt = '';
+        photo.loading = 'lazy';
+        card.appendChild(photo);
+      }
       grid.appendChild(card);
     });
   }

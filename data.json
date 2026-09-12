@@ -28,44 +28,57 @@
   ],
 
   "services_section": {
-    "title": "Servicios personalizados",
-    "description": "Nos encargamos de cada detalle para que tú solo te preocupes por disfrutar."
+    "title": "Nuestros servicios",
+    "description": "Nos encargamos de cada detalle para que disfrutes al máximo de Uvita y sus maravillas."
   },
 
   "services": [
     {
-      "id": "concierge",
-      "name": "Concierge",
-      "description": "Personal y para huéspedes.",
-      "icon": "assets/icons/concierge.svg",
+      "id": "tours-actividades",
+      "name": "Tours y actividades",
+      "description": "Coordinamos los mejores tours y experiencias en Uvita y alrededores.",
+      "icon": "assets/icons/tours-actividades.svg",
+      "image": "",
       "active": true
     },
     {
-      "id": "transporte",
-      "name": "Transporte",
-      "description": "Privado y compartido.",
-      "icon": "assets/icons/transporte.svg",
+      "id": "transporte-privado",
+      "name": "Transporte privado",
+      "description": "Traslados seguros y cómodos desde/hacia el aeropuerto, y a cualquier destino.",
+      "icon": "assets/icons/transporte-privado.svg",
+      "image": "",
       "active": true
     },
     {
-      "id": "tours",
-      "name": "Tours & Experiencias",
-      "description": "Naturaleza, aventura y cultura local.",
-      "icon": "assets/icons/tours.svg",
+      "id": "servicios-especiales",
+      "name": "Servicios especiales",
+      "description": "Chefs privados, masajes, yoga, decoraciones y más para hacer tu estadía única.",
+      "icon": "assets/icons/servicios-especiales.svg",
+      "image": "",
       "active": true
     },
     {
-      "id": "villas",
-      "name": "Atención a villas",
-      "description": "Limpieza, mantenimiento y check-in/check-out.",
-      "icon": "assets/icons/villas.svg",
+      "id": "recomendaciones-locales",
+      "name": "Recomendaciones locales",
+      "description": "Te compartimos los mejores restaurantes, playas escondidas y lugares imperdibles.",
+      "icon": "assets/icons/recomendaciones-locales.svg",
+      "image": "",
       "active": true
     },
     {
-      "id": "gestiones",
-      "name": "Compras & Gestiones",
-      "description": "Mandados, reservas y asistencia personalizada.",
-      "icon": "assets/icons/gestiones.svg",
+      "id": "reservas-coordinacion",
+      "name": "Reservas y coordinación",
+      "description": "Nos encargamos de todas tus reservas para que no tengas que preocuparte por nada.",
+      "icon": "assets/icons/reservas-coordinacion.svg",
+      "image": "",
+      "active": true
+    },
+    {
+      "id": "atencion-estadia",
+      "name": "Atención durante tu estadía",
+      "description": "Estamos disponibles para asistirte antes, durante y después de tu viaje.",
+      "icon": "assets/icons/atencion-estadia.svg",
+      "image": "",
       "active": true
     }
   ],

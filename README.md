@@ -161,6 +161,10 @@ mover el original a `originales/`, y actualizar la ruta en `data.json`.
 - [x] Fotos reales del tour de kayak, optimizadas a WebP (hero + Parque Marino Ballena).
 - [x] Panel `admin.html` (versión con localStorage).
 - [x] **Galería** de fotos (home, sección `#galeria`) con lightbox (clic para ampliar).
+- [x] **Sección de servicios** rediseñada al estilo del flyer de marca: 6 servicios
+      (tours y actividades, transporte privado, servicios especiales, recomendaciones
+      locales, reservas y coordinación, atención durante tu estadía) con íconos circulares
+      verdes, más una **banda de eslogan** — todo en los 5 idiomas.
 - [x] **Sitio multilingüe** (ES/EN/DE/FR/IT): home + páginas internas (experiencias,
       whale-watching, corcovado, propietarios) traducidas. Selector con banderas,
       detección automática del idioma del navegador, persistencia y `hreflang`. Los cuerpos

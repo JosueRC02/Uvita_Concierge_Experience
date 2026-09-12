@@ -31,16 +31,21 @@
     "Conocemos nuestra tierra"
   ],
   "services": {
-    "kicker": "Lo que ofrecemos",
-    "title": "Servicios <em>personalizados</em>",
-    "lead": "Nos encargamos de cada detalle para que tú solo te preocupes por disfrutar.",
+    "kicker": "Tu estadía, nuestra prioridad",
+    "title": "Nuestros <em>servicios</em>",
+    "lead": "Nos encargamos de cada detalle para que disfrutes al máximo de Uvita y sus maravillas.",
     "items": {
-      "concierge": { "name": "Concierge", "desc": "Personal y para huéspedes." },
-      "transporte": { "name": "Transporte", "desc": "Privado y compartido." },
-      "tours": { "name": "Tours & Experiencias", "desc": "Naturaleza, aventura y cultura local." },
-      "villas": { "name": "Atención a villas", "desc": "Limpieza, mantenimiento y check-in/check-out." },
-      "gestiones": { "name": "Compras & Gestiones", "desc": "Mandados, reservas y asistencia personalizada." }
+      "tours-actividades": { "name": "Tours y actividades", "desc": "Coordinamos los mejores tours y experiencias en Uvita y alrededores." },
+      "transporte-privado": { "name": "Transporte privado", "desc": "Traslados seguros y cómodos desde/hacia el aeropuerto, y a cualquier destino." },
+      "servicios-especiales": { "name": "Servicios especiales", "desc": "Chefs privados, masajes, yoga, decoraciones y más para hacer tu estadía única." },
+      "recomendaciones-locales": { "name": "Recomendaciones locales", "desc": "Te compartimos los mejores restaurantes, playas escondidas y lugares imperdibles." },
+      "reservas-coordinacion": { "name": "Reservas y coordinación", "desc": "Nos encargamos de todas tus reservas para que no tengas que preocuparte por nada." },
+      "atencion-estadia": { "name": "Atención durante tu estadía", "desc": "Estamos disponibles para asistirte antes, durante y después de tu viaje." }
     }
+  },
+  "slogan": {
+    "title": "Vive Uvita de manera única, auténtica y sin estrés.",
+    "script": "Tú disfrutas, nosotros nos encargamos del resto."
   },
   "experiences": {
     "kicker": "Vive la Costa Ballena",

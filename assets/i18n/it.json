@@ -31,16 +31,21 @@
     "Conosciamo la nostra terra"
   ],
   "services": {
-    "kicker": "Cosa offriamo",
-    "title": "Servizi <em>personalizzati</em>",
-    "lead": "Ci occupiamo di ogni dettaglio così tu devi solo pensare a divertirti.",
+    "kicker": "Il tuo soggiorno, la nostra priorità",
+    "title": "I nostri <em>servizi</em>",
+    "lead": "Ci occupiamo di ogni dettaglio affinché tu possa goderti al massimo Uvita e le sue meraviglie.",
     "items": {
-      "concierge": { "name": "Concierge", "desc": "Personale e per gli ospiti." },
-      "transporte": { "name": "Trasporto", "desc": "Privato e condiviso." },
-      "tours": { "name": "Tour & Esperienze", "desc": "Natura, avventura e cultura locale." },
-      "villas": { "name": "Cura delle ville", "desc": "Pulizia, manutenzione e check-in/check-out." },
-      "gestiones": { "name": "Acquisti & Commissioni", "desc": "Commissioni, prenotazioni e assistenza personalizzata." }
+      "tours-actividades": { "name": "Tour e attività", "desc": "Coordiniamo i migliori tour ed esperienze a Uvita e dintorni." },
+      "transporte-privado": { "name": "Trasporto privato", "desc": "Transfer sicuri e comodi da/per l'aeroporto e verso qualsiasi destinazione." },
+      "servicios-especiales": { "name": "Servizi speciali", "desc": "Chef privati, massaggi, yoga, decorazioni e altro per rendere unico il tuo soggiorno." },
+      "recomendaciones-locales": { "name": "Consigli locali", "desc": "Ti segnaliamo i migliori ristoranti, spiagge nascoste e luoghi imperdibili." },
+      "reservas-coordinacion": { "name": "Prenotazioni e coordinamento", "desc": "Gestiamo tutte le tue prenotazioni così non devi preoccuparti di nulla." },
+      "atencion-estadia": { "name": "Assistenza durante il soggiorno", "desc": "Siamo disponibili prima, durante e dopo il tuo viaggio." }
     }
+  },
+  "slogan": {
+    "title": "Vivi Uvita in modo unico, autentico e senza stress.",
+    "script": "Tu ti rilassi, noi pensiamo al resto."
   },
   "experiences": {
     "kicker": "Vivi la Costa Ballena",
