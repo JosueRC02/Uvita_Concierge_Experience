@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin.html
 
-Sitemap: https://www.uvitaconciergeexperience.com/sitemap.xml
+Sitemap: https://uvitaconciergeexperience.com/sitemap.xml

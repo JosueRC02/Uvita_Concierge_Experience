@@ -36,7 +36,9 @@ Uvita_Concierge_Experience/
 ├── data.json               ⭐ CONTENIDO EDITABLE (textos, imágenes, servicios, etc.)
 ├── robots.txt              SEO: permite indexación, apunta al sitemap
 ├── sitemap.xml             SEO: lista de páginas para Google
+├── _headers                Netlify: cache-control (evita ver versiones viejas)
 ├── .gitignore              Ignora fotos originales y temporales
+├── assets/i18n/            Diccionarios de idiomas: es/en/de/fr/it .json
 ├── pages/
 │   ├── experiencias.html
 │   ├── whale-watching.html
@@ -48,7 +50,8 @@ Uvita_Concierge_Experience/
     ├── logo.webp (logo real, transparente), logo.png (original), cusinga.svg, favicon.svg
     ├── hero.svg, whale.svg, waterfall.svg, ballena.svg, corcovado.svg,
     │   villa.svg, about.svg   (placeholders SVG; se reemplazan por fotos reales)
-    ├── icons/               Iconos de servicios (concierge, transporte, etc.)
+    ├── icons/               Iconos de servicios (6 SVG blancos para los círculos verdes)
+    ├── servicios/           Fotos de las 6 tarjetas de servicios (WebP)
     └── img/
         ├── ballena-kayaks-1..14.webp   Fotos reales (tour de kayak), optimizadas
         └── originales/      Fotos .jpg sin optimizar (IGNORADAS por git, backup local)
@@ -99,15 +102,22 @@ Permite editar visualmente. ⚠️ **Importante:** hoy guarda los cambios en
 
 ## 5. SEO (ya implementado)
 
+- **Dominio en producción:** `https://uvitaconciergeexperience.com` (sin www; www redirige
+  con 301). Todas las URLs internas de SEO (canonical, OG, hreflang, sitemap, robots)
+  apuntan al dominio **sin www** para que Google indexe una sola versión.
 - `<title>`, `meta description`, `meta keywords`, `canonical` en todas las páginas.
 - **Open Graph** y **Twitter Card** (imagen social = `assets/img/ballena-kayaks-6.webp`).
-- **Schema.org**: `TravelAgency` en el home (con teléfono, email, dirección, `sameAs`
-  a Facebook) y `BreadcrumbList` en las páginas internas.
-- `sitemap.xml` y `robots.txt`.
-- HTML semántico, `alt` en imágenes, navegación por teclado, buen contraste.
+- **hreflang** para los 5 idiomas (`?lang=xx`) + `x-default`.
+- **Schema.org**: `TravelAgency` en el home (teléfono, email, dirección, `logo`, `geo`
+  con coordenadas de Uvita, `inLanguage`, `sameAs` a Facebook) y `BreadcrumbList` en las
+  páginas internas.
+- `sitemap.xml` (7 URLs) y `robots.txt` (bloquea `admin.html`, apunta al sitemap).
+- HTML semántico, `alt` en imágenes, WebP + lazy loading, navegación por teclado, contraste.
+- `_headers` (Netlify): `Cache-Control: must-revalidate` para que los cambios se vean al
+  instante y no queden versiones viejas en caché.
 
-**Pendiente SEO:** favicon en más formatos, imagen OG dedicada 1200×630, Google Search
-Console, Google Business Profile.
+**Pendiente SEO (tareas del negocio, fuera del código):** ver la sección 12 "Acciones de
+posicionamiento". Mejora opcional de código: imagen OG dedicada en JPG 1200×630 (hoy es WebP).
 
 ---
 
@@ -169,6 +179,13 @@ mover el original a `originales/`, y actualizar la ruta en `data.json`.
       whale-watching, corcovado, propietarios) traducidas. Selector con banderas,
       detección automática del idioma del navegador, persistencia y `hreflang`. Los cuerpos
       de las páginas legales quedan en español (pendiente de revisión legal).
+- [x] **Logo real** (`assets/logo.webp`, transparente) y **favicon** de palmera de marca.
+- [x] **Fotos reales en las 6 tarjetas de servicios** (`assets/servicios/*.webp`).
+- [x] **Iconos** en la sección de contacto (email, WhatsApp, ubicación), icono de WhatsApp
+      en el botón del menú, y el logo en la banda de eslogan.
+- [x] **Dominio en producción** con HTTPS: `https://uvitaconciergeexperience.com`.
+- [x] **Despliegue automático** (GitHub → Netlify): cada `git push` publica solo.
+- [x] `_headers` de caché para que los cambios se vean al instante.
 
 ---
 
@@ -176,9 +193,9 @@ mover el original a `originales/`, y actualizar la ruta en `data.json`.
 
 | Etapa | Objetivo | Detalle |
 |-------|----------|---------|
-| **1. Publicar (frontend)** ✅ | Sitio en línea gratis | **HECHO.** Desplegado en Netlify (arrastrando el `.zip` del sitio): <https://monumental-entremet-5a0e64.netlify.app/> — link temporal de pruebas. Para actualizar: arrastrar un nuevo `.zip` en la pestaña *Deploys*. |
-| **2. Dominio** | Dirección profesional | Apuntar el dominio (hoy en **Squarespace**) al sitio. Se evalúa transferirlo a un registrador más barato y bajar el plan de Squarespace. |
-| **3. Pulir + SEO** | Posicionar en Google | Fotos reales por sección, versión en **inglés** (hoy el botón ES/EN solo muestra "próximamente"), galería, más contenido, Search Console. |
+| **1. Publicar (frontend)** ✅ | Sitio en línea | **HECHO.** Netlify conectado a GitHub → auto-deploy en cada `git push`. Subdominio de Netlify: `monumental-entremet-5a0e64.netlify.app`. |
+| **2. Dominio** ✅ | Dirección profesional | **HECHO.** `uvitaconciergeexperience.com` apuntado a Netlify (registros A `75.2.60.5` + CNAME `www`, editados en el DNS de Squarespace). El correo sigue en Google Workspace (MX intactos). Pendiente opcional: bajar el plan de Squarespace / transferir el dominio para ahorrar. |
+| **3. Pulir + SEO** 🔄 | Posicionar en Google | Base técnica ya lista (ver sección 12). Faltan: fotos reales de experiencias, más contenido, y las **acciones de posicionamiento** (Search Console, Google Business Profile). |
 | **4. Backend** | Funciones dinámicas | Base de datos para reservas y para que el panel admin edite **en vivo** para todos. Opciones: Supabase / Firebase / **Railway** ($5/mes cuando se justifique). |
 
 ### Decisión de arquitectura (importante para el futuro)
@@ -193,8 +210,9 @@ sitio por todo el mundo), gratis y no se cae si el backend falla. El frontend y 
 ## 9. ⏳ Pendientes / datos que faltan (NO inventar)
 
 - [ ] **Instagram**: falta la URL oficial (el enlace se muestra solo cuando exista en `data.json`).
-- [ ] **Fotos reales** para: whale watching (con ballena), catarata Uvita, Corcovado,
-      villa y "sobre nosotros". Hoy usan placeholders SVG. Se irán agregando poco a poco.
+- [ ] **Fotos reales** para las tarjetas de **experiencias**: whale watching (con ballena),
+      Corcovado, y "sobre nosotros". Hoy usan placeholders SVG. (Catarata y Marino Ballena
+      ya tienen foto real; las 6 tarjetas de **servicios** ya tienen foto.)
 - [ ] **Traducir los cuerpos de las páginas legales** (privacidad, términos): siguen en
       español a propósito, pendientes de la revisión legal final (ver más abajo). Su
       navegación y pie de página sí cambian de idioma. El resto de páginas internas
@@ -203,8 +221,6 @@ sitio por todo el mundo), gratis y no se cae si el backend falla. El frontend y 
 - [ ] **Páginas legales**: son una base. Falta revisión con asesoría legal en Costa Rica y
       completar: razón social / cédula jurídica, política de cancelación y reembolsos,
       medios de pago. (Hay comentarios `PENDIENTE` marcados dentro de esos HTML.)
-- [ ] **Dominio y hosting definitivos** (etapas 1–2 del roadmap).
-
 ---
 
 ## 10. Notas y advertencias técnicas (gotchas)
@@ -227,6 +243,33 @@ sitio por todo el mundo), gratis y no se cae si el backend falla. El frontend y 
 - **Facebook:** https://www.facebook.com/share/1Dk52Ytk7w/?mibextid=wwXIfr
 - **Frase:** «Más que un viaje, una experiencia hecha para ti.»
 - **Concepto:** Experiencias auténticas. Atención personalizada. Pura vida.
+
+---
+
+## 12. Acciones de posicionamiento (SEO / marketing)
+
+La **base técnica de SEO ya está** (sección 5). Lo que más mueve la aguja ahora son
+tareas **fuera del código** que hace el dueño del negocio, en orden de impacto:
+
+1. **Google Search Console** (imprescindible): verificar `uvitaconciergeexperience.com`,
+   **enviar el sitemap** (`/sitemap.xml`) y pedir indexación. Sin esto, Google tarda más
+   en encontrar el sitio. → search.google.com/search-console
+2. **Google Business Profile** (el #1 para turismo local): crear la ficha del negocio en
+   Uvita. Es lo que hace aparecer en **Google Maps** y en el "paquete local" cuando alguien
+   busca *"concierge Uvita"*, *"tours Uvita"*. Gratis. → business.google.com
+3. **Reseñas**: pedir reseñas a clientes en Google y Facebook (peso enorme en local).
+4. **Listados y backlinks**: TripAdvisor, directorios de turismo de Costa Rica, y que otros
+   sitios locales enlacen al dominio.
+5. **Redes activas**: publicar en Facebook (ya vinculado) y agregar el **Instagram** oficial
+   cuando exista (se conecta solo al poner la URL en `data.json`).
+6. **Contenido**: más texto útil y fotos reales → cuanto más contenido auténtico, mejor.
+
+**Mejoras opcionales de código (menor impacto):**
+- Imagen Open Graph dedicada en **JPG 1200×630** (hoy es WebP; funciona, pero JPG es más
+  universal al compartir).
+- `favicon.ico`/PNG de respaldo para navegadores antiguos (hoy es SVG, suficiente para los
+  modernos).
+- A futuro: páginas pre-renderizadas por idioma (URLs separadas) para SEO multilingüe óptimo.
 
 ---
 

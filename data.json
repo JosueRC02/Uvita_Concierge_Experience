@@ -38,7 +38,7 @@
       "name": "Tours y actividades",
       "description": "Coordinamos los mejores tours y experiencias en Uvita y alrededores.",
       "icon": "assets/icons/tours-actividades.svg",
-      "image": "",
+      "image": "assets/servicios/Cola.webp",
       "active": true
     },
     {
@@ -46,7 +46,7 @@
       "name": "Transporte privado",
       "description": "Traslados seguros y cómodos desde/hacia el aeropuerto, y a cualquier destino.",
       "icon": "assets/icons/transporte-privado.svg",
-      "image": "",
+      "image": "assets/servicios/transporte.webp",
       "active": true
     },
     {
@@ -54,7 +54,7 @@
       "name": "Servicios especiales",
       "description": "Chefs privados, masajes, yoga, decoraciones y más para hacer tu estadía única.",
       "icon": "assets/icons/servicios-especiales.svg",
-      "image": "",
+      "image": "assets/servicios/comida.webp",
       "active": true
     },
     {
@@ -62,7 +62,7 @@
       "name": "Recomendaciones locales",
       "description": "Te compartimos los mejores restaurantes, playas escondidas y lugares imperdibles.",
       "icon": "assets/icons/recomendaciones-locales.svg",
-      "image": "",
+      "image": "assets/servicios/playa.webp",
       "active": true
     },
     {
@@ -70,7 +70,7 @@
       "name": "Reservas y coordinación",
       "description": "Nos encargamos de todas tus reservas para que no tengas que preocuparte por nada.",
       "icon": "assets/icons/reservas-coordinacion.svg",
-      "image": "",
+      "image": "assets/servicios/reserva.webp",
       "active": true
     },
     {
@@ -78,7 +78,7 @@
       "name": "Atención durante tu estadía",
       "description": "Estamos disponibles para asistirte antes, durante y después de tu viaje.",
       "icon": "assets/icons/atencion-estadia.svg",
-      "image": "",
+      "image": "assets/servicios/comunicacion.webp",
       "active": true
     }
   ],
