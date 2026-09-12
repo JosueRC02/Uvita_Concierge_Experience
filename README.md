@@ -45,7 +45,7 @@ Uvita_Concierge_Experience/
 │   ├── privacidad.html     Política de Privacidad (base, revisar con abogado)
 │   └── terminos.html        Términos y Condiciones (base, revisar con abogado)
 └── assets/
-    ├── logo.svg, cusinga.svg, favicon.svg
+    ├── logo.webp (logo real, transparente), logo.png (original), cusinga.svg, favicon.svg
     ├── hero.svg, whale.svg, waterfall.svg, ballena.svg, corcovado.svg,
     │   villa.svg, about.svg   (placeholders SVG; se reemplazan por fotos reales)
     ├── icons/               Iconos de servicios (concierge, transporte, etc.)
