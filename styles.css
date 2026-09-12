@@ -448,6 +448,8 @@ p { margin: 0 0 1em; }
   box-shadow: var(--shadow-soft);
   transition: transform var(--transition);
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .service-card:hover { transform: translateY(-6px); }
 .service-icon {
@@ -462,13 +464,13 @@ p { margin: 0 0 1em; }
 }
 .service-icon img { width: 46px; height: 46px; margin: 0; }
 .service-card h3 { margin: 0 0 10px; }
-.service-card p { margin: 0; color: #4a6560; font-size: 0.95rem; }
+.service-card p { margin: 0 0 20px; color: #4a6560; font-size: 0.95rem; }
 .service-photo {
   width: 100%;
   height: 150px;
   object-fit: cover;
   border-radius: 10px;
-  margin-top: 20px;
+  margin-top: auto;
 }
 
 /* ===== Banda de eslogan ===== */
