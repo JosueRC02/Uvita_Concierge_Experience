@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Uvita Concierge Experience | Costa Ballena, Costa Rica",
+    "description": "Personalized concierge, tours, experiences and services for guests and villas in Uvita and Costa Ballena, Costa Rica."
+  },
+  "lang": { "label": "Language" },
+  "nav": {
+    "inicio": "Home",
+    "servicios": "Services",
+    "experiencias": "Tours & Experiences",
+    "propietarios": "For owners",
+    "nosotros": "About us",
+    "galeria": "Gallery",
+    "contacto": "Contact",
+    "menu": "Open menu",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "COSTA RICA · SOUTH PACIFIC",
+    "title": "Authentic experiences",
+    "highlight": "ON THE COSTA BALLENA",
+    "description": "Personalized concierge, unforgettable tours and premium service in Uvita and the South Pacific of Costa Rica.",
+    "cta": "Message us on WhatsApp",
+    "explore": "See experiences →"
+  },
+  "trust": [
+    "Personalized concierge",
+    "Premium service",
+    "Authentic experiences",
+    "Trust and safety",
+    "We know our land"
+  ],
+  "services": {
+    "kicker": "What we offer",
+    "title": "Personalized <em>services</em>",
+    "lead": "We take care of every detail so you only have to worry about enjoying yourself.",
+    "items": {
+      "concierge": { "name": "Concierge", "desc": "Personal and for guests." },
+      "transporte": { "name": "Transportation", "desc": "Private and shared." },
+      "tours": { "name": "Tours & Experiences", "desc": "Nature, adventure and local culture." },
+      "villas": { "name": "Villa care", "desc": "Cleaning, maintenance and check-in/check-out." },
+      "gestiones": { "name": "Errands & Services", "desc": "Errands, bookings and personalized assistance." }
+    }
+  },
+  "experiences": {
+    "kicker": "Live the Costa Ballena",
+    "title": "Featured tours & <em>experiences</em>",
+    "lead": "Discover the best of our region with local experts.",
+    "items": {
+      "whale-watching": { "name": "Whale Watching", "cat": "July to October", "desc": "Humpback whale watching in their natural habitat.", "alt": "Humpback whale watching in Uvita" },
+      "catarata-uvita": { "name": "Uvita Waterfall", "cat": "Jungle adventure", "desc": "A hike and a waterfall in the heart of nature.", "alt": "Uvita Waterfall in the Costa Ballena jungle" },
+      "marino-ballena": { "name": "Marino Ballena National Park", "cat": "Snorkel and beach", "desc": "Discover the famous Whale's Tail and its marine life.", "alt": "Marino Ballena National Park and the Whale's Tail" },
+      "corcovado": { "name": "Corcovado", "cat": "Wild adventure", "desc": "Unique biodiversity and unforgettable nature.", "alt": "Corcovado National Park, biodiversity" }
+    }
+  },
+  "gallery": {
+    "kicker": "Moments",
+    "title": "Gallery",
+    "lead": "Real moments from our experiences on the Costa Ballena."
+  },
+  "owners": {
+    "kicker": "Villas & properties",
+    "title": "For villa owners<br>and managers",
+    "lead": "We care for your property as if it were our own. Reliable services so you and your guests enjoy a flawless experience.",
+    "list": ["Guest concierge", "Check-in / check-out", "Cleaning", "Maintenance", "Shopping", "Villa preparation", "Guest care", "Bookings", "Experiences", "Transportation"],
+    "cta": "Learn how we can help you"
+  },
+  "about": {
+    "kicker": "Our story",
+    "title": "About <em>us</em>",
+    "lead": "We are a local team passionate about our land. Our goal is to connect visitors with authentic, responsible and memorable experiences on the Costa Ballena.",
+    "values": ["100% local", "Passion for what we do", "Responsible tourism"]
+  },
+  "contact": {
+    "kicker": "Let's talk",
+    "title": "We're here to <em>serve you</em>",
+    "lead": "Tell us what you need and we'll design the best experience for you.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "location": "Location",
+    "soon": "Coming soon"
+  },
+  "footer": {
+    "nav": {
+      "inicio": "Home",
+      "servicios": "Services",
+      "experiencias": "Experiences",
+      "propietarios": "Owners",
+      "nosotros": "About us",
+      "contacto": "Contact"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    }
+  }
+}

@@ -111,6 +111,26 @@ Console, Google Business Profile.
 
 ---
 
+## 5b. Idiomas (i18n)
+
+- Los textos traducibles del home viven en **`assets/i18n/<código>.json`** (`es`, `en`,
+  `de`, `fr`, `it`). Mismos campos en todos los archivos.
+- En el HTML, los elementos traducibles llevan `data-i18n="ruta.a.la.clave"` (texto),
+  `data-i18n-html="..."` (permite `<em>`/`<br>`) o `data-i18n-aria="..."` (aria-label).
+- Las tarjetas de servicios y experiencias se traducen por `id` desde
+  `services.items.<id>` y `experiences.items.<id>` en cada diccionario.
+- `script.js` elige el idioma así: parámetro `?lang=xx` → `localStorage` → idioma del
+  navegador → `es` por defecto. El selector con banderas está definido en el arreglo
+  `LANGS` dentro de `script.js`.
+
+**Para agregar un idioma nuevo:** (1) crear `assets/i18n/<código>.json` copiando la
+estructura de `es.json` y traduciendo; (2) añadir una entrada `{ code, name, flag }` en
+`LANGS` (script.js); (3) agregar su `<link rel="alternate" hreflang>` en `index.html`.
+
+> Nota SEO: las traducciones se aplican del lado del cliente (JavaScript). Es un buen
+> comienzo, pero para un posicionamiento multilingüe óptimo lo ideal a futuro es generar
+> páginas pre-renderizadas por idioma (URLs separadas). Ver roadmap.
+
 ## 6. Optimización de imágenes (proceso usado)
 
 Las fotos se sirven en **WebP** (mucho más livianas que JPG, mejor para velocidad y SEO).
@@ -140,6 +160,9 @@ mover el original a `originales/`, y actualizar la ruta en `data.json`.
 - [x] Facebook integrado (enlace en contacto + `sameAs` en Schema.org).
 - [x] Fotos reales del tour de kayak, optimizadas a WebP (hero + Parque Marino Ballena).
 - [x] Panel `admin.html` (versión con localStorage).
+- [x] **Galería** de fotos (home, sección `#galeria`) con lightbox (clic para ampliar).
+- [x] **Sitio multilingüe** (home): Español, Inglés, Alemán, Francés, Italiano. Selector
+      con banderas, detección automática del idioma del navegador, persistencia y `hreflang`.
 
 ---
 
@@ -147,7 +170,7 @@ mover el original a `originales/`, y actualizar la ruta en `data.json`.
 
 | Etapa | Objetivo | Detalle |
 |-------|----------|---------|
-| **1. Publicar (frontend)** | Sitio en línea gratis | Desplegar en un CDN estático (**Netlify** o **Cloudflare Pages**). Ya se probó Netlify Drop con un `.zip` del sitio. |
+| **1. Publicar (frontend)** ✅ | Sitio en línea gratis | **HECHO.** Desplegado en Netlify (arrastrando el `.zip` del sitio): <https://monumental-entremet-5a0e64.netlify.app/> — link temporal de pruebas. Para actualizar: arrastrar un nuevo `.zip` en la pestaña *Deploys*. |
 | **2. Dominio** | Dirección profesional | Apuntar el dominio (hoy en **Squarespace**) al sitio. Se evalúa transferirlo a un registrador más barato y bajar el plan de Squarespace. |
 | **3. Pulir + SEO** | Posicionar en Google | Fotos reales por sección, versión en **inglés** (hoy el botón ES/EN solo muestra "próximamente"), galería, más contenido, Search Console. |
 | **4. Backend** | Funciones dinámicas | Base de datos para reservas y para que el panel admin edite **en vivo** para todos. Opciones: Supabase / Firebase / **Railway** ($5/mes cuando se justifique). |
@@ -166,7 +189,10 @@ sitio por todo el mundo), gratis y no se cae si el backend falla. El frontend y 
 - [ ] **Instagram**: falta la URL oficial (el enlace se muestra solo cuando exista en `data.json`).
 - [ ] **Fotos reales** para: whale watching (con ballena), catarata Uvita, Corcovado,
       villa y "sobre nosotros". Hoy usan placeholders SVG. Se irán agregando poco a poco.
-- [ ] **Versión en inglés** (i18n). El sitio es bilingüe por diseño pero solo está el español.
+- [ ] **Traducir las páginas internas** (i18n): el home ya está en 5 idiomas, pero los
+      cuerpos de `pages/*.html` (whale-watching, corcovado, propietarios, experiencias,
+      privacidad, términos) siguen en español. Falta agregarles `data-i18n` y sus textos
+      a los diccionarios. El selector de idioma ya aparece en ellas y recuerda el idioma.
 - [ ] **Páginas legales**: son una base. Falta revisión con asesoría legal en Costa Rica y
       completar: razón social / cédula jurídica, política de cancelación y reembolsos,
       medios de pago. (Hay comentarios `PENDIENTE` marcados dentro de esos HTML.)

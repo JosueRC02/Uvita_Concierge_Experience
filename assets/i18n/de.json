@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Uvita Concierge Experience | Costa Ballena, Costa Rica",
+    "description": "Persönlicher Concierge-Service, Touren, Erlebnisse und Dienstleistungen für Gäste und Villen in Uvita und der Costa Ballena, Costa Rica."
+  },
+  "lang": { "label": "Sprache" },
+  "nav": {
+    "inicio": "Start",
+    "servicios": "Leistungen",
+    "experiencias": "Touren & Erlebnisse",
+    "propietarios": "Für Eigentümer",
+    "nosotros": "Über uns",
+    "galeria": "Galerie",
+    "contacto": "Kontakt",
+    "menu": "Menü öffnen",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "COSTA RICA · SÜDPAZIFIK",
+    "title": "Authentische Erlebnisse",
+    "highlight": "AN DER COSTA BALLENA",
+    "description": "Persönlicher Concierge-Service, unvergessliche Touren und erstklassiger Service in Uvita und im Südpazifik von Costa Rica.",
+    "cta": "Schreiben Sie uns auf WhatsApp",
+    "explore": "Erlebnisse ansehen →"
+  },
+  "trust": [
+    "Persönlicher Concierge",
+    "Erstklassiger Service",
+    "Authentische Erlebnisse",
+    "Vertrauen und Sicherheit",
+    "Wir kennen unser Land"
+  ],
+  "services": {
+    "kicker": "Was wir bieten",
+    "title": "Persönlicher <em>Service</em>",
+    "lead": "Wir kümmern uns um jedes Detail, damit Sie sich nur um eines kümmern müssen: genießen.",
+    "items": {
+      "concierge": { "name": "Concierge", "desc": "Persönlich und für Gäste." },
+      "transporte": { "name": "Transport", "desc": "Privat und gemeinsam." },
+      "tours": { "name": "Touren & Erlebnisse", "desc": "Natur, Abenteuer und lokale Kultur." },
+      "villas": { "name": "Villenbetreuung", "desc": "Reinigung, Wartung und Check-in/Check-out." },
+      "gestiones": { "name": "Besorgungen & Services", "desc": "Erledigungen, Reservierungen und persönliche Unterstützung." }
+    }
+  },
+  "experiences": {
+    "kicker": "Erleben Sie die Costa Ballena",
+    "title": "Ausgewählte Touren & <em>Erlebnisse</em>",
+    "lead": "Entdecken Sie das Beste unserer Region mit lokalen Experten.",
+    "items": {
+      "whale-watching": { "name": "Whale Watching", "cat": "Juli bis Oktober", "desc": "Buckelwale in ihrem natürlichen Lebensraum beobachten.", "alt": "Buckelwalbeobachtung in Uvita" },
+      "catarata-uvita": { "name": "Uvita-Wasserfall", "cat": "Dschungelabenteuer", "desc": "Eine Wanderung und ein Wasserfall mitten in der Natur.", "alt": "Uvita-Wasserfall im Dschungel der Costa Ballena" },
+      "marino-ballena": { "name": "Nationalpark Marino Ballena", "cat": "Schnorcheln und Strand", "desc": "Entdecken Sie den berühmten Walschwanz und seine Meereswelt.", "alt": "Nationalpark Marino Ballena und der Walschwanz" },
+      "corcovado": { "name": "Corcovado", "cat": "Wildes Abenteuer", "desc": "Einzigartige Artenvielfalt und unvergessliche Natur.", "alt": "Nationalpark Corcovado, Artenvielfalt" }
+    }
+  },
+  "gallery": {
+    "kicker": "Momente",
+    "title": "Galerie",
+    "lead": "Echte Momente unserer Erlebnisse an der Costa Ballena."
+  },
+  "owners": {
+    "kicker": "Villen & Immobilien",
+    "title": "Für Villenbesitzer<br>und -verwalter",
+    "lead": "Wir kümmern uns um Ihre Immobilie, als wäre sie unsere eigene. Zuverlässige Dienstleistungen, damit Sie und Ihre Gäste ein makelloses Erlebnis genießen.",
+    "list": ["Gäste-Concierge", "Check-in / Check-out", "Reinigung", "Wartung", "Einkäufe", "Villen-Vorbereitung", "Gästebetreuung", "Reservierungen", "Erlebnisse", "Transport"],
+    "cta": "Erfahren Sie, wie wir helfen können"
+  },
+  "about": {
+    "kicker": "Unsere Geschichte",
+    "title": "Über <em>uns</em>",
+    "lead": "Wir sind ein lokales Team mit Leidenschaft für unser Land. Unser Ziel ist es, Besucher mit authentischen, verantwortungsvollen und unvergesslichen Erlebnissen an der Costa Ballena zu verbinden.",
+    "values": ["100% lokal", "Leidenschaft für unsere Arbeit", "Verantwortungsvoller Tourismus"]
+  },
+  "contact": {
+    "kicker": "Sprechen wir",
+    "title": "Wir sind für <em>Sie da</em>",
+    "lead": "Sagen Sie uns, was Sie brauchen, und wir gestalten das beste Erlebnis für Sie.",
+    "email": "E-Mail",
+    "whatsapp": "WhatsApp",
+    "location": "Standort",
+    "soon": "Demnächst"
+  },
+  "footer": {
+    "nav": {
+      "inicio": "Start",
+      "servicios": "Leistungen",
+      "experiencias": "Erlebnisse",
+      "propietarios": "Eigentümer",
+      "nosotros": "Über uns",
+      "contacto": "Kontakt"
+    },
+    "legal": {
+      "privacy": "Datenschutzerklärung",
+      "terms": "Allgemeine Geschäftsbedingungen"
+    }
+  }
+}

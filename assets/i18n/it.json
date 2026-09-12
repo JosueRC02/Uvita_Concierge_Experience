@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "title": "Uvita Concierge Experience | Costa Ballena, Costa Rica",
+    "description": "Concierge personalizzato, tour, esperienze e servizi per ospiti e ville a Uvita e sulla Costa Ballena, Costa Rica."
+  },
+  "lang": { "label": "Lingua" },
+  "nav": {
+    "inicio": "Home",
+    "servicios": "Servizi",
+    "experiencias": "Tour & Esperienze",
+    "propietarios": "Per proprietari",
+    "nosotros": "Chi siamo",
+    "galeria": "Galleria",
+    "contacto": "Contatti",
+    "menu": "Apri menu",
+    "whatsapp": "WhatsApp"
+  },
+  "hero": {
+    "eyebrow": "COSTA RICA · PACIFICO DEL SUD",
+    "title": "Esperienze autentiche",
+    "highlight": "SULLA COSTA BALLENA",
+    "description": "Concierge personalizzato, tour indimenticabili e servizio premium a Uvita e nel Pacifico del Sud della Costa Rica.",
+    "cta": "Scrivici su WhatsApp",
+    "explore": "Vedi le esperienze →"
+  },
+  "trust": [
+    "Concierge personalizzato",
+    "Servizio premium",
+    "Esperienze autentiche",
+    "Fiducia e sicurezza",
+    "Conosciamo la nostra terra"
+  ],
+  "services": {
+    "kicker": "Cosa offriamo",
+    "title": "Servizi <em>personalizzati</em>",
+    "lead": "Ci occupiamo di ogni dettaglio così tu devi solo pensare a divertirti.",
+    "items": {
+      "concierge": { "name": "Concierge", "desc": "Personale e per gli ospiti." },
+      "transporte": { "name": "Trasporto", "desc": "Privato e condiviso." },
+      "tours": { "name": "Tour & Esperienze", "desc": "Natura, avventura e cultura locale." },
+      "villas": { "name": "Cura delle ville", "desc": "Pulizia, manutenzione e check-in/check-out." },
+      "gestiones": { "name": "Acquisti & Commissioni", "desc": "Commissioni, prenotazioni e assistenza personalizzata." }
+    }
+  },
+  "experiences": {
+    "kicker": "Vivi la Costa Ballena",
+    "title": "Tour & <em>esperienze</em> in evidenza",
+    "lead": "Scopri il meglio della nostra regione con esperti locali.",
+    "items": {
+      "whale-watching": { "name": "Whale Watching", "cat": "Da luglio a ottobre", "desc": "Avvistamento delle megattere nel loro habitat naturale.", "alt": "Avvistamento delle megattere a Uvita" },
+      "catarata-uvita": { "name": "Cascata di Uvita", "cat": "Avventura nella giungla", "desc": "Un'escursione e una cascata nel cuore della natura.", "alt": "Cascata di Uvita nella giungla della Costa Ballena" },
+      "marino-ballena": { "name": "Parco Nazionale Marino Ballena", "cat": "Snorkeling e spiaggia", "desc": "Scopri la famosa Coda di Balena e la sua vita marina.", "alt": "Parco Nazionale Marino Ballena e la Coda di Balena" },
+      "corcovado": { "name": "Corcovado", "cat": "Avventura selvaggia", "desc": "Biodiversità unica e natura indimenticabile.", "alt": "Parco Nazionale Corcovado, biodiversità" }
+    }
+  },
+  "gallery": {
+    "kicker": "Momenti",
+    "title": "Galleria",
+    "lead": "Momenti reali delle nostre esperienze sulla Costa Ballena."
+  },
+  "owners": {
+    "kicker": "Ville & proprietà",
+    "title": "Per proprietari<br>e gestori di ville",
+    "lead": "Ci prendiamo cura della tua proprietà come se fosse nostra. Servizi affidabili affinché tu e i tuoi ospiti possiate godere di un'esperienza impeccabile.",
+    "list": ["Concierge per ospiti", "Check-in / check-out", "Pulizia", "Manutenzione", "Acquisti", "Preparazione delle ville", "Assistenza ospiti", "Prenotazioni", "Esperienze", "Trasporto"],
+    "cta": "Scopri come possiamo aiutarti"
+  },
+  "about": {
+    "kicker": "La nostra storia",
+    "title": "Chi <em>siamo</em>",
+    "lead": "Siamo un team locale appassionato della nostra terra. Il nostro obiettivo è connettere i visitatori con esperienze autentiche, responsabili e memorabili sulla Costa Ballena.",
+    "values": ["100% locale", "Passione per ciò che facciamo", "Turismo responsabile"]
+  },
+  "contact": {
+    "kicker": "Parliamone",
+    "title": "Siamo qui per <em>servirti</em>",
+    "lead": "Dicci di cosa hai bisogno e progetteremo la migliore esperienza per te.",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "location": "Posizione",
+    "soon": "Prossimamente"
+  },
+  "footer": {
+    "nav": {
+      "inicio": "Home",
+      "servicios": "Servizi",
+      "experiencias": "Esperienze",
+      "propietarios": "Proprietari",
+      "nosotros": "Chi siamo",
+      "contacto": "Contatti"
+    },
+    "legal": {
+      "privacy": "Informativa sulla privacy",
+      "terms": "Termini e Condizioni"
+    }
+  }
+}
