@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Cusinga, trogón de la Costa Ballena">
+  <title>Cusinga - trogón</title>
+  <g fill="none" fill-rule="evenodd">
+    <!-- cola -->
+    <path d="M60 150 C20 165 5 190 5 195 C35 195 60 180 78 158 Z" fill="#02332F"/>
+    <path d="M65 145 C30 155 12 178 8 188 C34 186 58 172 75 152 Z" fill="#08766C"/>
+    <!-- cuerpo -->
+    <ellipse cx="105" cy="120" rx="48" ry="40" fill="#08766C"/>
+    <path d="M62 130 C62 155 82 168 108 168 C90 160 76 145 78 122 Z" fill="#C94C3E"/>
+    <!-- ala -->
+    <path d="M95 95 C120 100 138 118 132 145 C112 140 96 122 95 95 Z" fill="#063F3B"/>
+    <!-- cabeza -->
+    <circle cx="70" cy="85" r="30" fill="#08766C"/>
+    <circle cx="58" cy="80" r="4.5" fill="#02332F"/>
+    <!-- pico -->
+    <path d="M42 90 L18 86 L42 78 Z" fill="#CDA347"/>
+    <!-- anillo ocular -->
+    <circle cx="58" cy="80" r="9" fill="none" stroke="#F7F1E4" stroke-width="3"/>
+  </g>
+</svg>

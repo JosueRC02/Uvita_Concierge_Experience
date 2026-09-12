@@ -1,0 +1,7 @@
+# Fotos originales sin optimizar (se conservan localmente, no se publican)
+assets/img/originales/
+
+# Dependencias / temporales
+node_modules/
+.DS_Store
+Thumbs.db

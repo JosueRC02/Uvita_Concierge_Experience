@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Parque Nacional Corcovado (imagen temporal)">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#063F3B"/>
+      <stop offset="100%" stop-color="#02332F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <circle cx="1250" cy="200" r="90" fill="#CDA347" opacity="0.4"/>
+  <path d="M0 650 L200 400 L360 560 L560 300 L780 600 L980 380 L1200 620 L1600 500 L1600 900 L0 900 Z" fill="#08766C" opacity="0.55"/>
+  <text x="24" y="866" font-family="Montserrat, sans-serif" font-size="20" fill="#F7F1E4" opacity="0.5">Foto pendiente — reemplazar assets/corcovado.jpg</text>
+</svg>

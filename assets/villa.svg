@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Villa en Uvita, Costa Ballena (imagen temporal)">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#CDA347"/>
+      <stop offset="100%" stop-color="#063F3B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect x="550" y="420" width="500" height="300" fill="#F7F1E4" opacity="0.25"/>
+  <path d="M520 420 L800 260 L1080 420 Z" fill="#02332F" opacity="0.55"/>
+  <text x="24" y="866" font-family="Montserrat, sans-serif" font-size="20" fill="#F7F1E4" opacity="0.5">Foto pendiente — reemplazar assets/villa.jpg</text>
+</svg>

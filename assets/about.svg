@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Equipo local de Uvita Concierge Experience (imagen temporal)">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#08766C"/>
+      <stop offset="100%" stop-color="#02332F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <circle cx="800" cy="450" r="150" fill="#F7F1E4" opacity="0.15"/>
+  <text x="24" y="866" font-family="Montserrat, sans-serif" font-size="20" fill="#F7F1E4" opacity="0.5">Foto pendiente — reemplazar assets/about.jpg</text>
+</svg>

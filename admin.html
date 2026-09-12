@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel de administración | Uvita Concierge Experience</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin-body">
+  <div class="admin-status" id="adminStatus" role="status" aria-live="polite"></div>
+
+  <header class="admin-header">
+    <div class="container">
+      <a href="index.html"><img src="assets/logo.svg" alt="Uvita Concierge Experience" width="180"></a>
+      <div class="admin-header-actions">
+        <a href="index.html" target="_blank" rel="noopener" class="btn btn-ghost">Ver sitio ↗</a>
+        <button type="button" class="btn btn-ghost" id="btnReset">Restablecer valores por defecto</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="admin-main">
+    <div class="container">
+      <p class="hint" style="max-width:760px; margin:0 0 32px;">
+        Los cambios se guardan en este navegador (localStorage) y se aplican automáticamente en el sitio público.
+        Esta es la primera versión del panel; más adelante estos mismos datos se pueden migrar a Supabase, Firebase,
+        WordPress o cualquier otra base de datos sin cambiar el diseño del sitio.
+      </p>
+
+      <form id="adminForm">
+        <!-- INFORMACION -->
+        <section class="admin-panel">
+          <h2>Información general</h2>
+          <div class="field-grid">
+            <div class="field">
+              <label for="f-business_name">Nombre</label>
+              <input id="f-business_name" name="business_name" type="text">
+            </div>
+            <div class="field">
+              <label for="f-email">Email</label>
+              <input id="f-email" name="email" type="email">
+            </div>
+            <div class="field">
+              <label for="f-whatsapp">WhatsApp (solo números, con código de país)</label>
+              <input id="f-whatsapp" name="whatsapp" type="text" placeholder="Ej: 50688887777">
+            </div>
+            <div class="field">
+              <label for="f-location">Ubicación</label>
+              <input id="f-location" name="location" type="text">
+            </div>
+            <div class="field">
+              <label for="f-instagram">Instagram (URL)</label>
+              <input id="f-instagram" name="instagram" type="url" placeholder="https://instagram.com/...">
+            </div>
+            <div class="field">
+              <label for="f-facebook">Facebook (URL)</label>
+              <input id="f-facebook" name="facebook" type="url" placeholder="https://facebook.com/...">
+            </div>
+          </div>
+        </section>
+
+        <!-- HERO -->
+        <section class="admin-panel">
+          <h2>Hero (portada)</h2>
+          <div class="field-grid">
+            <div class="field">
+              <label for="f-hero_eyebrow">Frase superior</label>
+              <input id="f-hero_eyebrow" name="hero.eyebrow" type="text">
+            </div>
+            <div class="field">
+              <label for="f-hero_title">Título</label>
+              <input id="f-hero_title" name="hero.title" type="text">
+            </div>
+            <div class="field">
+              <label for="f-hero_highlight">Título destacado</label>
+              <input id="f-hero_highlight" name="hero.highlight" type="text">
+            </div>
+            <div class="field">
+              <label for="f-hero_image">Imagen (ruta en assets/)</label>
+              <input id="f-hero_image" name="hero.image" type="text">
+            </div>
+            <div class="field full">
+              <label for="f-hero_description">Descripción</label>
+              <textarea id="f-hero_description" name="hero.description"></textarea>
+            </div>
+          </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section class="admin-panel">
+          <h2>Servicios</h2>
+          <p class="hint">Los servicios marcados como inactivos no se muestran en la página de inicio.</p>
+          <div id="servicesList"></div>
+          <button type="button" class="btn-small btn-add" id="addService">+ Agregar servicio</button>
+        </section>
+
+        <!-- EXPERIENCIAS -->
+        <section class="admin-panel">
+          <h2>Experiencias</h2>
+          <p class="hint">Las experiencias marcadas como inactivas no se muestran en la página de inicio.</p>
+          <div id="experiencesList"></div>
+          <button type="button" class="btn-small btn-add" id="addExperience">+ Agregar nueva experiencia</button>
+        </section>
+
+        <!-- VILLAS -->
+        <section class="admin-panel">
+          <h2>Villas</h2>
+          <p class="hint">Información de referencia para uso interno del equipo; aún no se publica en el sitio.</p>
+          <div id="villasList"></div>
+          <button type="button" class="btn-small btn-add" id="addVilla">+ Agregar villa</button>
+        </section>
+
+        <!-- SOBRE NOSOTROS Y CONTACTO -->
+        <section class="admin-panel">
+          <h2>Sobre nosotros y contacto</h2>
+          <div class="field-grid">
+            <div class="field full">
+              <label for="f-about_text">Texto "Sobre nosotros"</label>
+              <textarea id="f-about_text" name="about.text"></textarea>
+            </div>
+            <div class="field full">
+              <label for="f-about_values">Valores (separados por coma)</label>
+              <input id="f-about_values" name="about.values" type="text">
+            </div>
+            <div class="field full">
+              <label for="f-footer_text">Texto del pie de página</label>
+              <input id="f-footer_text" name="footer_text" type="text">
+            </div>
+          </div>
+        </section>
+
+        <div class="admin-actions">
+          <button type="submit" class="btn btn-primary">Guardar cambios</button>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <script src="admin.js" defer></script>
+</body>
+</html>

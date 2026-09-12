@@ -1,0 +1,151 @@
+{
+  "business_name": "Uvita Concierge Experience",
+  "tagline": "Más que un viaje, una experiencia hecha para ti.",
+  "subtagline": "Experiencias auténticas en la Costa Ballena.",
+  "email": "info@uvitaconciergeexperience.com",
+  "whatsapp": "50683539389",
+  "whatsapp_display": "+506 8353 9389",
+  "instagram": "",
+  "facebook": "https://www.facebook.com/share/1Dk52Ytk7w/?mibextid=wwXIfr",
+  "location": "Uvita, Costa Ballena, Puntarenas, Costa Rica",
+
+  "hero": {
+    "eyebrow": "COSTA RICA · PACÍFICO SUR",
+    "title": "Experiencias auténticas",
+    "highlight": "EN LA COSTA BALLENA",
+    "description": "Concierge personalizado, tours inolvidables y atención premium en Uvita y el Pacífico Sur de Costa Rica.",
+    "image": "assets/img/ballena-kayaks-6.webp",
+    "cta_primary": "Escríbenos por WhatsApp",
+    "cta_secondary": "Ver experiencias"
+  },
+
+  "trust_bar": [
+    "Concierge personalizado",
+    "Servicio premium",
+    "Experiencias auténticas",
+    "Confianza y seguridad",
+    "Conocemos nuestra tierra"
+  ],
+
+  "services_section": {
+    "title": "Servicios personalizados",
+    "description": "Nos encargamos de cada detalle para que tú solo te preocupes por disfrutar."
+  },
+
+  "services": [
+    {
+      "id": "concierge",
+      "name": "Concierge",
+      "description": "Personal y para huéspedes.",
+      "icon": "assets/icons/concierge.svg",
+      "active": true
+    },
+    {
+      "id": "transporte",
+      "name": "Transporte",
+      "description": "Privado y compartido.",
+      "icon": "assets/icons/transporte.svg",
+      "active": true
+    },
+    {
+      "id": "tours",
+      "name": "Tours & Experiencias",
+      "description": "Naturaleza, aventura y cultura local.",
+      "icon": "assets/icons/tours.svg",
+      "active": true
+    },
+    {
+      "id": "villas",
+      "name": "Atención a villas",
+      "description": "Limpieza, mantenimiento y check-in/check-out.",
+      "icon": "assets/icons/villas.svg",
+      "active": true
+    },
+    {
+      "id": "gestiones",
+      "name": "Compras & Gestiones",
+      "description": "Mandados, reservas y asistencia personalizada.",
+      "icon": "assets/icons/gestiones.svg",
+      "active": true
+    }
+  ],
+
+  "experiences_section": {
+    "title": "Tours & experiencias destacadas",
+    "description": "Conoce lo mejor de nuestra región con expertos locales."
+  },
+
+  "experiences": [
+    {
+      "id": "whale-watching",
+      "name": "Whale Watching",
+      "category": "Julio a octubre",
+      "description": "Avistamiento de ballenas jorobadas en su hábitat natural.",
+      "image": "assets/whale.svg",
+      "link": "pages/whale-watching.html",
+      "active": true
+    },
+    {
+      "id": "catarata-uvita",
+      "name": "Catarata Uvita",
+      "category": "Aventura en la selva",
+      "description": "Caminata y cascada en medio de la naturaleza.",
+      "image": "assets/waterfall.svg",
+      "link": "pages/experiencias.html#catarata-uvita",
+      "active": true
+    },
+    {
+      "id": "marino-ballena",
+      "name": "Parque Nacional Marino Ballena",
+      "category": "Snorkel y playa",
+      "description": "Descubre la famosa Cola de Ballena y su vida marina.",
+      "image": "assets/img/ballena-kayaks-5.webp",
+      "link": "pages/experiencias.html#marino-ballena",
+      "active": true
+    },
+    {
+      "id": "corcovado",
+      "name": "Corcovado",
+      "category": "Aventura salvaje",
+      "description": "Biodiversidad única y naturaleza inolvidable.",
+      "image": "assets/corcovado.svg",
+      "link": "pages/corcovado.html",
+      "active": true
+    }
+  ],
+
+  "owners_section": {
+    "title": "Para propietarios y administradores de villas",
+    "description": "Cuidamos tu propiedad como si fuera nuestra. Servicios confiables para que tú y tus huéspedes disfruten de una experiencia impecable.",
+    "services": [
+      "Guest concierge",
+      "Check-in / check-out",
+      "Limpieza",
+      "Mantenimiento",
+      "Compras",
+      "Preparación de villas",
+      "Atención a huéspedes",
+      "Reservas",
+      "Experiencias",
+      "Transporte"
+    ],
+    "cta": "Conoce cómo podemos ayudarte",
+    "link": "pages/propietarios.html",
+    "image": "assets/villa.svg"
+  },
+
+  "about": {
+    "text": "Somos un equipo local apasionado por nuestra tierra. Nuestro objetivo es conectar a los visitantes con experiencias auténticas, responsables y memorables en la Costa Ballena.",
+    "values": ["100% local", "Pasión por lo que hacemos", "Turismo responsable"],
+    "image": "assets/about.svg"
+  },
+
+  "contact": {
+    "title": "Estamos para servirte",
+    "description": "Cuéntanos qué necesitas y diseñaremos la mejor experiencia para ti."
+  },
+
+  "footer_text": "© 2026 Uvita Concierge Experience",
+
+  "villas": []
+}
