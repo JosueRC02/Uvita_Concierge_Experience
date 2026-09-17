@@ -83,9 +83,17 @@
   },
   "about": {
     "kicker": "La nostra storia",
-    "title": "Chi <em>siamo</em>",
-    "lead": "Siamo un team locale appassionato della nostra terra. Il nostro obiettivo è connettere i visitatori con esperienze autentiche, responsabili e memorabili sulla Costa Ballena.",
-    "values": ["100% locale", "Passione per ciò che facciamo", "Turismo responsabile"]
+    "title": "Il cuore dietro <em>Uvita Concierge</em>",
+    "story": [
+      "Dietro Uvita Concierge Experience c'è una passione per il turismo, il servizio e la creazione di esperienze significative.",
+      "Con una formazione nel turismo e nell'ospitalità e una profonda conoscenza della zona di Uvita e dei suoi dintorni, mi è sempre piaciuto aiutare le persone a sentirsi a proprio agio, benvenute e davvero connesse con la loro destinazione.",
+      "Dopo aver lavorato e maturato esperienza nel settore, mi sono resa conto che molti viaggiatori cercavano qualcosa di più di un semplice posto dove alloggiare: volevano una guida, fiducia e qualcuno del posto che li aiutasse a sfruttare al meglio il loro tempo qui.",
+      "È questo che mi ha ispirato a creare Uvita Concierge Experience.",
+      "Questo progetto è nato dal desiderio di offrire un'attenzione personalizzata, mettere in contatto gli ospiti con fornitori locali affidabili e creare esperienze semplici, autentiche e memorabili.",
+      "Ogni consiglio, ogni dettaglio e ogni interazione viene curato con attenzione, perché credo davvero che un ottimo servizio possa trasformare un viaggio in qualcosa di indimenticabile.",
+      "Questo è più di un servizio: significa aiutare le persone a vivere la Costa Rica nel modo giusto."
+    ],
+    "signature": "— Raquel Chanto"
   },
   "contact": {
     "maps": "Vedi su Google Maps →",
@@ -135,6 +143,7 @@
       "cta": "Richiedi date e disponibilità"
     },
     "corcovado": {
+      "galleryTitle": "La fauna di Corcovado",
       "metaTitle": "Tour Parco Nazionale Corcovado | Uvita Concierge Experience",
       "eyebrow": "Avventura selvaggia · Pacifico del Sud",
       "h1": "Parco Nazionale Corcovado",

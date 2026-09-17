@@ -83,9 +83,17 @@
   },
   "about": {
     "kicker": "Unsere Geschichte",
-    "title": "Über <em>uns</em>",
-    "lead": "Wir sind ein lokales Team mit Leidenschaft für unser Land. Unser Ziel ist es, Besucher mit authentischen, verantwortungsvollen und unvergesslichen Erlebnissen an der Costa Ballena zu verbinden.",
-    "values": ["100% lokal", "Leidenschaft für unsere Arbeit", "Verantwortungsvoller Tourismus"]
+    "title": "Das Herz hinter <em>Uvita Concierge</em>",
+    "story": [
+      "Hinter Uvita Concierge Experience steckt eine Leidenschaft für Tourismus, Service und das Schaffen bedeutungsvoller Erlebnisse.",
+      "Mit einem Hintergrund in Tourismus und Gastgewerbe und einer tiefen Kenntnis der Region Uvita und ihrer Umgebung war es mir immer ein Anliegen, Menschen zu helfen, sich wohl, willkommen und wirklich mit ihrem Reiseziel verbunden zu fühlen.",
+      "Nachdem ich in der Branche gearbeitet und Erfahrung gesammelt hatte, wurde mir klar, dass viele Reisende mehr suchten als nur eine Unterkunft: Sie wollten Orientierung, Vertrauen und jemanden vor Ort, der ihnen hilft, ihre Zeit hier optimal zu nutzen.",
+      "Das hat mich dazu inspiriert, Uvita Concierge Experience zu gründen.",
+      "Dieses Projekt entstand aus dem Wunsch, persönliche Betreuung zu bieten, Gäste mit zuverlässigen lokalen Anbietern zu verbinden und Erlebnisse zu schaffen, die einfach, authentisch und unvergesslich sind.",
+      "Jede Empfehlung, jedes Detail und jede Interaktion wird mit Sorgfalt behandelt, denn ich glaube fest daran, dass guter Service eine Reise in etwas Unvergessliches verwandeln kann.",
+      "Das ist mehr als ein Service – es geht darum, Menschen zu helfen, Costa Rica auf die richtige Weise zu erleben."
+    ],
+    "signature": "— Raquel Chanto"
   },
   "contact": {
     "maps": "Auf Google Maps ansehen →",
@@ -135,6 +143,7 @@
       "cta": "Termine und Verfügbarkeit anfragen"
     },
     "corcovado": {
+      "galleryTitle": "Tierwelt in Corcovado",
       "metaTitle": "Tour Nationalpark Corcovado | Uvita Concierge Experience",
       "eyebrow": "Wildes Abenteuer · Südpazifik",
       "h1": "Nationalpark Corcovado",

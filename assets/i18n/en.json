@@ -83,9 +83,17 @@
   },
   "about": {
     "kicker": "Our story",
-    "title": "About <em>us</em>",
-    "lead": "We are a local team passionate about our land. Our goal is to connect visitors with authentic, responsible and memorable experiences on the Costa Ballena.",
-    "values": ["100% local", "Passion for what we do", "Responsible tourism"]
+    "title": "The Heart Behind <em>Uvita Concierge</em>",
+    "story": [
+      "Behind Uvita Concierge Experience is a passion for tourism, service, and creating meaningful experiences.",
+      "With a background in tourism and hospitality, and a deep knowledge of the Uvita area and its surroundings, I've always been drawn to helping people feel comfortable, welcomed, and truly connected to their destination.",
+      "After working and gaining experience in the industry, I realized that many travelers were looking for something more than just a place to stay — they wanted guidance, trust, and someone local who could help them make the most of their time here.",
+      "That's what inspired me to create Uvita Concierge Experience.",
+      "This project was born from the desire to offer personalized attention, connect guests with reliable local providers, and create experiences that feel easy, authentic, and memorable.",
+      "Every recommendation, every detail, and every interaction is handled with care, because I truly believe that great service can turn a trip into something unforgettable.",
+      "This is more than a service — it's about helping people experience Costa Rica the right way!"
+    ],
+    "signature": "— Raquel Chanto"
   },
   "contact": {
     "maps": "View on Google Maps →",
@@ -135,6 +143,7 @@
       "cta": "Ask about dates and availability"
     },
     "corcovado": {
+      "galleryTitle": "Wildlife in Corcovado",
       "metaTitle": "Corcovado National Park Tour | Uvita Concierge Experience",
       "eyebrow": "Wild adventure · South Pacific",
       "h1": "Corcovado National Park",

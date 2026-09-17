@@ -582,6 +582,14 @@ p { margin: 0 0 1em; }
 }
 .about-image { position: relative; }
 .about-image img:first-child { border-radius: var(--radius); box-shadow: var(--shadow-soft); }
+.about-text p { margin-bottom: 14px; }
+.about-signature {
+  margin-top: 20px;
+  font-family: 'Parisienne', cursive;
+  font-size: 2rem;
+  line-height: 1;
+  color: var(--verde-selva);
+}
 .about-cusinga {
   position: absolute;
   bottom: -24px;

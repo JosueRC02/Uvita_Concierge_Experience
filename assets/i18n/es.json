@@ -83,9 +83,17 @@
   },
   "about": {
     "kicker": "Nuestra historia",
-    "title": "Sobre <em>nosotros</em>",
-    "lead": "Somos un equipo local apasionado por nuestra tierra. Nuestro objetivo es conectar a los visitantes con experiencias auténticas, responsables y memorables en la Costa Ballena.",
-    "values": ["100% local", "Pasión por lo que hacemos", "Turismo responsable"]
+    "title": "El corazón detrás de <em>Uvita Concierge</em>",
+    "story": [
+      "Detrás de Uvita Concierge Experience hay una pasión por el turismo, el servicio y la creación de experiencias con significado.",
+      "Con formación en turismo y hospitalidad, y un profundo conocimiento de la zona de Uvita y sus alrededores, siempre me ha atraído ayudar a las personas a sentirse cómodas, bienvenidas y realmente conectadas con su destino.",
+      "Después de trabajar y ganar experiencia en la industria, me di cuenta de que muchos viajeros buscaban algo más que un lugar donde quedarse: querían orientación, confianza y alguien local que los ayudara a aprovechar al máximo su tiempo aquí.",
+      "Eso fue lo que me inspiró a crear Uvita Concierge Experience.",
+      "Este proyecto nació del deseo de ofrecer atención personalizada, conectar a los huéspedes con proveedores locales de confianza y crear experiencias fáciles, auténticas y memorables.",
+      "Cada recomendación, cada detalle y cada interacción se maneja con cuidado, porque creo de verdad que un gran servicio puede convertir un viaje en algo inolvidable.",
+      "Esto es más que un servicio: se trata de ayudar a las personas a vivir Costa Rica de la manera correcta."
+    ],
+    "signature": "— Raquel Chanto"
   },
   "contact": {
     "maps": "Ver en Google Maps →",
@@ -135,6 +143,7 @@
       "cta": "Consultar fechas y disponibilidad"
     },
     "corcovado": {
+      "galleryTitle": "Vida silvestre en Corcovado",
       "metaTitle": "Tour Parque Nacional Corcovado | Uvita Concierge Experience",
       "eyebrow": "Aventura salvaje · Pacífico Sur",
       "h1": "Parque Nacional Corcovado",
