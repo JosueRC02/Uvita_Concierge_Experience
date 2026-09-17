@@ -102,7 +102,7 @@
     { "id": "atv", "name": "ATV Tour", "category": "Aventura todoterreno", "description": "Recorre montañas, ríos y playas en cuadraciclo, pura adrenalina.", "icon": "🏍️", "active": true },
     { "id": "coffee", "name": "Tour de Café", "category": "Cultura y sabor", "description": "Conoce el proceso del café costarricense, de la planta a la taza.", "icon": "☕", "active": true },
     { "id": "surf", "name": "Clases de Surf", "category": "Olas para todos", "description": "Clases de surf para todos los niveles en las mejores olas de la zona.", "icon": "🏄", "active": true },
-    { "id": "birdwatching", "name": "Observación de Aves", "category": "Naturaleza y aves", "description": "Observa tucanes, colibríes y aves exóticas con guías expertos.", "icon": "🦜", "active": true }
+    { "id": "birdwatching", "name": "Observación de Aves", "category": "Naturaleza y aves", "description": "Observa tucanes, colibríes y aves exóticas con guías expertos.", "image": "assets/tours-nocturnos/tour-nocturno-13.webp", "active": true }
   ],
 
   "owners_section": {
