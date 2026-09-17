@@ -396,17 +396,18 @@
     var tr = getByPath(dict, 'experiences.items') || {};
     var all = data.experiences.filter(function (e) { return e.active !== false; });
 
+    // Solo renderizamos si la grilla está vacía. Si el HTML ya trae las
+    // tarjetas (con sus data-i18n), no las reconstruimos: evita el parpadeo
+    // y la traducción se aplica en su lugar con applyI18n.
     var homeGrid = document.getElementById('experiencesGrid');
-    if (homeGrid) {
+    if (homeGrid && !homeGrid.querySelector('.experience-card')) {
       var featured = all.filter(function (e) { return e.featured; });
       if (!featured.length) featured = all.slice(0, 6);
-      homeGrid.innerHTML = '';
       featured.forEach(function (exp) { homeGrid.appendChild(experienceCard(exp, tr, data)); });
     }
 
     var allGrid = document.getElementById('allExperiencesGrid');
-    if (allGrid) {
-      allGrid.innerHTML = '';
+    if (allGrid && !allGrid.querySelector('.experience-card')) {
       all.forEach(function (exp) { allGrid.appendChild(experienceCard(exp, tr, data)); });
     }
   }
