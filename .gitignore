@@ -1,5 +1,6 @@
 # Fotos originales sin optimizar (se conservan localmente, no se publican)
 assets/img/originales/
+assets/originales/
 
 # Dependencias / temporales
 node_modules/

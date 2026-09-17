@@ -55,7 +55,8 @@
       "whale-watching": { "name": "Whale Watching", "cat": "July to October", "desc": "Humpback whale watching in their natural habitat.", "alt": "Humpback whale watching in Uvita" },
       "catarata-uvita": { "name": "Uvita Waterfall", "cat": "Jungle adventure", "desc": "A hike and a waterfall in the heart of nature.", "alt": "Uvita Waterfall in the Costa Ballena jungle" },
       "marino-ballena": { "name": "Marino Ballena National Park", "cat": "Snorkel and beach", "desc": "Discover the famous Whale's Tail and its marine life.", "alt": "Marino Ballena National Park and the Whale's Tail" },
-      "corcovado": { "name": "Corcovado", "cat": "Wild adventure", "desc": "Unique biodiversity and unforgettable nature.", "alt": "Corcovado National Park, biodiversity" }
+      "corcovado": { "name": "Corcovado", "cat": "Wild adventure", "desc": "Unique biodiversity and unforgettable nature.", "alt": "Corcovado National Park, biodiversity" },
+      "tour-nocturno": {"name":"Night Wildlife Tour","cat":"Night adventure","desc":"Frogs, snakes and insects: discover the rainforest as it comes alive at night.","alt":"Red-eyed tree frog on a night tour in Uvita, Costa Rica"}
     }
   },
   "gallery": {
@@ -134,6 +135,27 @@
       "recTitle": "Recommendations for your visit",
       "recNote": "These are general recommendations; they do not replace the official guidance of the park or the tour operator.",
       "rec": ["Closed shoes, ideal for humid trails.", "Reusable water bottle.", "Light rain jacket.", "Light, quick-drying clothing.", "Sun protection.", "Insect repellent.", "Comfortable backpack for long hikes."],
+      "cta": "Check availability"
+    },
+    "tour-nocturno": {
+      "metaTitle": "Night Wildlife Tour in Uvita | Uvita Concierge Experience",
+      "eyebrow": "Night adventure · Costa Ballena",
+      "h1": "Night Wildlife Tour",
+      "heroDesc": "When the sun goes down, the rainforest comes to life. Discover frogs, snakes, insects and fascinating creatures with expert local guides.",
+      "kicker": "The experience",
+      "h2": "The rainforest that <em>wakes up at night</em>",
+      "p1": "Much of the tropical wildlife is nocturnal. On a guided flashlight walk, the Costa Ballena rainforest reveals colorful frogs, snakes, insects, spiders and sleeping birds you'd rarely see by day. It's a perfect experience for nature photography and for the whole family.",
+      "p2": "Walks are always led by authorized local guides, on safe trails and with full respect for the animals and their habitat. Times, duration and meeting point are confirmed with you before booking.",
+      "recTitle": "Recommendations for your visit",
+      "recNote": "These are general recommendations; always follow your guide's instructions.",
+      "rec": [
+        "Closed, comfortable walking shoes.",
+        "A flashlight or headlamp (some tours include one).",
+        "Long-sleeved shirt and long pants.",
+        "Insect repellent.",
+        "A camera with a good night or macro mode.",
+        "Water and a light rain jacket."
+      ],
       "cta": "Check availability"
     },
     "propietarios": {

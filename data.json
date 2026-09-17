@@ -94,7 +94,7 @@
       "name": "Whale Watching",
       "category": "Julio a octubre",
       "description": "Avistamiento de ballenas jorobadas en su hábitat natural.",
-      "image": "assets/whale.svg",
+      "image": "assets/whale-watching/whale-1.webp",
       "link": "pages/whale-watching.html",
       "active": true
     },
@@ -121,8 +121,17 @@
       "name": "Corcovado",
       "category": "Aventura salvaje",
       "description": "Biodiversidad única y naturaleza inolvidable.",
-      "image": "assets/corcovado.svg",
+      "image": "assets/corcovado/corcovado-13.webp",
       "link": "pages/corcovado.html",
+      "active": true
+    },
+    {
+      "id": "tour-nocturno",
+      "name": "Tour Nocturno de Fauna",
+      "category": "Aventura nocturna",
+      "description": "Ranas, serpientes e insectos: descubre la selva que despierta de noche.",
+      "image": "assets/tours-nocturnos/tour-nocturno-1.webp",
+      "link": "pages/tour-nocturno.html",
       "active": true
     }
   ],

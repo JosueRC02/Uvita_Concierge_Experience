@@ -55,7 +55,8 @@
       "whale-watching": { "name": "Observation des baleines", "cat": "Juillet à octobre", "desc": "Observation des baleines à bosse dans leur habitat naturel.", "alt": "Observation des baleines à bosse à Uvita" },
       "catarata-uvita": { "name": "Cascade d'Uvita", "cat": "Aventure dans la jungle", "desc": "Une randonnée et une cascade au cœur de la nature.", "alt": "Cascade d'Uvita dans la jungle de la Costa Ballena" },
       "marino-ballena": { "name": "Parc National Marino Ballena", "cat": "Snorkeling et plage", "desc": "Découvrez la célèbre Queue de Baleine et sa vie marine.", "alt": "Parc National Marino Ballena et la Queue de Baleine" },
-      "corcovado": { "name": "Corcovado", "cat": "Aventure sauvage", "desc": "Une biodiversité unique et une nature inoubliable.", "alt": "Parc National Corcovado, biodiversité" }
+      "corcovado": { "name": "Corcovado", "cat": "Aventure sauvage", "desc": "Une biodiversité unique et une nature inoubliable.", "alt": "Parc National Corcovado, biodiversité" },
+      "tour-nocturno": {"name":"Tour nocturne de la faune","cat":"Aventure nocturne","desc":"Grenouilles, serpents et insectes : découvrez la forêt qui s'éveille la nuit.","alt":"Rainette aux yeux rouges lors d'un tour nocturne à Uvita, Costa Rica"}
     }
   },
   "gallery": {
@@ -135,6 +136,27 @@
       "recNote": "Ce sont des recommandations générales ; elles ne remplacent pas les consignes officielles du parc ni du prestataire.",
       "rec": ["Chaussures fermées, idéales pour les sentiers humides.", "Bouteille d'eau réutilisable.", "Coupe-pluie léger.", "Vêtements légers à séchage rapide.", "Protection solaire.", "Répulsif anti-insectes.", "Sac à dos confortable pour les longues randonnées."],
       "cta": "Vérifier la disponibilité"
+    },
+    "tour-nocturno": {
+      "metaTitle": "Tour nocturne de la faune à Uvita | Uvita Concierge Experience",
+      "eyebrow": "Aventure nocturne · Costa Ballena",
+      "h1": "Tour nocturne de la faune",
+      "heroDesc": "À la tombée de la nuit, la forêt s'anime. Découvrez grenouilles, serpents, insectes et créatures fascinantes avec des guides locaux experts.",
+      "kicker": "L'expérience",
+      "h2": "La forêt qui <em>s'éveille la nuit</em>",
+      "p1": "Une grande partie de la faune tropicale est nocturne. Lors d'une randonnée guidée à la lampe, la forêt de la Costa Ballena révèle des grenouilles colorées, des serpents, des insectes, des araignées et des oiseaux endormis que l'on voit rarement de jour. Une expérience idéale pour la photographie de nature et pour toute la famille.",
+      "p2": "Les sorties sont toujours encadrées par des guides locaux autorisés, sur des sentiers sûrs et dans le respect des animaux et de leur milieu. Horaires, durée et point de rendez-vous sont confirmés avec vous avant la réservation.",
+      "recTitle": "Recommandations pour votre visite",
+      "recNote": "Ce sont des recommandations générales ; suivez toujours les indications de votre guide.",
+      "rec": [
+        "Chaussures fermées et confortables pour marcher.",
+        "Lampe de poche ou frontale (incluse dans certains tours).",
+        "Haut à manches longues et pantalon long.",
+        "Répulsif anti-insectes.",
+        "Appareil photo avec un bon mode nuit ou macro.",
+        "De l'eau et un coupe-pluie léger."
+      ],
+      "cta": "Vérifier les disponibilités"
     },
     "propietarios": {
       "metaTitle": "Services pour propriétaires de villas à Uvita | Uvita Concierge Experience",

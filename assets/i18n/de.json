@@ -55,7 +55,8 @@
       "whale-watching": { "name": "Whale Watching", "cat": "Juli bis Oktober", "desc": "Buckelwale in ihrem natürlichen Lebensraum beobachten.", "alt": "Buckelwalbeobachtung in Uvita" },
       "catarata-uvita": { "name": "Uvita-Wasserfall", "cat": "Dschungelabenteuer", "desc": "Eine Wanderung und ein Wasserfall mitten in der Natur.", "alt": "Uvita-Wasserfall im Dschungel der Costa Ballena" },
       "marino-ballena": { "name": "Nationalpark Marino Ballena", "cat": "Schnorcheln und Strand", "desc": "Entdecken Sie den berühmten Walschwanz und seine Meereswelt.", "alt": "Nationalpark Marino Ballena und der Walschwanz" },
-      "corcovado": { "name": "Corcovado", "cat": "Wildes Abenteuer", "desc": "Einzigartige Artenvielfalt und unvergessliche Natur.", "alt": "Nationalpark Corcovado, Artenvielfalt" }
+      "corcovado": { "name": "Corcovado", "cat": "Wildes Abenteuer", "desc": "Einzigartige Artenvielfalt und unvergessliche Natur.", "alt": "Nationalpark Corcovado, Artenvielfalt" },
+      "tour-nocturno": {"name":"Nächtliche Tierbeobachtung","cat":"Nachtabenteuer","desc":"Frösche, Schlangen und Insekten: Entdecke den Regenwald, der nachts erwacht.","alt":"Rotaugenlaubfrosch bei einer Nachttour in Uvita, Costa Rica"}
     }
   },
   "gallery": {
@@ -134,6 +135,27 @@
       "recTitle": "Empfehlungen für Ihren Besuch",
       "recNote": "Dies sind allgemeine Empfehlungen; sie ersetzen nicht die offiziellen Hinweise des Parks oder des Tourenanbieters.",
       "rec": ["Geschlossene Schuhe, ideal für feuchte Pfade.", "Wiederverwendbare Wasserflasche.", "Leichte Regenjacke.", "Leichte, schnell trocknende Kleidung.", "Sonnenschutz.", "Insektenschutzmittel.", "Bequemer Rucksack für lange Wanderungen."],
+      "cta": "Verfügbarkeit anfragen"
+    },
+    "tour-nocturno": {
+      "metaTitle": "Nächtliche Tierbeobachtung in Uvita | Uvita Concierge Experience",
+      "eyebrow": "Nachtabenteuer · Costa Ballena",
+      "h1": "Nächtliche Tierbeobachtung",
+      "heroDesc": "Wenn die Sonne untergeht, erwacht der Regenwald. Entdecke Frösche, Schlangen, Insekten und faszinierende Tiere mit erfahrenen lokalen Guides.",
+      "kicker": "Das Erlebnis",
+      "h2": "Der Regenwald, der <em>nachts erwacht</em>",
+      "p1": "Ein Großteil der tropischen Tierwelt ist nachtaktiv. Bei einer geführten Wanderung mit Taschenlampe zeigt der Regenwald der Costa Ballena bunte Frösche, Schlangen, Insekten, Spinnen und schlafende Vögel, die man tagsüber kaum sieht. Ein ideales Erlebnis für Naturfotografie und für die ganze Familie.",
+      "p2": "Die Touren werden stets von autorisierten lokalen Guides auf sicheren Wegen und mit Respekt für die Tiere und ihren Lebensraum durchgeführt. Uhrzeiten, Dauer und Treffpunkt werden vor der Buchung mit dir abgestimmt.",
+      "recTitle": "Empfehlungen für deinen Besuch",
+      "recNote": "Dies sind allgemeine Empfehlungen; folge stets den Anweisungen deines Guides.",
+      "rec": [
+        "Geschlossene, bequeme Wanderschuhe.",
+        "Taschenlampe oder Stirnlampe (bei manchen Touren inklusive).",
+        "Langärmliges Oberteil und lange Hose.",
+        "Insektenschutzmittel.",
+        "Kamera mit gutem Nacht- oder Makromodus.",
+        "Wasser und eine leichte Regenjacke."
+      ],
       "cta": "Verfügbarkeit anfragen"
     },
     "propietarios": {

@@ -55,7 +55,8 @@
       "whale-watching": { "name": "Whale Watching", "cat": "Julio a octubre", "desc": "Avistamiento de ballenas jorobadas en su hábitat natural.", "alt": "Avistamiento de ballenas jorobadas en Uvita" },
       "catarata-uvita": { "name": "Catarata Uvita", "cat": "Aventura en la selva", "desc": "Caminata y cascada en medio de la naturaleza.", "alt": "Catarata Uvita en la selva de Costa Ballena" },
       "marino-ballena": { "name": "Parque Nacional Marino Ballena", "cat": "Snorkel y playa", "desc": "Descubre la famosa Cola de Ballena y su vida marina.", "alt": "Parque Nacional Marino Ballena y la Cola de Ballena" },
-      "corcovado": { "name": "Corcovado", "cat": "Aventura salvaje", "desc": "Biodiversidad única y naturaleza inolvidable.", "alt": "Parque Nacional Corcovado, biodiversidad" }
+      "corcovado": { "name": "Corcovado", "cat": "Aventura salvaje", "desc": "Biodiversidad única y naturaleza inolvidable.", "alt": "Parque Nacional Corcovado, biodiversidad" },
+      "tour-nocturno": {"name":"Tour Nocturno de Fauna","cat":"Aventura nocturna","desc":"Ranas, serpientes e insectos: descubre la selva que despierta de noche.","alt":"Rana de ojos rojos en un tour nocturno en Uvita, Costa Rica"}
     }
   },
   "gallery": {
@@ -134,6 +135,27 @@
       "recTitle": "Recomendaciones para tu visita",
       "recNote": "Estas son recomendaciones generales; no sustituyen las indicaciones oficiales del parque ni del operador del tour.",
       "rec": ["Zapatos cerrados, ideales para senderos húmedos.", "Botella de agua reutilizable.", "Impermeable ligero.", "Ropa ligera y de secado rápido.", "Protección solar.", "Repelente de insectos.", "Mochila cómoda para caminatas largas."],
+      "cta": "Consultar disponibilidad"
+    },
+    "tour-nocturno": {
+      "metaTitle": "Tour Nocturno de Fauna en Uvita | Uvita Concierge Experience",
+      "eyebrow": "Aventura nocturna · Costa Ballena",
+      "h1": "Tour Nocturno de Fauna",
+      "heroDesc": "Cuando cae el sol, la selva cobra vida. Descubre ranas, serpientes, insectos y criaturas fascinantes con guías locales expertos.",
+      "kicker": "La experiencia",
+      "h2": "La selva que <em>despierta de noche</em>",
+      "p1": "Gran parte de la fauna tropical es nocturna. En un recorrido guiado con linterna, la selva de la Costa Ballena revela ranas de colores, serpientes, insectos, arañas y aves dormidas que casi nunca se ven de día. Es una experiencia ideal para fotografía de naturaleza y para toda la familia.",
+      "p2": "Los recorridos se realizan siempre con guías locales autorizados, en senderos seguros y respetando a los animales y su entorno. Horarios, duración y punto de encuentro se confirman contigo antes de reservar.",
+      "recTitle": "Recomendaciones para tu visita",
+      "recNote": "Estas son recomendaciones generales; sigue siempre las indicaciones de tu guía.",
+      "rec": [
+        "Zapatos cerrados y cómodos para caminar.",
+        "Linterna o frontal (algunos tours la incluyen).",
+        "Ropa de manga larga y pantalón largo.",
+        "Repelente de insectos.",
+        "Cámara con buen modo nocturno o macro.",
+        "Agua y una capa impermeable ligera."
+      ],
       "cta": "Consultar disponibilidad"
     },
     "propietarios": {

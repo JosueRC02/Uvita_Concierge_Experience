@@ -55,7 +55,8 @@
       "whale-watching": { "name": "Whale Watching", "cat": "Da luglio a ottobre", "desc": "Avvistamento delle megattere nel loro habitat naturale.", "alt": "Avvistamento delle megattere a Uvita" },
       "catarata-uvita": { "name": "Cascata di Uvita", "cat": "Avventura nella giungla", "desc": "Un'escursione e una cascata nel cuore della natura.", "alt": "Cascata di Uvita nella giungla della Costa Ballena" },
       "marino-ballena": { "name": "Parco Nazionale Marino Ballena", "cat": "Snorkeling e spiaggia", "desc": "Scopri la famosa Coda di Balena e la sua vita marina.", "alt": "Parco Nazionale Marino Ballena e la Coda di Balena" },
-      "corcovado": { "name": "Corcovado", "cat": "Avventura selvaggia", "desc": "Biodiversità unica e natura indimenticabile.", "alt": "Parco Nazionale Corcovado, biodiversità" }
+      "corcovado": { "name": "Corcovado", "cat": "Avventura selvaggia", "desc": "Biodiversità unica e natura indimenticabile.", "alt": "Parco Nazionale Corcovado, biodiversità" },
+      "tour-nocturno": {"name":"Tour notturno della fauna","cat":"Avventura notturna","desc":"Rane, serpenti e insetti: scopri la foresta che si risveglia di notte.","alt":"Raganella dagli occhi rossi in un tour notturno a Uvita, Costa Rica"}
     }
   },
   "gallery": {
@@ -135,6 +136,27 @@
       "recNote": "Queste sono raccomandazioni generali; non sostituiscono le indicazioni ufficiali del parco né dell'operatore del tour.",
       "rec": ["Scarpe chiuse, ideali per i sentieri umidi.", "Borraccia riutilizzabile.", "Giacca antipioggia leggera.", "Abbigliamento leggero e ad asciugatura rapida.", "Protezione solare.", "Repellente per insetti.", "Zaino comodo per lunghe camminate."],
       "cta": "Verifica disponibilità"
+    },
+    "tour-nocturno": {
+      "metaTitle": "Tour notturno della fauna a Uvita | Uvita Concierge Experience",
+      "eyebrow": "Avventura notturna · Costa Ballena",
+      "h1": "Tour notturno della fauna",
+      "heroDesc": "Quando cala il sole, la foresta prende vita. Scopri rane, serpenti, insetti e creature affascinanti con guide locali esperte.",
+      "kicker": "L'esperienza",
+      "h2": "La foresta che <em>si risveglia di notte</em>",
+      "p1": "Gran parte della fauna tropicale è notturna. In una camminata guidata con la torcia, la foresta della Costa Ballena rivela rane colorate, serpenti, insetti, ragni e uccelli addormentati che di giorno si vedono raramente. Un'esperienza ideale per la fotografia naturalistica e per tutta la famiglia.",
+      "p2": "Le escursioni si svolgono sempre con guide locali autorizzate, su sentieri sicuri e nel rispetto degli animali e del loro ambiente. Orari, durata e punto d'incontro vengono confermati con te prima della prenotazione.",
+      "recTitle": "Consigli per la tua visita",
+      "recNote": "Questi sono consigli generali; segui sempre le indicazioni della tua guida.",
+      "rec": [
+        "Scarpe chiuse e comode per camminare.",
+        "Torcia o lampada frontale (in alcuni tour è inclusa).",
+        "Maglia a maniche lunghe e pantaloni lunghi.",
+        "Repellente per insetti.",
+        "Fotocamera con una buona modalità notturna o macro.",
+        "Acqua e una giacca antipioggia leggera."
+      ],
+      "cta": "Verifica la disponibilità"
     },
     "propietarios": {
       "metaTitle": "Servizi per proprietari di ville a Uvita | Uvita Concierge Experience",
