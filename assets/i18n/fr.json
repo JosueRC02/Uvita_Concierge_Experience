@@ -88,6 +88,7 @@
     "values": ["100% local", "Passion pour ce que nous faisons", "Tourisme responsable"]
   },
   "contact": {
+    "maps": "Voir sur Google Maps →",
     "kicker": "Parlons-en",
     "title": "Nous sommes là pour <em>vous servir</em>",
     "lead": "Dites-nous ce dont vous avez besoin et nous concevrons la meilleure expérience pour vous.",

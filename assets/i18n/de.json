@@ -88,6 +88,7 @@
     "values": ["100% lokal", "Leidenschaft für unsere Arbeit", "Verantwortungsvoller Tourismus"]
   },
   "contact": {
+    "maps": "Auf Google Maps ansehen →",
     "kicker": "Sprechen wir",
     "title": "Wir sind für <em>Sie da</em>",
     "lead": "Sagen Sie uns, was Sie brauchen, und wir gestalten das beste Erlebnis für Sie.",

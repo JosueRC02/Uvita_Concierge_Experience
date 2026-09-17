@@ -643,6 +643,14 @@ p { margin: 0 0 1em; }
   margin-bottom: 6px;
 }
 .contact-item-static:hover { transform: none; background: rgba(247,241,228,0.08); }
+.contact-maps-link {
+  display: block;
+  margin-top: 8px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--dorado);
+}
+.contact-item:hover .contact-maps-link { text-decoration: underline; }
 
 .social-links {
   display: flex;
