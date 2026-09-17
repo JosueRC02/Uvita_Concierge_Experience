@@ -329,7 +329,7 @@
         var photo = document.createElement('img');
         photo.className = 'service-photo';
         photo.src = getRelativePath(service.image);
-        photo.alt = '';
+        photo.alt = t.name || service.name || '';
         photo.loading = 'lazy';
         card.appendChild(photo);
       }
