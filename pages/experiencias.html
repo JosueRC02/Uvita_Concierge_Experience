@@ -62,13 +62,20 @@
   </header>
 
   <main id="contenido">
+    <nav class="back-bar" aria-label="Volver">
+      <div class="container">
+        <a href="../index.html" class="back-link" data-back>
+          <span aria-hidden="true">‹</span><span data-i18n="nav.back">Volver</span>
+        </a>
+      </div>
+    </nav>
     <section class="section" style="padding-top:64px;">
       <div class="container">
         <p class="section-kicker" data-i18n="pages.experiencias.kicker">Vive la Costa Ballena</p>
         <h1 data-i18n-html="pages.experiencias.h1">Tours &amp; <em>Experiencias</em></h1>
         <p class="section-lead" data-i18n="pages.experiencias.lead">Conoce lo mejor de nuestra región con expertos locales. Estas son algunas de las experiencias que podemos coordinar para ti; la disponibilidad final siempre se confirma con cada operador.</p>
 
-        <div class="grid experiences-grid">
+        <div class="grid experiences-grid" id="allExperiencesGrid">
           <article class="experience-card" id="whale-watching">
             <a href="whale-watching.html">
               <img src="../assets/whale-watching/whale-1.webp" alt="Avistamiento de ballenas jorobadas en Uvita" width="1600" height="900" loading="lazy">

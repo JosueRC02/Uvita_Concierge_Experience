@@ -5,6 +5,7 @@
   },
   "lang": { "label": "Language" },
   "nav": {
+    "back": "Back",
     "inicio": "Home",
     "servicios": "Services",
     "experiencias": "Tours & Experiences",
@@ -48,6 +49,7 @@
     "script": "You enjoy, we take care of the rest."
   },
   "experiences": {
+    "viewAll": "See all experiences →",
     "kicker": "Live the Costa Ballena",
     "title": "Featured tours & <em>experiences</em>",
     "lead": "Discover the best of our region with local experts.",
@@ -56,7 +58,15 @@
       "catarata-uvita": { "name": "Uvita Waterfall", "cat": "Jungle adventure", "desc": "A hike and a waterfall in the heart of nature.", "alt": "Uvita Waterfall in the Costa Ballena jungle" },
       "marino-ballena": { "name": "Marino Ballena National Park", "cat": "Snorkel and beach", "desc": "Discover the famous Whale's Tail and its marine life.", "alt": "Marino Ballena National Park and the Whale's Tail" },
       "corcovado": { "name": "Corcovado", "cat": "Wild adventure", "desc": "Unique biodiversity and unforgettable nature.", "alt": "Corcovado National Park, biodiversity" },
-      "tour-nocturno": {"name":"Night Wildlife Tour","cat":"Night adventure","desc":"Frogs, snakes and insects: discover the rainforest as it comes alive at night.","alt":"Red-eyed tree frog on a night tour in Uvita, Costa Rica"}
+      "tour-nocturno": {"name":"Night Wildlife Tour","cat":"Night adventure","desc":"Frogs, snakes and insects: discover the rainforest as it comes alive at night.","alt":"Red-eyed tree frog on a night tour in Uvita, Costa Rica"},
+      "snorkel-cano": {"name":"Caño Island Snorkeling","cat":"Snorkeling & marine life","desc":"Snorkeling at Caño Island, one of the best spots in the Pacific.","alt":"Snorkeling at Caño Island near Uvita, Costa Rica"},
+      "kayak": {"name":"Kayaking","cat":"Water adventure","desc":"Paddle through mangroves and coastline, discovering Uvita's nature.","alt":"Kayak tour through the mangroves of Uvita"},
+      "rappel": {"name":"Waterfall Rappel","cat":"Waterfall adventure","desc":"Descend jungle waterfalls with professional gear and guides.","alt":"Waterfall rappel near Uvita, Costa Ballena"},
+      "canopy": {"name":"Canopy / Zipline","cat":"Thrills up high","desc":"Fly through the treetops on cables and hanging bridges.","alt":"Canopy zipline in the Costa Rican rainforest"},
+      "atv": {"name":"ATV Tour","cat":"Off-road adventure","desc":"Ride mountains, rivers and beaches on a quad bike — pure adrenaline.","alt":"ATV quad tour around Uvita, Costa Ballena"},
+      "coffee": {"name":"Coffee Tour","cat":"Culture & flavor","desc":"Discover Costa Rican coffee, from the plant to the cup.","alt":"Coffee tour in Costa Rica"},
+      "surf": {"name":"Surf Lessons","cat":"Waves for everyone","desc":"Surf lessons for all levels on the area's best waves.","alt":"Surf lessons on the Costa Ballena, Costa Rica"},
+      "birdwatching": {"name":"Birdwatching","cat":"Nature & birds","desc":"Spot toucans, hummingbirds and exotic birds with expert guides.","alt":"Birdwatching in Uvita, Costa Rica"}
     }
   },
   "gallery": {

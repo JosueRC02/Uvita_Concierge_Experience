@@ -5,6 +5,7 @@
   },
   "lang": { "label": "Sprache" },
   "nav": {
+    "back": "Zurück",
     "inicio": "Start",
     "servicios": "Leistungen",
     "experiencias": "Touren & Erlebnisse",
@@ -48,6 +49,7 @@
     "script": "Sie genießen, wir kümmern uns um den Rest."
   },
   "experiences": {
+    "viewAll": "Alle Erlebnisse ansehen →",
     "kicker": "Erleben Sie die Costa Ballena",
     "title": "Ausgewählte Touren & <em>Erlebnisse</em>",
     "lead": "Entdecken Sie das Beste unserer Region mit lokalen Experten.",
@@ -56,7 +58,15 @@
       "catarata-uvita": { "name": "Uvita-Wasserfall", "cat": "Dschungelabenteuer", "desc": "Eine Wanderung und ein Wasserfall mitten in der Natur.", "alt": "Uvita-Wasserfall im Dschungel der Costa Ballena" },
       "marino-ballena": { "name": "Nationalpark Marino Ballena", "cat": "Schnorcheln und Strand", "desc": "Entdecken Sie den berühmten Walschwanz und seine Meereswelt.", "alt": "Nationalpark Marino Ballena und der Walschwanz" },
       "corcovado": { "name": "Corcovado", "cat": "Wildes Abenteuer", "desc": "Einzigartige Artenvielfalt und unvergessliche Natur.", "alt": "Nationalpark Corcovado, Artenvielfalt" },
-      "tour-nocturno": {"name":"Nächtliche Tierbeobachtung","cat":"Nachtabenteuer","desc":"Frösche, Schlangen und Insekten: Entdecke den Regenwald, der nachts erwacht.","alt":"Rotaugenlaubfrosch bei einer Nachttour in Uvita, Costa Rica"}
+      "tour-nocturno": {"name":"Nächtliche Tierbeobachtung","cat":"Nachtabenteuer","desc":"Frösche, Schlangen und Insekten: Entdecke den Regenwald, der nachts erwacht.","alt":"Rotaugenlaubfrosch bei einer Nachttour in Uvita, Costa Rica"},
+      "snorkel-cano": {"name":"Schnorcheln an der Caño-Insel","cat":"Schnorcheln & Meeresleben","desc":"Schnorcheln an der Caño-Insel, einem der besten Spots im Pazifik.","alt":"Schnorcheln an der Caño-Insel bei Uvita, Costa Rica"},
+      "kayak": {"name":"Kajaktour","cat":"Abenteuer auf dem Wasser","desc":"Paddle durch Mangroven und Küste und entdecke Uvitas Natur.","alt":"Kajaktour durch die Mangroven von Uvita"},
+      "rappel": {"name":"Wasserfall-Rappelling","cat":"Wasserfall-Abenteuer","desc":"Seile dich an Dschungel-Wasserfällen ab, mit Ausrüstung und Guides.","alt":"Wasserfall-Rappelling bei Uvita, Costa Ballena"},
+      "canopy": {"name":"Canopy / Zipline","cat":"Nervenkitzel in der Höhe","desc":"Fliege auf Seilen und Hängebrücken durch die Baumkronen.","alt":"Canopy-Zipline im Regenwald von Costa Rica"},
+      "atv": {"name":"ATV-Tour (Quad)","cat":"Offroad-Abenteuer","desc":"Fahre auf dem Quad über Berge, Flüsse und Strände — pures Adrenalin.","alt":"ATV-Quad-Tour rund um Uvita, Costa Ballena"},
+      "coffee": {"name":"Kaffee-Tour","cat":"Kultur & Genuss","desc":"Entdecke den costa-ricanischen Kaffee, von der Pflanze bis zur Tasse.","alt":"Kaffee-Tour in Costa Rica"},
+      "surf": {"name":"Surfkurse","cat":"Wellen für alle","desc":"Surfkurse für alle Niveaus an den besten Wellen der Region.","alt":"Surfkurse an der Costa Ballena, Costa Rica"},
+      "birdwatching": {"name":"Vogelbeobachtung","cat":"Natur & Vögel","desc":"Beobachte Tukane, Kolibris und exotische Vögel mit erfahrenen Guides.","alt":"Vogelbeobachtung in Uvita, Costa Rica"}
     }
   },
   "gallery": {

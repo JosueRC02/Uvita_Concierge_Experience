@@ -89,51 +89,19 @@
   },
 
   "experiences": [
-    {
-      "id": "whale-watching",
-      "name": "Whale Watching",
-      "category": "Julio a octubre",
-      "description": "Avistamiento de ballenas jorobadas en su hábitat natural.",
-      "image": "assets/whale-watching/whale-1.webp",
-      "link": "pages/whale-watching.html",
-      "active": true
-    },
-    {
-      "id": "catarata-uvita",
-      "name": "Catarata Uvita",
-      "category": "Aventura en la selva",
-      "description": "Caminata y cascada en medio de la naturaleza.",
-      "image": "assets/img/ballena-kayaks-1.webp",
-      "link": "pages/experiencias.html#catarata-uvita",
-      "active": true
-    },
-    {
-      "id": "marino-ballena",
-      "name": "Parque Nacional Marino Ballena",
-      "category": "Snorkel y playa",
-      "description": "Descubre la famosa Cola de Ballena y su vida marina.",
-      "image": "assets/img/ballena-kayaks-5.webp",
-      "link": "pages/experiencias.html#marino-ballena",
-      "active": true
-    },
-    {
-      "id": "corcovado",
-      "name": "Corcovado",
-      "category": "Aventura salvaje",
-      "description": "Biodiversidad única y naturaleza inolvidable.",
-      "image": "assets/corcovado/corcovado-13.webp",
-      "link": "pages/corcovado.html",
-      "active": true
-    },
-    {
-      "id": "tour-nocturno",
-      "name": "Tour Nocturno de Fauna",
-      "category": "Aventura nocturna",
-      "description": "Ranas, serpientes e insectos: descubre la selva que despierta de noche.",
-      "image": "assets/tours-nocturnos/tour-nocturno-1.webp",
-      "link": "pages/tour-nocturno.html",
-      "active": true
-    }
+    { "id": "whale-watching", "name": "Whale Watching", "category": "Julio a octubre", "description": "Avistamiento de ballenas jorobadas en su hábitat natural.", "image": "assets/whale-watching/whale-1.webp", "link": "pages/whale-watching.html", "featured": true, "active": true },
+    { "id": "tour-nocturno", "name": "Tour Nocturno de Fauna", "category": "Aventura nocturna", "description": "Ranas, serpientes e insectos: descubre la selva que despierta de noche.", "image": "assets/tours-nocturnos/tour-nocturno-1.webp", "link": "pages/tour-nocturno.html", "featured": true, "active": true },
+    { "id": "corcovado", "name": "Corcovado", "category": "Aventura salvaje", "description": "Biodiversidad única y naturaleza inolvidable.", "image": "assets/corcovado/corcovado-13.webp", "link": "pages/corcovado.html", "featured": true, "active": true },
+    { "id": "marino-ballena", "name": "Parque Nacional Marino Ballena", "category": "Snorkel y playa", "description": "Descubre la famosa Cola de Ballena y su vida marina.", "image": "assets/img/ballena-kayaks-5.webp", "featured": true, "active": true },
+    { "id": "catarata-uvita", "name": "Catarata Uvita", "category": "Aventura en la selva", "description": "Caminata y cascada en medio de la naturaleza.", "image": "assets/img/ballena-kayaks-1.webp", "featured": true, "active": true },
+    { "id": "snorkel-cano", "name": "Snorkel Isla del Caño", "category": "Snorkel y vida marina", "description": "Snorkel en la Isla del Caño, uno de los mejores puntos del Pacífico.", "image": "assets/img/ballena-kayaks-2.webp", "featured": true, "active": true },
+    { "id": "kayak", "name": "Kayak", "category": "Aventura en el agua", "description": "Rema entre manglares y costa descubriendo la naturaleza de Uvita.", "image": "assets/img/ballena-kayaks-3.webp", "active": true },
+    { "id": "rappel", "name": "Rappel", "category": "Aventura en cascada", "description": "Desciende cascadas entre la selva con equipo y guías profesionales.", "image": "assets/img/ballena-kayaks-9.webp", "active": true },
+    { "id": "canopy", "name": "Canopy", "category": "Adrenalina en las alturas", "description": "Vuela entre los árboles por cables y puentes colgantes.", "icon": "🌳", "active": true },
+    { "id": "atv", "name": "ATV Tour", "category": "Aventura todoterreno", "description": "Recorre montañas, ríos y playas en cuadraciclo, pura adrenalina.", "icon": "🏍️", "active": true },
+    { "id": "coffee", "name": "Tour de Café", "category": "Cultura y sabor", "description": "Conoce el proceso del café costarricense, de la planta a la taza.", "icon": "☕", "active": true },
+    { "id": "surf", "name": "Clases de Surf", "category": "Olas para todos", "description": "Clases de surf para todos los niveles en las mejores olas de la zona.", "icon": "🏄", "active": true },
+    { "id": "birdwatching", "name": "Observación de Aves", "category": "Naturaleza y aves", "description": "Observa tucanes, colibríes y aves exóticas con guías expertos.", "icon": "🦜", "active": true }
   ],
 
   "owners_section": {

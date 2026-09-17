@@ -37,6 +37,13 @@
     });
   }
 
+  /* ---------- Botón "Volver": vuelve atrás si hay historial ---------- */
+  document.querySelectorAll('[data-back]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      if (window.history.length > 1) { e.preventDefault(); window.history.back(); }
+    });
+  });
+
   /* ---------- Arranque: cargar datos + idioma ---------- */
   buildLangSwitcher();
 
@@ -330,42 +337,78 @@
     });
   }
 
-  function renderExperiences(data, dict) {
-    var grid = document.getElementById('experiencesGrid');
-    if (!grid || !Array.isArray(data.experiences) || !data.experiences.length) return;
-    var tr = getByPath(dict, 'experiences.items') || {};
+  function waLink(data, text) {
+    var num = String(data.whatsapp || '').replace(/[^0-9]/g, '');
+    return 'https://wa.me/' + num + (text ? '?text=' + encodeURIComponent(text) : '');
+  }
 
-    grid.innerHTML = '';
-    data.experiences.filter(function (e) { return e.active !== false; }).forEach(function (exp) {
-      var t = tr[exp.id] || {};
-      var card = document.createElement('article');
-      card.className = 'experience-card';
-      var link = document.createElement('a');
-      link.href = getRelativePath(exp.link || ('pages/experiencias.html#' + exp.id));
-      if (exp.image) {
-        var img = document.createElement('img');
-        img.src = getRelativePath(exp.image);
-        img.alt = t.alt || exp.name || '';
-        img.width = 1600; img.height = 900; img.loading = 'lazy';
-        link.appendChild(img);
-      }
-      var body = document.createElement('div');
-      body.className = 'experience-body';
-      var cat = t.cat || exp.category;
-      if (cat) {
-        var tag = document.createElement('span');
-        tag.className = 'tag';
-        tag.textContent = cat;
-        body.appendChild(tag);
-      }
-      var h3 = document.createElement('h3');
-      h3.textContent = t.name || exp.name || '';
-      var p = document.createElement('p');
-      p.textContent = t.desc || exp.description || '';
-      body.appendChild(h3); body.appendChild(p);
-      link.appendChild(body); card.appendChild(link);
-      grid.appendChild(card);
-    });
+  function experienceCard(exp, tr, data) {
+    var t = tr[exp.id] || {};
+    var name = t.name || exp.name || '';
+    var card = document.createElement('article');
+    card.className = 'experience-card';
+    if (exp.id) card.id = exp.id;
+
+    var link = document.createElement('a');
+    if (exp.link) {
+      link.href = getRelativePath(exp.link);
+    } else {
+      link.href = waLink(data, 'Hola, me interesa la experiencia: ' + name);
+      link.target = '_blank';
+      link.rel = 'noopener';
+    }
+
+    if (exp.image) {
+      var img = document.createElement('img');
+      img.src = getRelativePath(exp.image);
+      img.alt = t.alt || name;
+      img.width = 1600; img.height = 900; img.loading = 'lazy';
+      link.appendChild(img);
+    } else {
+      var ph = document.createElement('div');
+      ph.className = 'experience-placeholder';
+      ph.setAttribute('aria-hidden', 'true');
+      ph.textContent = exp.icon || '✦';
+      link.appendChild(ph);
+    }
+
+    var body = document.createElement('div');
+    body.className = 'experience-body';
+    var cat = t.cat || exp.category;
+    if (cat) {
+      var tag = document.createElement('span');
+      tag.className = 'tag';
+      tag.textContent = cat;
+      body.appendChild(tag);
+    }
+    var h3 = document.createElement('h3');
+    h3.textContent = name;
+    var p = document.createElement('p');
+    p.textContent = t.desc || exp.description || '';
+    body.appendChild(h3); body.appendChild(p);
+    link.appendChild(body);
+    card.appendChild(link);
+    return card;
+  }
+
+  function renderExperiences(data, dict) {
+    if (!Array.isArray(data.experiences) || !data.experiences.length) return;
+    var tr = getByPath(dict, 'experiences.items') || {};
+    var all = data.experiences.filter(function (e) { return e.active !== false; });
+
+    var homeGrid = document.getElementById('experiencesGrid');
+    if (homeGrid) {
+      var featured = all.filter(function (e) { return e.featured; });
+      if (!featured.length) featured = all.slice(0, 6);
+      homeGrid.innerHTML = '';
+      featured.forEach(function (exp) { homeGrid.appendChild(experienceCard(exp, tr, data)); });
+    }
+
+    var allGrid = document.getElementById('allExperiencesGrid');
+    if (allGrid) {
+      allGrid.innerHTML = '';
+      all.forEach(function (exp) { allGrid.appendChild(experienceCard(exp, tr, data)); });
+    }
   }
 
   /* ---------- Utilidad de rutas (funciona en / y en /pages/) ---------- */

@@ -5,6 +5,7 @@
   },
   "lang": { "label": "Idioma" },
   "nav": {
+    "back": "Volver",
     "inicio": "Inicio",
     "servicios": "Servicios",
     "experiencias": "Tours & Experiencias",
@@ -48,6 +49,7 @@
     "script": "Tú disfrutas, nosotros nos encargamos del resto."
   },
   "experiences": {
+    "viewAll": "Ver todas las experiencias →",
     "kicker": "Vive la Costa Ballena",
     "title": "Tours & <em>Experiencias</em> destacadas",
     "lead": "Conoce lo mejor de nuestra región con expertos locales.",
@@ -56,7 +58,15 @@
       "catarata-uvita": { "name": "Catarata Uvita", "cat": "Aventura en la selva", "desc": "Caminata y cascada en medio de la naturaleza.", "alt": "Catarata Uvita en la selva de Costa Ballena" },
       "marino-ballena": { "name": "Parque Nacional Marino Ballena", "cat": "Snorkel y playa", "desc": "Descubre la famosa Cola de Ballena y su vida marina.", "alt": "Parque Nacional Marino Ballena y la Cola de Ballena" },
       "corcovado": { "name": "Corcovado", "cat": "Aventura salvaje", "desc": "Biodiversidad única y naturaleza inolvidable.", "alt": "Parque Nacional Corcovado, biodiversidad" },
-      "tour-nocturno": {"name":"Tour Nocturno de Fauna","cat":"Aventura nocturna","desc":"Ranas, serpientes e insectos: descubre la selva que despierta de noche.","alt":"Rana de ojos rojos en un tour nocturno en Uvita, Costa Rica"}
+      "tour-nocturno": {"name":"Tour Nocturno de Fauna","cat":"Aventura nocturna","desc":"Ranas, serpientes e insectos: descubre la selva que despierta de noche.","alt":"Rana de ojos rojos en un tour nocturno en Uvita, Costa Rica"},
+      "snorkel-cano": {"name":"Snorkel Isla del Caño","cat":"Snorkel y vida marina","desc":"Snorkel en la Isla del Caño, uno de los mejores puntos del Pacífico.","alt":"Snorkel en la Isla del Caño cerca de Uvita, Costa Rica"},
+      "kayak": {"name":"Kayak","cat":"Aventura en el agua","desc":"Rema entre manglares y costa descubriendo la naturaleza de Uvita.","alt":"Tour en kayak por los manglares de Uvita"},
+      "rappel": {"name":"Rappel","cat":"Aventura en cascada","desc":"Desciende cascadas entre la selva con equipo y guías profesionales.","alt":"Rappel en cascada cerca de Uvita, Costa Ballena"},
+      "canopy": {"name":"Canopy","cat":"Adrenalina en las alturas","desc":"Vuela entre los árboles por cables y puentes colgantes.","alt":"Canopy y tirolesa en la selva de Costa Rica"},
+      "atv": {"name":"ATV Tour","cat":"Aventura todoterreno","desc":"Recorre montañas, ríos y playas en cuadraciclo, pura adrenalina.","alt":"Tour en cuadraciclo ATV por Uvita, Costa Ballena"},
+      "coffee": {"name":"Tour de Café","cat":"Cultura y sabor","desc":"Conoce el proceso del café costarricense, de la planta a la taza.","alt":"Tour de café en Costa Rica"},
+      "surf": {"name":"Clases de Surf","cat":"Olas para todos","desc":"Clases de surf para todos los niveles en las mejores olas de la zona.","alt":"Clases de surf en la Costa Ballena, Costa Rica"},
+      "birdwatching": {"name":"Observación de Aves","cat":"Naturaleza y aves","desc":"Observa tucanes, colibríes y aves exóticas con guías expertos.","alt":"Observación de aves en Uvita, Costa Rica"}
     }
   },
   "gallery": {

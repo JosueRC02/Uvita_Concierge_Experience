@@ -5,6 +5,7 @@
   },
   "lang": { "label": "Langue" },
   "nav": {
+    "back": "Retour",
     "inicio": "Accueil",
     "servicios": "Services",
     "experiencias": "Tours & Expériences",
@@ -48,6 +49,7 @@
     "script": "Vous profitez, nous nous occupons du reste."
   },
   "experiences": {
+    "viewAll": "Voir toutes les expériences →",
     "kicker": "Vivez la Costa Ballena",
     "title": "Tours & <em>expériences</em> à la une",
     "lead": "Découvrez le meilleur de notre région avec des experts locaux.",
@@ -56,7 +58,15 @@
       "catarata-uvita": { "name": "Cascade d'Uvita", "cat": "Aventure dans la jungle", "desc": "Une randonnée et une cascade au cœur de la nature.", "alt": "Cascade d'Uvita dans la jungle de la Costa Ballena" },
       "marino-ballena": { "name": "Parc National Marino Ballena", "cat": "Snorkeling et plage", "desc": "Découvrez la célèbre Queue de Baleine et sa vie marine.", "alt": "Parc National Marino Ballena et la Queue de Baleine" },
       "corcovado": { "name": "Corcovado", "cat": "Aventure sauvage", "desc": "Une biodiversité unique et une nature inoubliable.", "alt": "Parc National Corcovado, biodiversité" },
-      "tour-nocturno": {"name":"Tour nocturne de la faune","cat":"Aventure nocturne","desc":"Grenouilles, serpents et insectes : découvrez la forêt qui s'éveille la nuit.","alt":"Rainette aux yeux rouges lors d'un tour nocturne à Uvita, Costa Rica"}
+      "tour-nocturno": {"name":"Tour nocturne de la faune","cat":"Aventure nocturne","desc":"Grenouilles, serpents et insectes : découvrez la forêt qui s'éveille la nuit.","alt":"Rainette aux yeux rouges lors d'un tour nocturne à Uvita, Costa Rica"},
+      "snorkel-cano": {"name":"Snorkeling à l'île Caño","cat":"Snorkeling & vie marine","desc":"Snorkeling à l'île Caño, l'un des meilleurs spots du Pacifique.","alt":"Snorkeling à l'île Caño près d'Uvita, Costa Rica"},
+      "kayak": {"name":"Kayak","cat":"Aventure sur l'eau","desc":"Pagayez entre mangroves et littoral à la découverte de la nature d'Uvita.","alt":"Tour en kayak dans les mangroves d'Uvita"},
+      "rappel": {"name":"Rappel en cascade","cat":"Aventure en cascade","desc":"Descendez des cascades en pleine jungle avec équipement et guides.","alt":"Rappel en cascade près d'Uvita, Costa Ballena"},
+      "canopy": {"name":"Canopée / Tyrolienne","cat":"Sensations en hauteur","desc":"Volez à travers la cime des arbres sur câbles et ponts suspendus.","alt":"Tyrolienne canopée dans la forêt du Costa Rica"},
+      "atv": {"name":"Tour en quad (ATV)","cat":"Aventure tout-terrain","desc":"Parcourez montagnes, rivières et plages en quad — pure adrénaline.","alt":"Tour en quad ATV autour d'Uvita, Costa Ballena"},
+      "coffee": {"name":"Tour du café","cat":"Culture & saveurs","desc":"Découvrez le café costaricien, de la plante à la tasse.","alt":"Tour du café au Costa Rica"},
+      "surf": {"name":"Cours de surf","cat":"Des vagues pour tous","desc":"Cours de surf pour tous niveaux sur les meilleures vagues de la région.","alt":"Cours de surf sur la Costa Ballena, Costa Rica"},
+      "birdwatching": {"name":"Observation des oiseaux","cat":"Nature & oiseaux","desc":"Observez toucans, colibris et oiseaux exotiques avec des guides experts.","alt":"Observation des oiseaux à Uvita, Costa Rica"}
     }
   },
   "gallery": {
