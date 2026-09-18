@@ -66,7 +66,8 @@
       "atv": {"name":"Tour in quad (ATV)","cat":"Avventura fuoristrada","desc":"Percorri montagne, fiumi e spiagge in quad — pura adrenalina.","alt":"Tour in quad ATV intorno a Uvita, Costa Ballena"},
       "coffee": {"name":"Tour del caffè","cat":"Cultura e sapore","desc":"Scopri il caffè costaricano, dalla pianta alla tazza.","alt":"Tour del caffè in Costa Rica"},
       "surf": {"name":"Lezioni di surf","cat":"Onde per tutti","desc":"Lezioni di surf per tutti i livelli sulle onde migliori della zona.","alt":"Lezioni di surf sulla Costa Ballena, Costa Rica"},
-      "birdwatching": {"name":"Birdwatching","cat":"Natura e uccelli","desc":"Avvista tucani, colibrì e uccelli esotici con guide esperte.","alt":"Birdwatching a Uvita, Costa Rica"}
+      "birdwatching": {"name":"Birdwatching","cat":"Natura e uccelli","desc":"Avvista tucani, colibrì e uccelli esotici con guide esperte.","alt":"Birdwatching a Uvita, Costa Rica"},
+      "spa": {"name":"Spa & Benessere","cat":"Relax e benessere","desc":"Massaggi e trattamenti con vista sulla giungla e sull'oceano della Costa Ballena.","alt":"Lettino da massaggio con vista panoramica sulla Costa Ballena, Uvita"}
     }
   },
   "gallery": {
@@ -176,6 +177,18 @@
         "Fotocamera con una buona modalità notturna o macro.",
         "Acqua e una giacca antipioggia leggera."
       ],
+      "cta": "Verifica la disponibilità"
+    },
+    "spa": {
+      "metaTitle": "Spa & Benessere a Uvita | Uvita Concierge Experience",
+      "eyebrow": "Relax · Costa Ballena",
+      "h1": "Spa & Benessere",
+      "heroDesc": "Massaggi e trattamenti spa con vista sulla giungla e sull'oceano — rilassati immerso nella natura della Costa Ballena.",
+      "kicker": "L'esperienza",
+      "h2": "Benessere con <em>vista sul paradiso</em>",
+      "p1": "Goditi massaggi e trattamenti spa in un ambiente unico: lettini all'aperto con vista panoramica sulla foresta e sul Pacifico meridionale della Costa Rica. Un'esperienza pensata per staccare, rilassarti e riconnetterti con la natura.",
+      "p2": "Organizziamo il servizio in ville o in luoghi panoramici, secondo la tua preferenza, con terapisti professionisti. Dicci cosa cerchi (relax, coppie, gruppi) e progettiamo l'esperienza per te.",
+      "galleryTitle": "Momenti di spa",
       "cta": "Verifica la disponibilità"
     },
     "propietarios": {

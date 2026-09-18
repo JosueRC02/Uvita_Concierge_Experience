@@ -581,7 +581,7 @@ p { margin: 0 0 1em; }
   align-items: center;
 }
 .about-image { position: relative; }
-.about-image img:first-child { border-radius: var(--radius); box-shadow: var(--shadow-soft); }
+.about-image img:first-child { width: 100%; max-width: 430px; height: auto; display: block; margin: 0 auto; border-radius: var(--radius); box-shadow: var(--shadow-soft); }
 .about-text p { margin-bottom: 14px; }
 .about-signature {
   margin-top: 20px;

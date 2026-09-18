@@ -66,7 +66,8 @@
       "atv": {"name":"ATV Tour","cat":"Off-road adventure","desc":"Ride mountains, rivers and beaches on a quad bike — pure adrenaline.","alt":"ATV quad tour around Uvita, Costa Ballena"},
       "coffee": {"name":"Coffee Tour","cat":"Culture & flavor","desc":"Discover Costa Rican coffee, from the plant to the cup.","alt":"Coffee tour in Costa Rica"},
       "surf": {"name":"Surf Lessons","cat":"Waves for everyone","desc":"Surf lessons for all levels on the area's best waves.","alt":"Surf lessons on the Costa Ballena, Costa Rica"},
-      "birdwatching": {"name":"Birdwatching","cat":"Nature & birds","desc":"Spot toucans, hummingbirds and exotic birds with expert guides.","alt":"Birdwatching in Uvita, Costa Rica"}
+      "birdwatching": {"name":"Birdwatching","cat":"Nature & birds","desc":"Spot toucans, hummingbirds and exotic birds with expert guides.","alt":"Birdwatching in Uvita, Costa Rica"},
+      "spa": {"name":"Spa & Wellness","cat":"Relaxation & wellness","desc":"Massages and treatments with jungle and ocean views on the Costa Ballena.","alt":"Massage table with panoramic views of the Costa Ballena, Uvita"}
     }
   },
   "gallery": {
@@ -176,6 +177,18 @@
         "A camera with a good night or macro mode.",
         "Water and a light rain jacket."
       ],
+      "cta": "Check availability"
+    },
+    "spa": {
+      "metaTitle": "Spa & Wellness in Uvita | Uvita Concierge Experience",
+      "eyebrow": "Relaxation · Costa Ballena",
+      "h1": "Spa & Wellness",
+      "heroDesc": "Massages and spa treatments with jungle and ocean views — relax surrounded by the nature of the Costa Ballena.",
+      "kicker": "The experience",
+      "h2": "Wellness with a <em>view of paradise</em>",
+      "p1": "Enjoy massages and spa treatments in a unique setting: open-air tables with panoramic views of the rainforest and the South Pacific of Costa Rica. An experience designed to unwind, relax and reconnect with nature.",
+      "p2": "We arrange the service at villas or at scenic spots, as you prefer, with professional therapists. Tell us what you're looking for (relaxation, couples, groups) and we design the experience for you.",
+      "galleryTitle": "Spa moments",
       "cta": "Check availability"
     },
     "propietarios": {

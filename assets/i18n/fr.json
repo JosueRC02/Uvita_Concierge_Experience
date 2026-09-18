@@ -66,7 +66,8 @@
       "atv": {"name":"Tour en quad (ATV)","cat":"Aventure tout-terrain","desc":"Parcourez montagnes, rivières et plages en quad — pure adrénaline.","alt":"Tour en quad ATV autour d'Uvita, Costa Ballena"},
       "coffee": {"name":"Tour du café","cat":"Culture & saveurs","desc":"Découvrez le café costaricien, de la plante à la tasse.","alt":"Tour du café au Costa Rica"},
       "surf": {"name":"Cours de surf","cat":"Des vagues pour tous","desc":"Cours de surf pour tous niveaux sur les meilleures vagues de la région.","alt":"Cours de surf sur la Costa Ballena, Costa Rica"},
-      "birdwatching": {"name":"Observation des oiseaux","cat":"Nature & oiseaux","desc":"Observez toucans, colibris et oiseaux exotiques avec des guides experts.","alt":"Observation des oiseaux à Uvita, Costa Rica"}
+      "birdwatching": {"name":"Observation des oiseaux","cat":"Nature & oiseaux","desc":"Observez toucans, colibris et oiseaux exotiques avec des guides experts.","alt":"Observation des oiseaux à Uvita, Costa Rica"},
+      "spa": {"name":"Spa & Bien-être","cat":"Détente & bien-être","desc":"Massages et soins avec vue sur la jungle et l'océan de la Costa Ballena.","alt":"Table de massage avec vue panoramique sur la Costa Ballena, Uvita"}
     }
   },
   "gallery": {
@@ -176,6 +177,18 @@
         "Appareil photo avec un bon mode nuit ou macro.",
         "De l'eau et un coupe-pluie léger."
       ],
+      "cta": "Vérifier les disponibilités"
+    },
+    "spa": {
+      "metaTitle": "Spa & Bien-être à Uvita | Uvita Concierge Experience",
+      "eyebrow": "Détente · Costa Ballena",
+      "h1": "Spa & Bien-être",
+      "heroDesc": "Massages et soins de spa avec vue sur la jungle et l'océan — détendez-vous entouré par la nature de la Costa Ballena.",
+      "kicker": "L'expérience",
+      "h2": "Bien-être avec <em>vue sur le paradis</em>",
+      "p1": "Profitez de massages et de soins de spa dans un cadre unique : des tables en plein air avec vue panoramique sur la forêt tropicale et le Pacifique Sud du Costa Rica. Une expérience conçue pour déconnecter, se détendre et se reconnecter à la nature.",
+      "p2": "Nous organisons le service dans des villas ou dans des lieux avec vue, selon votre préférence, avec des thérapeutes professionnels. Dites-nous ce que vous recherchez (détente, couples, groupes) et nous concevons l'expérience pour vous.",
+      "galleryTitle": "Moments de spa",
       "cta": "Vérifier les disponibilités"
     },
     "propietarios": {

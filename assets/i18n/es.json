@@ -66,7 +66,8 @@
       "atv": {"name":"ATV Tour","cat":"Aventura todoterreno","desc":"Recorre montañas, ríos y playas en cuadraciclo, pura adrenalina.","alt":"Tour en cuadraciclo ATV por Uvita, Costa Ballena"},
       "coffee": {"name":"Tour de Café","cat":"Cultura y sabor","desc":"Conoce el proceso del café costarricense, de la planta a la taza.","alt":"Tour de café en Costa Rica"},
       "surf": {"name":"Clases de Surf","cat":"Olas para todos","desc":"Clases de surf para todos los niveles en las mejores olas de la zona.","alt":"Clases de surf en la Costa Ballena, Costa Rica"},
-      "birdwatching": {"name":"Observación de Aves","cat":"Naturaleza y aves","desc":"Observa tucanes, colibríes y aves exóticas con guías expertos.","alt":"Observación de aves en Uvita, Costa Rica"}
+      "birdwatching": {"name":"Observación de Aves","cat":"Naturaleza y aves","desc":"Observa tucanes, colibríes y aves exóticas con guías expertos.","alt":"Observación de aves en Uvita, Costa Rica"},
+      "spa": {"name":"Spa & Bienestar","cat":"Relajación y bienestar","desc":"Masajes y tratamientos con vista a la selva y el mar de la Costa Ballena.","alt":"Camilla de masaje con vista panorámica a la Costa Ballena, Uvita"}
     }
   },
   "gallery": {
@@ -176,6 +177,18 @@
         "Cámara con buen modo nocturno o macro.",
         "Agua y una capa impermeable ligera."
       ],
+      "cta": "Consultar disponibilidad"
+    },
+    "spa": {
+      "metaTitle": "Spa & Bienestar en Uvita | Uvita Concierge Experience",
+      "eyebrow": "Relajación · Costa Ballena",
+      "h1": "Spa & Bienestar",
+      "heroDesc": "Masajes y tratamientos de spa con vista a la selva y el océano — relájate rodeado de la naturaleza de la Costa Ballena.",
+      "kicker": "La experiencia",
+      "h2": "Bienestar con <em>vista al paraíso</em>",
+      "p1": "Disfruta de masajes y tratamientos de spa en un entorno único: camillas al aire libre con vistas panorámicas a la selva y el Pacífico Sur de Costa Rica. Una experiencia pensada para desconectar, relajarte y reconectar con la naturaleza.",
+      "p2": "Coordinamos el servicio en villas o en espacios con vista, según tu preferencia, con terapeutas profesionales. Cuéntanos qué buscas (relajación, parejas, grupos) y diseñamos la experiencia para ti.",
+      "galleryTitle": "Momentos de spa",
       "cta": "Consultar disponibilidad"
     },
     "propietarios": {

@@ -66,7 +66,8 @@
       "atv": {"name":"ATV-Tour (Quad)","cat":"Offroad-Abenteuer","desc":"Fahre auf dem Quad über Berge, Flüsse und Strände — pures Adrenalin.","alt":"ATV-Quad-Tour rund um Uvita, Costa Ballena"},
       "coffee": {"name":"Kaffee-Tour","cat":"Kultur & Genuss","desc":"Entdecke den costa-ricanischen Kaffee, von der Pflanze bis zur Tasse.","alt":"Kaffee-Tour in Costa Rica"},
       "surf": {"name":"Surfkurse","cat":"Wellen für alle","desc":"Surfkurse für alle Niveaus an den besten Wellen der Region.","alt":"Surfkurse an der Costa Ballena, Costa Rica"},
-      "birdwatching": {"name":"Vogelbeobachtung","cat":"Natur & Vögel","desc":"Beobachte Tukane, Kolibris und exotische Vögel mit erfahrenen Guides.","alt":"Vogelbeobachtung in Uvita, Costa Rica"}
+      "birdwatching": {"name":"Vogelbeobachtung","cat":"Natur & Vögel","desc":"Beobachte Tukane, Kolibris und exotische Vögel mit erfahrenen Guides.","alt":"Vogelbeobachtung in Uvita, Costa Rica"},
+      "spa": {"name":"Spa & Wellness","cat":"Entspannung & Wellness","desc":"Massagen und Behandlungen mit Dschungel- und Meerblick an der Costa Ballena.","alt":"Massageliege mit Panoramablick auf die Costa Ballena, Uvita"}
     }
   },
   "gallery": {
@@ -176,6 +177,18 @@
         "Kamera mit gutem Nacht- oder Makromodus.",
         "Wasser und eine leichte Regenjacke."
       ],
+      "cta": "Verfügbarkeit anfragen"
+    },
+    "spa": {
+      "metaTitle": "Spa & Wellness in Uvita | Uvita Concierge Experience",
+      "eyebrow": "Entspannung · Costa Ballena",
+      "h1": "Spa & Wellness",
+      "heroDesc": "Massagen und Spa-Behandlungen mit Dschungel- und Meerblick — entspanne umgeben von der Natur der Costa Ballena.",
+      "kicker": "Das Erlebnis",
+      "h2": "Wellness mit <em>Blick ins Paradies</em>",
+      "p1": "Genieße Massagen und Spa-Behandlungen in einer einzigartigen Umgebung: Liegen im Freien mit Panoramablick auf den Regenwald und den Südpazifik Costa Ricas. Ein Erlebnis zum Abschalten, Entspannen und Wiederverbinden mit der Natur.",
+      "p2": "Wir organisieren den Service in Villas oder an Orten mit Aussicht, ganz nach deinem Wunsch, mit professionellen Therapeuten. Sag uns, was du suchst (Entspannung, Paare, Gruppen), und wir gestalten das Erlebnis für dich.",
+      "galleryTitle": "Spa-Momente",
       "cta": "Verfügbarkeit anfragen"
     },
     "propietarios": {
