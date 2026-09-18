@@ -205,6 +205,8 @@
         <h2 data-i18n-html="experiences.title">Tours &amp; <em>Experiencias</em> destacadas</h2>
         <p class="section-lead" data-i18n="experiences.lead">Conoce lo mejor de nuestra región con expertos locales.</p>
 
+        <div class="experiences-carousel">
+        <button type="button" class="carousel-arrow carousel-prev" aria-label="Anterior" data-carousel-prev>‹</button>
         <div class="grid experiences-grid" id="experiencesGrid">
           <article class="experience-card" id="whale-watching">
             <a href="pages/whale-watching.html">
@@ -276,9 +278,91 @@
               </div>
             </a>
           </article>
+          <article class="experience-card" id="kayak">
+            <a href="https://wa.me/50683539389?text=Hola%2C%20me%20interesa%20la%20experiencia%3A%20Kayak" target="_blank" rel="noopener">
+              <img src="assets/img/ballena-kayaks-3.webp" alt="Tour en kayak por los manglares de Uvita" width="1600" height="900" loading="lazy">
+              <div class="experience-body">
+                <span class="tag" data-i18n="experiences.items.kayak.cat">Aventura en el agua</span>
+                <h3 data-i18n="experiences.items.kayak.name">Kayak</h3>
+                <p data-i18n="experiences.items.kayak.desc">Rema entre manglares y costa descubriendo la naturaleza de Uvita.</p>
+              </div>
+            </a>
+          </article>
+          <article class="experience-card" id="rappel">
+            <a href="https://wa.me/50683539389?text=Hola%2C%20me%20interesa%20la%20experiencia%3A%20Rappel" target="_blank" rel="noopener">
+              <img src="assets/img/ballena-kayaks-9.webp" alt="Rappel en cascada cerca de Uvita, Costa Ballena" width="1600" height="900" loading="lazy">
+              <div class="experience-body">
+                <span class="tag" data-i18n="experiences.items.rappel.cat">Aventura en cascada</span>
+                <h3 data-i18n="experiences.items.rappel.name">Rappel</h3>
+                <p data-i18n="experiences.items.rappel.desc">Desciende cascadas entre la selva con equipo y guías profesionales.</p>
+              </div>
+            </a>
+          </article>
+          <article class="experience-card" id="canopy">
+            <a href="https://wa.me/50683539389?text=Hola%2C%20me%20interesa%20la%20experiencia%3A%20Canopy" target="_blank" rel="noopener">
+              <div class="experience-placeholder" aria-hidden="true">🌳</div>
+              <div class="experience-body">
+                <span class="tag" data-i18n="experiences.items.canopy.cat">Adrenalina en las alturas</span>
+                <h3 data-i18n="experiences.items.canopy.name">Canopy</h3>
+                <p data-i18n="experiences.items.canopy.desc">Vuela entre los árboles por cables y puentes colgantes.</p>
+              </div>
+            </a>
+          </article>
+          <article class="experience-card" id="atv">
+            <a href="https://wa.me/50683539389?text=Hola%2C%20me%20interesa%20la%20experiencia%3A%20ATV%20Tour" target="_blank" rel="noopener">
+              <div class="experience-placeholder" aria-hidden="true">🏍️</div>
+              <div class="experience-body">
+                <span class="tag" data-i18n="experiences.items.atv.cat">Aventura todoterreno</span>
+                <h3 data-i18n="experiences.items.atv.name">ATV Tour</h3>
+                <p data-i18n="experiences.items.atv.desc">Recorre montañas, ríos y playas en cuadraciclo, pura adrenalina.</p>
+              </div>
+            </a>
+          </article>
+          <article class="experience-card" id="coffee">
+            <a href="https://wa.me/50683539389?text=Hola%2C%20me%20interesa%20la%20experiencia%3A%20Tour%20de%20Caf%C3%A9" target="_blank" rel="noopener">
+              <div class="experience-placeholder" aria-hidden="true">☕</div>
+              <div class="experience-body">
+                <span class="tag" data-i18n="experiences.items.coffee.cat">Cultura y sabor</span>
+                <h3 data-i18n="experiences.items.coffee.name">Tour de Café</h3>
+                <p data-i18n="experiences.items.coffee.desc">Conoce el proceso del café costarricense, de la planta a la taza.</p>
+              </div>
+            </a>
+          </article>
+          <article class="experience-card" id="boruca">
+            <a href="https://wa.me/50683539389?text=Hola%2C%20me%20interesa%20la%20experiencia%3A%20Cultura%20Boruca" target="_blank" rel="noopener">
+              <div class="experience-placeholder" aria-hidden="true">🎭</div>
+              <div class="experience-body">
+                <span class="tag" data-i18n="experiences.items.boruca.cat">Cultura indígena</span>
+                <h3 data-i18n="experiences.items.boruca.name">Cultura Boruca</h3>
+                <p data-i18n="experiences.items.boruca.desc">Explora nuestra cultura indígena con los Boruca: máscaras, artesanías y tradiciones vivas del Pacífico Sur.</p>
+              </div>
+            </a>
+          </article>
+          <article class="experience-card" id="surf">
+            <a href="https://wa.me/50683539389?text=Hola%2C%20me%20interesa%20la%20experiencia%3A%20Clases%20de%20Surf" target="_blank" rel="noopener">
+              <div class="experience-placeholder" aria-hidden="true">🏄</div>
+              <div class="experience-body">
+                <span class="tag" data-i18n="experiences.items.surf.cat">Olas para todos</span>
+                <h3 data-i18n="experiences.items.surf.name">Clases de Surf</h3>
+                <p data-i18n="experiences.items.surf.desc">Clases de surf para todos los niveles en las mejores olas de la zona.</p>
+              </div>
+            </a>
+          </article>
+          <article class="experience-card" id="birdwatching">
+            <a href="https://wa.me/50683539389?text=Hola%2C%20me%20interesa%20la%20experiencia%3A%20Observaci%C3%B3n%20de%20Aves" target="_blank" rel="noopener">
+              <img src="assets/tours-nocturnos/tour-nocturno-13.webp" alt="Observación de aves en Uvita, Costa Rica" width="1600" height="900" loading="lazy">
+              <div class="experience-body">
+                <span class="tag" data-i18n="experiences.items.birdwatching.cat">Naturaleza y aves</span>
+                <h3 data-i18n="experiences.items.birdwatching.name">Observación de Aves</h3>
+                <p data-i18n="experiences.items.birdwatching.desc">Observa tucanes, colibríes y aves exóticas con guías expertos.</p>
+              </div>
+            </a>
+          </article>
+        </div>
+          <button type="button" class="carousel-arrow carousel-next" aria-label="Siguiente" data-carousel-next>›</button>
         </div>
         <div class="experiences-more">
-          <a href="pages/experiencias.html" class="btn btn-primary" data-i18n="experiences.viewAll">Ver todas las experiencias →</a>
+          <a href="pages/experiencias.html" class="link-more" data-i18n="experiences.viewAll">Ver todas las experiencias →</a>
         </div>
       </div>
     </section>
@@ -290,26 +374,34 @@
         <h2 data-i18n="gallery.title">Galería</h2>
         <p class="section-lead" data-i18n="gallery.lead">Instantes reales de nuestras experiencias en la Costa Ballena.</p>
 
-        <div class="gallery-grid" id="galleryGrid">
-          <img src="assets/img/ballena-kayaks-7.webp" alt="Arco de roca y aguas turquesa en el Parque Nacional Marino Ballena, Uvita" width="400" height="300" loading="lazy">
-          <img src="assets/img/ballena-kayaks-13.webp" alt="Cueva y cascada en la costa de Uvita, Costa Ballena" width="400" height="300" loading="lazy">
-          <img src="assets/img/ballena-kayaks-2.webp" alt="Snorkel entre peces en las aguas cristalinas de la Costa Ballena" width="400" height="300" loading="lazy">
-          <img src="assets/img/ballena-kayaks-11.webp" alt="Grupo en tour de kayak por el manglar de Uvita" width="400" height="300" loading="lazy">
-          <img src="assets/img/ballena-kayaks-9.webp" alt="Aventura de rappel en cascada cerca de Uvita, Costa Ballena" width="400" height="300" loading="lazy">
-          <img src="assets/img/ballena-kayaks-10.webp" alt="Vida marina y coral en el Pacífico Sur de Costa Rica" width="400" height="300" loading="lazy">
-          <img src="assets/img/ballena-kayaks-1.webp" alt="Pareja en una cascada escondida en la selva de Uvita" width="400" height="300" loading="lazy">
-          <img src="assets/img/ballena-kayaks-3.webp" alt="Tour de kayak entre los manglares de Uvita" width="400" height="300" loading="lazy">
-          <img src="assets/tours-nocturnos/tour-nocturno-12.webp" alt="Rana de ojos rojos en un tour nocturno de fauna en Uvita, Costa Rica" width="400" height="300" loading="lazy">
-          <img src="assets/corcovado/corcovado-4.webp" alt="Puma en el Parque Nacional Corcovado, Pacífico Sur de Costa Rica" width="400" height="300" loading="lazy">
-          <img src="assets/corcovado/corcovado-10.webp" alt="Perezoso de tres dedos en la selva de la Costa Ballena" width="400" height="300" loading="lazy">
-          <img src="assets/tours-nocturnos/tour-nocturno-10.webp" alt="Rana venenosa de dardo en la selva tropical de Uvita" width="400" height="300" loading="lazy">
-          <img src="assets/corcovado/corcovado-2.webp" alt="Tapir centroamericano en el Parque Nacional Corcovado, Costa Rica" width="400" height="300" loading="lazy">
-          <img src="assets/tours-nocturnos/tour-nocturno-3.webp" alt="Serpiente en un recorrido nocturno de vida silvestre en la Costa Ballena" width="400" height="300" loading="lazy">
-          <img src="assets/corcovado/corcovado-8.webp" alt="Oso hormiguero (tamandua) en un árbol del Parque Nacional Corcovado" width="400" height="300" loading="lazy">
-          <img src="assets/corcovado/corcovado-7.webp" alt="Puma sobre la rama de un árbol en Corcovado, Pacífico Sur de Costa Rica" width="400" height="300" loading="lazy">
-          <img src="assets/tours-nocturnos/tour-nocturno-8.webp" alt="Serpiente coral en un tour nocturno en la selva de Uvita" width="400" height="300" loading="lazy">
-          <img src="assets/tours-nocturnos/tour-nocturno-7.webp" alt="Cigarra emergiendo de noche en la selva de la Costa Ballena" width="400" height="300" loading="lazy">
-          <img src="assets/tours-nocturnos/tour-nocturno-11.webp" alt="Nido de huevos de rana de vidrio sobre una hoja en Uvita, Costa Rica" width="400" height="300" loading="lazy">
+        <div class="gallery-mosaic" id="galleryGrid">
+          <figure class="mosaic-item">
+            <img src="assets/whale-watching/whale-1.webp" alt="Avistamiento de ballenas jorobadas en Uvita, Costa Rica" width="800" height="600" loading="lazy">
+            <figcaption class="mosaic-label" data-i18n="gallery.mosaic.ballenas">Ballenas</figcaption>
+          </figure>
+          <figure class="mosaic-item">
+            <img src="assets/corcovado/corcovado-16.webp" alt="Guacamaya roja en el Parque Nacional Corcovado" width="800" height="600" loading="lazy">
+            <figcaption class="mosaic-label" data-i18n="gallery.mosaic.corcovado">Corcovado</figcaption>
+          </figure>
+          <figure class="mosaic-item">
+            <img src="assets/img/ballena-kayaks-3.webp" alt="Tour en kayak por los manglares de Uvita" width="800" height="600" loading="lazy">
+            <figcaption class="mosaic-label" data-i18n="gallery.mosaic.kayak">Kayak</figcaption>
+          </figure>
+          <figure class="mosaic-item">
+            <img src="assets/img/ballena-kayaks-2.webp" alt="Snorkel en las aguas cristalinas de la Costa Ballena" width="800" height="600" loading="lazy">
+            <figcaption class="mosaic-label" data-i18n="gallery.mosaic.snorkel">Snorkel</figcaption>
+          </figure>
+          <figure class="mosaic-item">
+            <img src="assets/img/ballena-kayaks-1.webp" alt="Catarata escondida en la selva de Uvita" width="800" height="600" loading="lazy">
+            <figcaption class="mosaic-label" data-i18n="gallery.mosaic.cataratas">Cataratas</figcaption>
+          </figure>
+          <figure class="mosaic-item">
+            <img src="assets/spa/spa-3.webp" alt="Spa con vista al océano en Uvita, Costa Rica" width="800" height="600" loading="lazy">
+            <figcaption class="mosaic-label" data-i18n="gallery.mosaic.spa">Spa</figcaption>
+          </figure>
+        </div>
+        <div class="experiences-more">
+          <a href="pages/galeria.html" class="link-more" data-i18n="gallery.viewAll">Ver galería completa →</a>
         </div>
       </div>
     </section>

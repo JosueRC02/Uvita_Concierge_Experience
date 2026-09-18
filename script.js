@@ -63,6 +63,37 @@
     });
   }
 
+  /* ---------- Carrusel de experiencias: arrastrar con el mouse ---------- */
+  (function () {
+    var track = document.getElementById('experiencesGrid');
+    if (!track) return;
+    var down = false, startX = 0, startScroll = 0, moved = false;
+    track.addEventListener('mousedown', function (e) {
+      down = true; moved = false;
+      startX = e.pageX; startScroll = track.scrollLeft;
+    });
+    track.addEventListener('mousemove', function (e) {
+      if (!down) return;
+      var dx = e.pageX - startX;
+      if (Math.abs(dx) > 4) { moved = true; track.classList.add('is-dragging'); }
+      track.scrollLeft = startScroll - dx;
+    });
+    var end = function () { down = false; setTimeout(function () { track.classList.remove('is-dragging'); }, 0); };
+    window.addEventListener('mouseup', end);
+    track.addEventListener('mouseleave', end);
+    // Un arrastre no debe abrir el enlace de la tarjeta
+    track.addEventListener('click', function (e) { if (moved) { e.preventDefault(); e.stopPropagation(); } }, true);
+
+    // Flechas
+    document.querySelectorAll('[data-carousel-prev], [data-carousel-next]').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var card = track.querySelector('.experience-card');
+        var dx = (card ? card.offsetWidth : 300) + 24;
+        track.scrollBy({ left: btn.hasAttribute('data-carousel-next') ? dx : -dx, behavior: 'smooth' });
+      });
+    });
+  })();
+
   /* ---------- Arranque: cargar datos + idioma ---------- */
   buildLangSwitcher();
 

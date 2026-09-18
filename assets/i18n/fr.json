@@ -67,10 +67,20 @@
       "coffee": {"name":"Tour du café","cat":"Culture & saveurs","desc":"Découvrez le café costaricien, de la plante à la tasse.","alt":"Tour du café au Costa Rica"},
       "surf": {"name":"Cours de surf","cat":"Des vagues pour tous","desc":"Cours de surf pour tous niveaux sur les meilleures vagues de la région.","alt":"Cours de surf sur la Costa Ballena, Costa Rica"},
       "birdwatching": {"name":"Observation des oiseaux","cat":"Nature & oiseaux","desc":"Observez toucans, colibris et oiseaux exotiques avec des guides experts.","alt":"Observation des oiseaux à Uvita, Costa Rica"},
-      "spa": {"name":"Spa & Bien-être","cat":"Détente & bien-être","desc":"Massages et soins avec vue sur la jungle et l'océan de la Costa Ballena.","alt":"Table de massage avec vue panoramique sur la Costa Ballena, Uvita"}
+      "spa": {"name":"Spa & Bien-être","cat":"Détente & bien-être","desc":"Massages et soins avec vue sur la jungle et l'océan de la Costa Ballena.","alt":"Table de massage avec vue panoramique sur la Costa Ballena, Uvita"},
+      "boruca": {"name":"Culture Boruca","cat":"Culture autochtone","desc":"Explorez notre culture autochtone avec les Boruca : masques, artisanat et traditions vivantes du Pacifique Sud.","alt":"Masque et artisanat de la culture autochtone Boruca, Costa Rica"}
     }
   },
   "gallery": {
+    "viewAll": "Voir toute la galerie →",
+    "mosaic": {
+      "ballenas": "Baleines",
+      "corcovado": "Corcovado",
+      "kayak": "Kayak",
+      "snorkel": "Snorkeling",
+      "cataratas": "Cascades",
+      "spa": "Spa"
+    },
     "kicker": "Moments",
     "title": "Galerie",
     "lead": "Des instants réels de nos expériences sur la Costa Ballena."
@@ -200,6 +210,11 @@
       "p2": "Nous organisons le service dans des villas ou dans des lieux avec vue, selon votre préférence, avec des thérapeutes professionnels. Dites-nous ce que vous recherchez (détente, couples, groupes) et nous concevons l'expérience pour vous.",
       "galleryTitle": "Moments de spa",
       "cta": "Vérifier les disponibilités"
+    },
+    "galeria": {
+      "metaTitle": "Galerie | Uvita Concierge Experience",
+      "h1": "Galerie",
+      "lead": "Des moments réels de nos expériences à Uvita et sur la Costa Ballena."
     },
     "propietarios": {
       "metaTitle": "Services pour propriétaires de villas à Uvita | Uvita Concierge Experience",
