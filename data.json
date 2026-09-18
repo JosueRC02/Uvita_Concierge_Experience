@@ -39,7 +39,7 @@
       "name": "Tours y actividades",
       "description": "Coordinamos los mejores tours y experiencias en Uvita y alrededores.",
       "icon": "assets/icons/tours-actividades.svg",
-      "image": "assets/servicios/Cola.webp",
+      "image": "assets/corcovado/corcovado-2.webp",
       "active": true
     },
     {
@@ -71,7 +71,7 @@
       "name": "Reservas y coordinación",
       "description": "Nos encargamos de todas tus reservas para que no tengas que preocuparte por nada.",
       "icon": "assets/icons/reservas-coordinacion.svg",
-      "image": "assets/servicios/reserva.webp",
+      "image": "assets/servicios/reservas-coordinacion.webp",
       "active": true
     },
     {

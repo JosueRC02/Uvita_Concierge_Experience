@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "COSTA RICA · SÜDPAZIFIK",
     "title": "Authentische Erlebnisse",
-    "highlight": "AN DER COSTA BALLENA",
+    "highlight": "IN UVITA, COSTA RICA",
     "description": "Persönlicher Concierge-Service, unvergessliche Touren und erstklassiger Service in Uvita und im Südpazifik von Costa Rica.",
     "cta": "Schreiben Sie uns auf WhatsApp",
     "explore": "Erlebnisse ansehen →"
@@ -97,6 +97,16 @@
     "signature": "— Raquel Chanto"
   },
   "contact": {
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "message": "Nachricht",
+      "submit": "Über WhatsApp senden",
+      "consent": "Ich stimme zu, bezüglich meiner Anfrage kontaktiert zu werden, und der <a href=\"pages/privacidad.html\">Datenschutzerklärung</a>.",
+      "success": "Danke! WhatsApp wurde mit deiner Nachricht geöffnet. Falls nicht, kontaktiere uns direkt."
+    },
     "maps": "Auf Google Maps ansehen →",
     "kicker": "Sprechen wir",
     "title": "Wir sind für <em>Sie da</em>",

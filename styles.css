@@ -660,6 +660,37 @@ p { margin: 0 0 1em; }
 }
 .contact-item:hover .contact-maps-link { text-decoration: underline; }
 
+/* Formulario de contacto (fondo claro, sección propietarios) */
+.contact-form {
+  background: var(--blanco);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  padding: 30px 28px;
+  text-align: left;
+}
+.form-row { display: flex; gap: 16px; }
+.form-row .form-field { flex: 1; }
+.form-field { display: block; margin-bottom: 16px; }
+.form-field > span { display: block; margin-bottom: 6px; font-size: 0.85rem; font-weight: 600; color: var(--verde-selva); letter-spacing: 0.02em; }
+.form-field input, .form-field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(2, 51, 47, 0.18);
+  border-radius: 10px;
+  background: var(--blanco);
+  color: var(--verde-profundo);
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+.form-field textarea { resize: vertical; min-height: 110px; }
+.form-field input:focus, .form-field textarea:focus { outline: 2px solid var(--verde-tropical); outline-offset: 1px; border-color: var(--verde-tropical); }
+.form-consent { display: flex; align-items: flex-start; gap: 10px; margin: 6px 0 20px; font-size: 0.85rem; color: var(--verde-selva); line-height: 1.5; }
+.form-consent input { margin-top: 3px; flex: none; width: 16px; height: 16px; accent-color: var(--verde-tropical); }
+.form-consent a { color: var(--verde-tropical); text-decoration: underline; }
+.contact-form .btn-primary { width: 100%; justify-content: center; }
+.form-success { margin-top: 16px; padding: 12px 14px; border-radius: 10px; background: rgba(8, 118, 108, 0.12); color: var(--verde-profundo); font-size: 0.9rem; }
+@media (max-width: 560px) { .form-row { flex-direction: column; gap: 0; } }
+
 .social-links {
   display: flex;
   justify-content: center;

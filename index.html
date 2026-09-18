@@ -119,7 +119,7 @@
         <p class="eyebrow" data-i18n="hero.eyebrow">COSTA RICA · PACÍFICO SUR</p>
         <h1>
           <span data-i18n="hero.title">Experiencias auténticas</span><br>
-          <span class="highlight" data-i18n="hero.highlight">EN LA COSTA BALLENA</span>
+          <span class="highlight" data-i18n="hero.highlight">EN UVITA, COSTA RICA</span>
         </h1>
         <p class="hero-description" data-i18n="hero.description">Concierge personalizado, tours inolvidables y atención premium en Uvita y el Pacífico Sur de Costa Rica.</p>
 
@@ -153,7 +153,7 @@
             <div class="service-icon"><img src="assets/icons/tours-actividades.svg" alt="" width="46" height="46" loading="lazy"></div>
             <h3>Tours y actividades</h3>
             <p>Coordinamos los mejores tours y experiencias en Uvita y alrededores.</p>
-            <img class="service-photo" src="assets/servicios/Cola.webp" alt="Tours y actividades en Uvita y la Costa Ballena, Costa Rica" loading="lazy">
+            <img class="service-photo" src="assets/corcovado/corcovado-2.webp" alt="Tapir (danta) en un tour de fauna en Uvita, Costa Rica" loading="lazy">
           </article>
           <article class="service-card">
             <div class="service-icon"><img src="assets/icons/transporte-privado.svg" alt="" width="46" height="46" loading="lazy"></div>
@@ -177,7 +177,7 @@
             <div class="service-icon"><img src="assets/icons/reservas-coordinacion.svg" alt="" width="46" height="46" loading="lazy"></div>
             <h3>Reservas y coordinación</h3>
             <p>Nos encargamos de todas tus reservas para que no tengas que preocuparte por nada.</p>
-            <img class="service-photo" src="assets/servicios/reserva.webp" alt="Reservas y coordinación de tours y servicios en Uvita" loading="lazy">
+            <img class="service-photo" src="assets/servicios/reservas-coordinacion.webp" alt="Servicio de reservas y coordinación de Uvita Concierge Experience" loading="lazy">
           </article>
           <article class="service-card">
             <div class="service-icon"><img src="assets/icons/atencion-estadia.svg" alt="" width="46" height="46" loading="lazy"></div>
@@ -317,9 +317,38 @@
     <!-- PARA PROPIETARIOS -->
     <section id="propietarios" class="section owners-section">
       <div class="container owners-inner">
-        <div class="owners-image">
-          <img src="assets/villa.svg" alt="Villa administrada en Uvita, Costa Ballena" width="1600" height="900" loading="lazy">
-        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <label class="form-field">
+              <span data-i18n="contact.form.firstName">Nombre</span>
+              <input type="text" name="nombre" autocomplete="given-name" required>
+            </label>
+            <label class="form-field">
+              <span data-i18n="contact.form.lastName">Apellido</span>
+              <input type="text" name="apellido" autocomplete="family-name">
+            </label>
+          </div>
+          <div class="form-row">
+            <label class="form-field">
+              <span data-i18n="contact.form.email">Correo electrónico</span>
+              <input type="email" name="email" autocomplete="email">
+            </label>
+            <label class="form-field">
+              <span data-i18n="contact.form.phone">Teléfono</span>
+              <input type="tel" name="telefono" autocomplete="tel">
+            </label>
+          </div>
+          <label class="form-field">
+            <span data-i18n="contact.form.message">Mensaje</span>
+            <textarea name="mensaje" rows="4" required></textarea>
+          </label>
+          <label class="form-consent">
+            <input type="checkbox" name="consent" required>
+            <span data-i18n-html="contact.form.consent">Acepto que me contacten sobre mi consulta y la <a href="pages/privacidad.html">Política de Privacidad</a>.</span>
+          </label>
+          <button type="submit" class="btn btn-primary" data-i18n="contact.form.submit">Enviar por WhatsApp</button>
+          <p class="form-success" data-i18n="contact.form.success" role="status" hidden>¡Gracias! Se abrió WhatsApp con tu mensaje listo para enviar. Si no se abrió, escríbenos directo.</p>
+        </form>
         <div class="owners-text">
           <p class="section-kicker" data-i18n="owners.kicker">Villas &amp; propiedades</p>
           <h2 data-i18n-html="owners.title">Para propietarios<br>y administradores de villas</h2>

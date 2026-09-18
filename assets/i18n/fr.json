@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "COSTA RICA · PACIFIQUE SUD",
     "title": "Expériences authentiques",
-    "highlight": "SUR LA COSTA BALLENA",
+    "highlight": "À UVITA, COSTA RICA",
     "description": "Conciergerie personnalisée, tours inoubliables et service premium à Uvita et dans le Pacifique Sud du Costa Rica.",
     "cta": "Écrivez-nous sur WhatsApp",
     "explore": "Voir les expériences →"
@@ -97,6 +97,16 @@
     "signature": "— Raquel Chanto"
   },
   "contact": {
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "message": "Message",
+      "submit": "Envoyer via WhatsApp",
+      "consent": "J'accepte d'être contacté au sujet de ma demande et la <a href=\"pages/privacidad.html\">Politique de confidentialité</a>.",
+      "success": "Merci ! WhatsApp s'est ouvert avec votre message. Sinon, contactez-nous directement."
+    },
     "maps": "Voir sur Google Maps →",
     "kicker": "Parlons-en",
     "title": "Nous sommes là pour <em>vous servir</em>",

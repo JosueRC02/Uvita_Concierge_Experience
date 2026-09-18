@@ -19,7 +19,7 @@
   "hero": {
     "eyebrow": "COSTA RICA · PACÍFICO SUR",
     "title": "Experiencias auténticas",
-    "highlight": "EN LA COSTA BALLENA",
+    "highlight": "EN UVITA, COSTA RICA",
     "description": "Concierge personalizado, tours inolvidables y atención premium en Uvita y el Pacífico Sur de Costa Rica.",
     "cta": "Escríbenos por WhatsApp",
     "explore": "Ver experiencias →"
@@ -97,6 +97,16 @@
     "signature": "— Raquel Chanto"
   },
   "contact": {
+    "form": {
+      "firstName": "Nombre",
+      "lastName": "Apellido",
+      "email": "Correo electrónico",
+      "phone": "Teléfono",
+      "message": "Mensaje",
+      "submit": "Enviar por WhatsApp",
+      "consent": "Acepto que me contacten sobre mi consulta y la <a href=\"pages/privacidad.html\">Política de Privacidad</a>.",
+      "success": "¡Gracias! Se abrió WhatsApp con tu mensaje listo para enviar. Si no se abrió, escríbenos directo."
+    },
     "maps": "Ver en Google Maps →",
     "kicker": "Hablemos",
     "title": "Estamos para <em>servirte</em>",

@@ -44,6 +44,25 @@
     });
   });
 
+  /* ---------- Formulario de contacto: arma un mensaje de WhatsApp ---------- */
+  var contactForm = document.getElementById('contactForm');
+  if (contactForm) {
+    contactForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var g = function (n) { var el = contactForm.querySelector('[name="' + n + '"]'); return el ? el.value.trim() : ''; };
+      var num = String(DATA.whatsapp || '50683539389').replace(/[^0-9]/g, '');
+      var nombre = (g('nombre') + ' ' + g('apellido')).trim();
+      var lines = ['Hola, soy ' + (nombre || '(sin nombre)') + '.'];
+      if (g('email')) lines.push('Email: ' + g('email'));
+      if (g('telefono')) lines.push('Teléfono: ' + g('telefono'));
+      if (g('mensaje')) { lines.push(''); lines.push(g('mensaje')); }
+      window.open('https://wa.me/' + num + '?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
+      var ok = contactForm.querySelector('.form-success');
+      if (ok) ok.hidden = false;
+      contactForm.reset();
+    });
+  }
+
   /* ---------- Arranque: cargar datos + idioma ---------- */
   buildLangSwitcher();
 
