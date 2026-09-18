@@ -1,17 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Uvita Concierge Experience">
   <rect width="64" height="64" rx="14" fill="#063F3B"/>
-  <g stroke="#F7F1E4" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <!-- tronco de la palmera -->
-    <path d="M33 46 C32 38 33 31 35 27"/>
-    <!-- hojas -->
-    <path d="M35 27 C29 23 22 23 17 27"/>
-    <path d="M35 27 C31 20 24 16 18 16"/>
-    <path d="M35 27 C36 19 34 12 30 9"/>
-    <path d="M35 27 C41 23 48 22 53 26"/>
-    <path d="M35 27 C40 19 47 16 53 16"/>
-    <path d="M35 27 C37 19 41 13 46 10"/>
-    <!-- ola -->
-    <path d="M15 50 C21 47 27 53 33 50 C39 47 45 53 50 50"/>
+  <g transform="translate(32 32) scale(0.74) translate(-32 -31)">
+    <circle cx="32" cy="31" r="27" fill="none" stroke="#CDA347" stroke-width="2.4"/>
+    <g stroke="#F7F1E4" stroke-width="2.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M32 42 C31 35 32 29 34 25"/>
+      <path d="M34 25 C28 21 22 22 18 25"/>
+      <path d="M34 25 C30 19 24 16 18 16"/>
+      <path d="M34 25 C35 18 33 13 29 10"/>
+      <path d="M34 25 C40 21 46 21 50 24"/>
+      <path d="M34 25 C39 18 46 16 51 16"/>
+      <path d="M34 25 C36 18 40 13 45 11"/>
+      <path d="M20 46 C25 43 29 49 34 46 C39 43 44 49 48 46"/>
+    </g>
   </g>
-  <circle cx="35" cy="26.5" r="1.7" fill="#CDA347"/>
 </svg>
