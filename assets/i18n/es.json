@@ -1,10 +1,43 @@
 {
+  "blog": {
+    "metaTitle": "Blog & Guías de Uvita | Uvita Concierge Experience",
+    "title": "Blog & Guías",
+    "lead": "Consejos y guías para aprovechar al máximo tu viaje a Uvita y la Costa Ballena.",
+    "readMore": "Leer más →",
+    "articles": {
+      "que-hacer-uvita": {
+        "title": "Qué hacer en Uvita: guía esencial",
+        "excerpt": "Playas, cascadas, ballenas y aventura — todo lo que puedes vivir en la Costa Ballena.",
+        "date": "Septiembre 2026",
+        "metaTitle": "Qué hacer en Uvita, Costa Rica | Guía de actividades",
+        "metaDesc": "Guía de qué hacer en Uvita: Parque Nacional Marino Ballena, cataratas, kayak, snorkel, avistamiento de ballenas y cultura en la Costa Ballena.",
+        "body": "<p>Uvita, en la Costa Ballena del Pacífico Sur de Costa Rica, combina playas de ensueño, selva tropical y una vida silvestre extraordinaria. Si te preguntas qué hacer en Uvita, aquí tienes lo esencial.</p><h2>Parque Nacional Marino Ballena</h2><p>Su famosa Cola de Ballena —una formación de arena con forma de cola— es el ícono de la zona. Ideal para caminar en marea baja, nadar y hacer snorkel entre peces y corales.</p><h2>Cataratas y aventura</h2><p>La región está llena de cascadas escondidas en la selva, perfectas para refrescarse. También puedes hacer kayak en los manglares, rappel en cascadas y tours de canopy.</p><h2>Avistamiento de ballenas</h2><p>Entre julio y octubre (y también a inicios de año), las ballenas jorobadas visitan estas aguas. Es una de las experiencias más memorables de Costa Rica.</p><h2>Naturaleza y cultura</h2><p>Cerca puedes visitar el Parque Nacional Corcovado, hacer tours nocturnos de fauna y conocer la cultura indígena Boruca. Nosotros coordinamos cada detalle para que solo te preocupes por disfrutar.</p>"
+      },
+      "ballenas-uvita": {
+        "title": "Cuándo ver ballenas en Uvita: guía por temporada",
+        "excerpt": "Las mejores épocas para el avistamiento de ballenas jorobadas en la Costa Ballena.",
+        "date": "Septiembre 2026",
+        "metaTitle": "Cuándo ver ballenas en Uvita | Temporadas de avistamiento",
+        "metaDesc": "Guía de temporadas para ver ballenas jorobadas en Uvita, Costa Rica: mejores meses, qué esperar y consejos para el tour.",
+        "body": "<p>Uvita es uno de los mejores lugares del mundo para ver ballenas jorobadas. De hecho, la Costa Ballena debe su nombre a ellas. Aquí te contamos cuándo ir.</p><h2>Temporadas de avistamiento</h2><p>Hay dos temporadas principales: una larga de <strong>julio a octubre</strong> (ballenas del hemisferio sur) y otra más corta a <strong>finales de diciembre y enero</strong> (del hemisferio norte). Los meses de agosto y septiembre suelen ser excelentes.</p><h2>Qué esperar en el tour</h2><p>Los tours salen en bote desde la zona de Uvita, acompañados de guías locales. Con suerte verás madres con crías, saltos y aletazos. La observación siempre es responsable, respetando la distancia.</p><h2>Consejos</h2><p>Lleva protector solar, agua, gorra y una chaqueta ligera. Reserva con anticipación en temporada alta. Las fechas y condiciones dependen del mar y del operador; nosotros confirmamos todo antes de tu tour.</p>"
+      },
+      "como-llegar-uvita": {
+        "title": "Cómo llegar a Uvita desde San José y el aeropuerto",
+        "excerpt": "Opciones de transporte para llegar a Uvita: auto, bus, shuttle y vuelos internos.",
+        "date": "Septiembre 2026",
+        "metaTitle": "Cómo llegar a Uvita, Costa Rica | Desde San José y aeropuerto",
+        "metaDesc": "Todas las formas de llegar a Uvita desde San José y el aeropuerto (SJO): auto, bus, shuttle privado y vuelos internos. Tiempos y consejos.",
+        "body": "<p>Uvita está en el Pacífico Sur, a unas 3 a 4 horas de San José. Estas son las mejores formas de llegar.</p><h2>En auto</h2><p>Desde San José se llega por la Costanera Sur (Ruta 34), un trayecto escénico de unas 3 a 4 horas. Es cómodo si quieres explorar la zona a tu ritmo.</p><h2>En shuttle o transporte privado</h2><p>La opción más cómoda: te recogen en el aeropuerto (SJO) o tu hotel y te llevan directo a Uvita. Nosotros coordinamos traslados privados y compartidos.</p><h2>En bus</h2><p>Hay buses directos desde San José hacia Uvita y Dominical. Es la opción más económica, aunque toma más tiempo.</p><h2>En avión</h2><p>Puedes volar de San José a Palmar Sur o Quepos y continuar por tierra. Ideal si quieres ahorrar tiempo. Escríbenos y te ayudamos a planear el trayecto más conveniente.</p>"
+      }
+    }
+  },
   "meta": {
-    "title": "Uvita Concierge Experience | Costa Ballena, Costa Rica",
+    "title": "Uvita Concierge Experience | Tours y Experiencias en Uvita, Costa Rica",
     "description": "Concierge personalizado, tours, experiencias y servicios para huéspedes y villas en Uvita y la Costa Ballena, Costa Rica."
   },
   "lang": { "label": "Idioma" },
   "nav": {
+    "blog": "Blog",
     "back": "Volver",
     "inicio": "Inicio",
     "servicios": "Servicios",

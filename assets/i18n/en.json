@@ -1,10 +1,43 @@
 {
+  "blog": {
+    "metaTitle": "Uvita Blog & Guides | Uvita Concierge Experience",
+    "title": "Blog & Guides",
+    "lead": "Tips and guides to make the most of your trip to Uvita and the Costa Ballena.",
+    "readMore": "Read more →",
+    "articles": {
+      "que-hacer-uvita": {
+        "title": "What to do in Uvita: the essential guide",
+        "excerpt": "Beaches, waterfalls, whales and adventure — everything you can experience on the Costa Ballena.",
+        "date": "September 2026",
+        "metaTitle": "What to do in Uvita, Costa Rica | Activities guide",
+        "metaDesc": "A guide to what to do in Uvita: Marino Ballena National Park, waterfalls, kayaking, snorkeling, whale watching and culture on the Costa Ballena.",
+        "body": "<p>Uvita, on the Costa Ballena of Costa Rica's South Pacific, combines dreamy beaches, tropical rainforest and extraordinary wildlife. If you're wondering what to do in Uvita, here are the essentials.</p><h2>Marino Ballena National Park</h2><p>Its famous Whale's Tail —a tail-shaped sandbar— is the area's icon. Perfect for walking at low tide, swimming and snorkeling among fish and coral.</p><h2>Waterfalls and adventure</h2><p>The region is full of hidden jungle waterfalls, perfect for a refreshing dip. You can also kayak through mangroves, rappel down waterfalls and try canopy tours.</p><h2>Whale watching</h2><p>Between July and October (and also early in the year), humpback whales visit these waters. It's one of the most memorable experiences in Costa Rica.</p><h2>Nature and culture</h2><p>Nearby you can visit Corcovado National Park, take night wildlife tours and discover the Boruca indigenous culture. We coordinate every detail so you can just enjoy.</p>"
+      },
+      "ballenas-uvita": {
+        "title": "When to see whales in Uvita: a seasonal guide",
+        "excerpt": "The best times for humpback whale watching on the Costa Ballena.",
+        "date": "September 2026",
+        "metaTitle": "When to see whales in Uvita | Whale watching seasons",
+        "metaDesc": "A seasonal guide to humpback whale watching in Uvita, Costa Rica: best months, what to expect and tour tips.",
+        "body": "<p>Uvita is one of the best places in the world for humpback whale watching. In fact, the Costa Ballena (Whale Coast) is named after them. Here's when to go.</p><h2>Whale watching seasons</h2><p>There are two main seasons: a long one from <strong>July to October</strong> (southern-hemisphere whales) and a shorter one in <strong>late December and January</strong> (northern-hemisphere whales). August and September are usually excellent.</p><h2>What to expect on the tour</h2><p>Tours depart by boat from the Uvita area with local guides. With luck you'll see mothers with calves, breaches and tail slaps. Watching is always responsible, keeping a safe distance.</p><h2>Tips</h2><p>Bring sunscreen, water, a hat and a light jacket. Book ahead in high season. Dates and conditions depend on the sea and the operator; we confirm everything before your tour.</p>"
+      },
+      "como-llegar-uvita": {
+        "title": "How to get to Uvita from San José and the airport",
+        "excerpt": "Transport options to reach Uvita: car, bus, shuttle and domestic flights.",
+        "date": "September 2026",
+        "metaTitle": "How to get to Uvita, Costa Rica | From San José and the airport",
+        "metaDesc": "All the ways to get to Uvita from San José and the airport (SJO): car, bus, private shuttle and domestic flights. Times and tips.",
+        "body": "<p>Uvita is on the South Pacific coast, about 3 to 4 hours from San José. Here are the best ways to get there.</p><h2>By car</h2><p>From San José, take the Costanera Sur (Route 34), a scenic 3 to 4 hour drive. Great if you want to explore the area at your own pace.</p><h2>By shuttle or private transfer</h2><p>The most comfortable option: you're picked up at the airport (SJO) or your hotel and taken straight to Uvita. We arrange private and shared transfers.</p><h2>By bus</h2><p>There are direct buses from San José to Uvita and Dominical. It's the most economical option, though it takes longer.</p><h2>By plane</h2><p>You can fly from San José to Palmar Sur or Quepos and continue by land. Ideal if you want to save time. Message us and we'll help you plan the most convenient route.</p>"
+      }
+    }
+  },
   "meta": {
-    "title": "Uvita Concierge Experience | Costa Ballena, Costa Rica",
+    "title": "Uvita Concierge Experience | Tours & Experiences in Uvita, Costa Rica",
     "description": "Personalized concierge, tours, experiences and services for guests and villas in Uvita and Costa Ballena, Costa Rica."
   },
   "lang": { "label": "Language" },
   "nav": {
+    "blog": "Blog",
     "back": "Back",
     "inicio": "Home",
     "servicios": "Services",
