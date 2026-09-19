@@ -101,7 +101,8 @@
       "surf": {"name":"Lezioni di surf","cat":"Onde per tutti","desc":"Lezioni di surf per tutti i livelli sulle onde migliori della zona.","alt":"Lezioni di surf sulla Costa Ballena, Costa Rica"},
       "birdwatching": {"name":"Birdwatching","cat":"Natura e uccelli","desc":"Avvista tucani, colibrì e uccelli esotici con guide esperte.","alt":"Birdwatching a Uvita, Costa Rica"},
       "spa": {"name":"Spa & Benessere","cat":"Relax e benessere","desc":"Massaggi e trattamenti con vista sulla giungla e sull'oceano della Costa Ballena.","alt":"Lettino da massaggio con vista panoramica sulla Costa Ballena, Uvita"},
-      "boruca": {"name":"Cultura Boruca","cat":"Cultura indigena","desc":"Esplora la nostra cultura indigena con i Boruca: maschere, artigianato e tradizioni vive del Pacifico meridionale.","alt":"Maschera e artigianato della cultura indigena Boruca, Costa Rica"}
+      "boruca": {"name":"Cultura Boruca","cat":"Cultura indigena","desc":"Esplora la nostra cultura indigena con i Boruca: maschere, artigianato e tradizioni vive del Pacifico meridionale.","alt":"Maschera e artigianato della cultura indigena Boruca, Costa Rica"},
+      "manuel-antonio": {"name":"Parco Nazionale Manuel Antonio","cat":"Fauna e spiagge","desc":"Scimmie cappuccine, bradipi e spiagge da cartolina nel parco nazionale più famoso della Costa Rica.","alt":"Parco Nazionale Manuel Antonio, scimmie e spiagge in Costa Rica"}
     }
   },
   "gallery": {

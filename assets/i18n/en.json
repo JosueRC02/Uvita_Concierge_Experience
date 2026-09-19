@@ -101,7 +101,8 @@
       "surf": {"name":"Surf Lessons","cat":"Waves for everyone","desc":"Surf lessons for all levels on the area's best waves.","alt":"Surf lessons on the Costa Ballena, Costa Rica"},
       "birdwatching": {"name":"Birdwatching","cat":"Nature & birds","desc":"Spot toucans, hummingbirds and exotic birds with expert guides.","alt":"Birdwatching in Uvita, Costa Rica"},
       "spa": {"name":"Spa & Wellness","cat":"Relaxation & wellness","desc":"Massages and treatments with jungle and ocean views on the Costa Ballena.","alt":"Massage table with panoramic views of the Costa Ballena, Uvita"},
-      "boruca": {"name":"Boruca Culture","cat":"Indigenous culture","desc":"Explore our indigenous culture with the Boruca people: masks, crafts and living traditions of the South Pacific.","alt":"Mask and crafts of the Boruca indigenous culture, Costa Rica"}
+      "boruca": {"name":"Boruca Culture","cat":"Indigenous culture","desc":"Explore our indigenous culture with the Boruca people: masks, crafts and living traditions of the South Pacific.","alt":"Mask and crafts of the Boruca indigenous culture, Costa Rica"},
+      "manuel-antonio": {"name":"Manuel Antonio National Park","cat":"Wildlife & beaches","desc":"White-faced monkeys, sloths and postcard beaches in Costa Rica's most famous national park.","alt":"Manuel Antonio National Park, monkeys and beaches in Costa Rica"}
     }
   },
   "gallery": {

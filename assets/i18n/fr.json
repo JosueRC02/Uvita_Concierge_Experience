@@ -101,7 +101,8 @@
       "surf": {"name":"Cours de surf","cat":"Des vagues pour tous","desc":"Cours de surf pour tous niveaux sur les meilleures vagues de la région.","alt":"Cours de surf sur la Costa Ballena, Costa Rica"},
       "birdwatching": {"name":"Observation des oiseaux","cat":"Nature & oiseaux","desc":"Observez toucans, colibris et oiseaux exotiques avec des guides experts.","alt":"Observation des oiseaux à Uvita, Costa Rica"},
       "spa": {"name":"Spa & Bien-être","cat":"Détente & bien-être","desc":"Massages et soins avec vue sur la jungle et l'océan de la Costa Ballena.","alt":"Table de massage avec vue panoramique sur la Costa Ballena, Uvita"},
-      "boruca": {"name":"Culture Boruca","cat":"Culture autochtone","desc":"Explorez notre culture autochtone avec les Boruca : masques, artisanat et traditions vivantes du Pacifique Sud.","alt":"Masque et artisanat de la culture autochtone Boruca, Costa Rica"}
+      "boruca": {"name":"Culture Boruca","cat":"Culture autochtone","desc":"Explorez notre culture autochtone avec les Boruca : masques, artisanat et traditions vivantes du Pacifique Sud.","alt":"Masque et artisanat de la culture autochtone Boruca, Costa Rica"},
+      "manuel-antonio": {"name":"Parc National Manuel Antonio","cat":"Faune et plages","desc":"Singes capucins, paresseux et plages de carte postale dans le parc national le plus célèbre du Costa Rica.","alt":"Parc National Manuel Antonio, singes et plages au Costa Rica"}
     }
   },
   "gallery": {
