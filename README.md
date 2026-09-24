@@ -237,7 +237,7 @@ sitio por todo el mundo), gratis y no se cae si el backend falla. El frontend y 
 ## 11. Datos de marca
 
 - **Negocio:** Uvita Concierge Experience
-- **Ubicación:** Uvita, Costa Ballena, Puntarenas, Costa Rica
+- **Ubicación:** Uvita, Bahía Ballena, Puntarenas, Costa Rica
 - **Email:** info@uvitaconciergeexperience.com
 - **WhatsApp:** +506 8353 9389
 - **Facebook:** https://www.facebook.com/share/1Dk52Ytk7w/?mibextid=wwXIfr
