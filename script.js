@@ -248,24 +248,46 @@
   /* ---------- Galería: lightbox ---------- */
   var galleryGrid = document.getElementById('galleryGrid');
   if (galleryGrid) {
+    // Las fotos también se abren con teclado (Tab + Enter/Espacio)
+    galleryGrid.querySelectorAll('img').forEach(function (img) {
+      img.setAttribute('tabindex', '0');
+      img.setAttribute('role', 'button');
+      img.setAttribute('aria-label', 'Ampliar foto: ' + (img.getAttribute('alt') || ''));
+    });
     galleryGrid.addEventListener('click', function (e) {
       var img = e.target.closest('img');
-      if (img) openLightbox(img.getAttribute('src'), img.getAttribute('alt') || '');
+      if (img) openLightbox(img.getAttribute('src'), img.getAttribute('alt') || '', img);
+    });
+    galleryGrid.addEventListener('keydown', function (e) {
+      var img = e.target.closest('img');
+      if (img && (e.key === 'Enter' || e.key === ' ')) {
+        e.preventDefault();
+        openLightbox(img.getAttribute('src'), img.getAttribute('alt') || '', img);
+      }
     });
   }
 
-  function openLightbox(src, alt) {
+  function openLightbox(src, alt, trigger) {
     var box = document.createElement('div');
     box.className = 'lightbox';
     box.setAttribute('role', 'dialog');
     box.setAttribute('aria-modal', 'true');
     box.innerHTML = '<button class="lightbox-close" aria-label="Cerrar">&times;</button>' +
       '<img src="' + src + '" alt="' + alt.replace(/"/g, '') + '">';
-    box.addEventListener('click', function () { document.body.removeChild(box); });
-    document.addEventListener('keydown', function esc(ev) {
-      if (ev.key === 'Escape' && box.parentNode) { document.body.removeChild(box); document.removeEventListener('keydown', esc); }
-    });
+    function close() {
+      if (!box.parentNode) return;
+      document.body.removeChild(box);
+      document.removeEventListener('keydown', onKey);
+      if (trigger) trigger.focus(); // devuelve el foco a la foto que se abrió
+    }
+    function onKey(ev) {
+      if (ev.key === 'Escape') close();
+      else if (ev.key === 'Tab') { ev.preventDefault(); box.querySelector('.lightbox-close').focus(); } // foco dentro del visor
+    }
+    box.addEventListener('click', close);
+    document.addEventListener('keydown', onKey);
     document.body.appendChild(box);
+    box.querySelector('.lightbox-close').focus();
   }
 
   /* ---------- Datos (data.json + overrides de admin.html) ---------- */

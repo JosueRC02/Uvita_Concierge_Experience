@@ -1,4 +1,10 @@
 # Netlify: obliga al navegador a revalidar el contenido en cada visita.
 # Evita que se queden viendo versiones viejas (CSS/HTML/JS) tras cada cambio.
+# Cabeceras de seguridad basicas (no afectan el diseno ni el funcionamiento).
 /*
   Cache-Control: public, max-age=0, must-revalidate
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Strict-Transport-Security: max-age=31536000
