@@ -235,6 +235,20 @@
       ],
       "cta": "Verifica la disponibilità"
     },
+    "kayak": {
+      "metaTitle": "Kayak a Uvita | Uvita Concierge Experience",
+      "eyebrow": "Avventura in acqua · Costa Ballena",
+      "h1": "Kayak a Uvita",
+      "galleryTitle": "Momenti in kayak",
+      "heroDesc": "Pagaia tra mangrovie, fiumi e la costa del Pacifico meridionale, scoprendo la natura di Uvita al tuo ritmo.",
+      "kicker": "L'esperienza",
+      "h2": "Mangrovie e mare in <em>kayak</em>",
+      "p1": "Il kayak è uno dei modi migliori per conoscere la natura della Costa Ballena. Pagaia tra le tranquille mangrovie e i fiumi della zona, tra radici, uccelli e fauna, o esci lungo la costa del Pacifico di fronte a Uvita. Ci sono opzioni per tutti i livelli, dai principianti agli avventurieri.",
+      "p2": "Coordiniamo tour guidati con attrezzatura inclusa e guide locali che conoscono i migliori percorsi in base alla marea e alla stagione. Dicci se cerchi qualcosa di tranquillo nelle mangrovie, un'uscita in mare o un'esperienza in famiglia, e lo organizziamo per te.",
+      "includesTitle": "Cosa include l'esperienza",
+      "includes": ["Kayak e attrezzatura di sicurezza (giubbotto e pagaia).", "Guida locale esperta.", "Percorso tra mangrovie, fiume o costa secondo le condizioni.", "Opzioni per principianti, famiglie e gruppi."],
+      "cta": "Verifica disponibilità"
+    },
     "spa": {
       "metaTitle": "Spa & Benessere a Uvita | Uvita Concierge Experience",
       "eyebrow": "Relax · Costa Ballena",

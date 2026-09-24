@@ -235,6 +235,20 @@
       ],
       "cta": "Verfügbarkeit anfragen"
     },
+    "kayak": {
+      "metaTitle": "Kajakfahren in Uvita | Uvita Concierge Experience",
+      "eyebrow": "Wasserabenteuer · Costa Ballena",
+      "h1": "Kajakfahren in Uvita",
+      "galleryTitle": "Kajak-Momente",
+      "heroDesc": "Paddle durch Mangroven, Flüsse und die Küste des Südpazifiks und entdecke die Natur von Uvita in deinem Tempo.",
+      "kicker": "Das Erlebnis",
+      "h2": "Mangroven und Meer im <em>Kajak</em>",
+      "p1": "Kajakfahren ist eine der schönsten Arten, die Natur der Costa Ballena zu erleben. Paddle durch die ruhigen Mangroven und Flüsse der Region, zwischen Wurzeln, Vögeln und Wildtieren, oder fahre hinaus an die Pazifikküste vor Uvita. Es gibt Optionen für jedes Niveau, von Anfängern bis zu Abenteurern.",
+      "p2": "Wir organisieren geführte Touren mit inbegriffener Ausrüstung und lokalen Guides, die je nach Gezeiten und Jahreszeit die besten Routen kennen. Sag uns, ob du etwas Ruhiges in den Mangroven, einen Ausflug aufs Meer oder ein Familienerlebnis suchst, und wir organisieren es für dich.",
+      "includesTitle": "Was das Erlebnis beinhaltet",
+      "includes": ["Kajak und Sicherheitsausrüstung (Schwimmweste und Paddel).", "Erfahrener lokaler Guide.", "Route durch Mangrove, Fluss oder Küste je nach Bedingungen.", "Optionen für Anfänger, Familien und Gruppen."],
+      "cta": "Verfügbarkeit anfragen"
+    },
     "spa": {
       "metaTitle": "Spa & Wellness in Uvita | Uvita Concierge Experience",
       "eyebrow": "Entspannung · Costa Ballena",
