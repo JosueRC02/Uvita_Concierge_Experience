@@ -16,9 +16,21 @@
   var DEFAULT_LANG = 'es';
   var LANG_KEY = 'uceLang';
 
+  // Páginas pre-generadas por idioma (/en/..., ver tools/build-en.js): ya traen el
+  // texto traducido en el HTML y declaran su idioma y la ruta a la raíz del sitio.
+  var STATIC_LANG = document.documentElement.getAttribute('data-static-lang');
+  var SITE_ROOT = document.documentElement.getAttribute('data-root');
+
   var LANG = detectLang();
   var DATA = {};
   var DICT = {};
+
+  // Si el visitante eligió un idioma que tiene página propia (p. ej. /en/), lo llevamos allí.
+  if (!STATIC_LANG && LANG !== DEFAULT_LANG && altPath(LANG)) {
+    try { localStorage.setItem(LANG_KEY, LANG); } catch (e) {}
+    window.location.replace(altPath(LANG) + window.location.hash);
+    return;
+  }
 
   /* ---------- Menu movil ---------- */
   var navToggle = document.getElementById('navToggle');
@@ -111,6 +123,7 @@
 
   /* ---------- i18n: detección e idioma ---------- */
   function detectLang() {
+    if (STATIC_LANG) return STATIC_LANG;
     var codes = LANGS.map(function (l) { return l.code; });
     try {
       var qs = new URLSearchParams(window.location.search).get('lang');
@@ -120,26 +133,48 @@
       var saved = localStorage.getItem(LANG_KEY);
       if (saved && codes.indexOf(saved) !== -1) return saved;
     } catch (e) {}
+    // El idioma del navegador no aplica a idiomas con página propia (/en/): así la URL
+    // en español siempre muestra español (también a Google, que navega en inglés).
     var nav = (navigator.language || '').slice(0, 2).toLowerCase();
-    if (codes.indexOf(nav) !== -1) return nav;
+    if (codes.indexOf(nav) !== -1 && !altPath(nav)) return nav;
     return DEFAULT_LANG;
+  }
+
+  // Ruta de la versión de esta página en otro idioma, según sus etiquetas hreflang
+  function altPath(code) {
+    var link = document.querySelector('link[rel="alternate"][hreflang="' + code + '"]');
+    if (!link) return null;
+    try { return new URL(link.href).pathname; } catch (e) { return null; }
+  }
+
+  function switchLanguage(code) {
+    if (code === LANG) return;
+    // Los idiomas con página propia se abren en su URL; desde una de esas páginas,
+    // el español y los demás idiomas viven en la versión en español.
+    var dest = (code !== DEFAULT_LANG || STATIC_LANG) &&
+      (altPath(code) || (STATIC_LANG && altPath(DEFAULT_LANG)));
+    if (!dest) { applyLanguage(code); return; }
+    try { localStorage.setItem(LANG_KEY, code); } catch (e) {}
+    window.location.href = dest + window.location.hash;
   }
 
   function applyLanguage(code) {
     LANG = code;
-    try { localStorage.setItem(LANG_KEY, code); } catch (e) {}
-    try {
-      var url = new URL(window.location.href);
-      url.searchParams.set('lang', code);
-      history.replaceState(null, '', url);
-    } catch (e) {}
+    if (!STATIC_LANG) {
+      try { localStorage.setItem(LANG_KEY, code); } catch (e) {}
+      try {
+        var url = new URL(window.location.href);
+        url.searchParams.set('lang', code);
+        history.replaceState(null, '', url);
+      } catch (e) {}
+    }
 
     return fetch(getRelativePath('assets/i18n/' + code + '.json'))
       .then(function (res) { return res.ok ? res.json() : {}; })
       .catch(function () { return {}; })
       .then(function (dict) {
         DICT = dict;
-        applyI18n(dict);
+        if (!STATIC_LANG) applyI18n(dict);
         renderServices(DATA, dict);
         renderExperiences(DATA, dict);
         updateLangSwitcher();
@@ -206,8 +241,8 @@
       btn.setAttribute('data-lang', l.code);
       btn.innerHTML = l.flag + '<span>' + l.name + '</span>';
       btn.addEventListener('click', function () {
-        applyLanguage(l.code);
         closeMenu();
+        switchLanguage(l.code);
       });
       li.appendChild(btn);
       menu.appendChild(li);
@@ -324,6 +359,7 @@
       var value = getByPath(data, el.getAttribute('data-key'));
       if (value === undefined || value === null || value === '') return;
       var attr = el.getAttribute('data-key-attr');
+      if (attr === 'src' && !/^([a-z]+:|\/)/i.test(value)) value = getRelativePath(value);
       if (attr) { el.setAttribute(attr, value); }
       else { el.textContent = value; }
     });
@@ -484,8 +520,9 @@
     }
   }
 
-  /* ---------- Utilidad de rutas (funciona en / y en /pages/) ---------- */
+  /* ---------- Utilidad de rutas (funciona en /, /pages/ y /en/...) ---------- */
   function getRelativePath(target) {
+    if (SITE_ROOT !== null) return SITE_ROOT + target;
     var inPages = /\/pages\//.test(window.location.pathname);
     return inPages ? '../' + target : target;
   }

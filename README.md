@@ -107,7 +107,8 @@ Permite editar visualmente. ⚠️ **Importante:** hoy guarda los cambios en
   apuntan al dominio **sin www** para que Google indexe una sola versión.
 - `<title>`, `meta description`, `meta keywords`, `canonical` en todas las páginas.
 - **Open Graph** y **Twitter Card** (imagen social = `assets/img/ballena-kayaks-6.webp`).
-- **hreflang** para los 5 idiomas (`?lang=xx`) + `x-default`.
+- **hreflang** `es` / `en` / `x-default` entre cada página en español y su versión en
+  inglés pre-renderizada (`/en/...`). Ver sección 5b.
 - **Schema.org**: `TravelAgency` en el home (teléfono, email, dirección, `logo`, `geo`
   con coordenadas de Uvita, `inLanguage`, `sameAs` a Facebook) y `BreadcrumbList` en las
   páginas internas.
@@ -133,13 +134,33 @@ posicionamiento". Mejora opcional de código: imagen OG dedicada en JPG 1200×63
   navegador → `es` por defecto. El selector con banderas está definido en el arreglo
   `LANGS` dentro de `script.js`.
 
+### Versión en inglés pre-renderizada (`/en/`)
+
+Para que Google vea HTML real en inglés (las búsquedas que traen turistas son en inglés),
+el sitio tiene una copia en inglés en **`/en/`** (`/en/`, `/en/pages/kayak.html`, etc.),
+**generada automáticamente** desde las páginas en español:
+
+```bash
+node tools/build-en.js
+```
+
+- **Ejecutarlo después de cualquier cambio** en una página en español, en
+  `assets/i18n/en.json` o en `tools/en-extra.json`, y publicar junto con el cambio.
+  Los archivos de `/en/` se sobrescriben: **no editarlos a mano**.
+- Toma los textos de `en.json`; lo que no está ahí (descripciones para Google, `alt` de
+  fotos, etiquetas de accesibilidad, datos estructurados) sale de **`tools/en-extra.json`**.
+  Si falta una traducción, el script la lista para agregarla.
+- También pone los `hreflang` en las páginas en español y agrega las URLs `/en/` al sitemap.
+- Páginas incluidas: lista `PAGES` en `tools/build-en.js`. Las legales (privacidad,
+  términos, cancelación) quedan fuera hasta su revisión legal; desde `/en/` se enlazan en español.
+- Comportamiento del idioma: las URLs en español siempre muestran español a quien llega
+  sin preferencia (también a Google). Al elegir la bandera inglesa se va a `/en/...`; desde
+  `/en/`, español y DE/FR/IT llevan a la página en español (DE/FR/IT siguen traduciéndose
+  con JavaScript). Los enlaces viejos `?lang=en` redirigen a `/en/`.
+
 **Para agregar un idioma nuevo:** (1) crear `assets/i18n/<código>.json` copiando la
 estructura de `es.json` y traduciendo; (2) añadir una entrada `{ code, name, flag }` en
-`LANGS` (script.js); (3) agregar su `<link rel="alternate" hreflang>` en `index.html`.
-
-> Nota SEO: las traducciones se aplican del lado del cliente (JavaScript). Es un buen
-> comienzo, pero para un posicionamiento multilingüe óptimo lo ideal a futuro es generar
-> páginas pre-renderizadas por idioma (URLs separadas). Ver roadmap.
+`LANGS` (script.js). Para darle URLs propias como `/en/`, adaptar `tools/build-en.js`.
 
 ## 6. Optimización de imágenes (proceso usado)
 
@@ -269,7 +290,7 @@ tareas **fuera del código** que hace el dueño del negocio, en orden de impacto
   universal al compartir).
 - `favicon.ico`/PNG de respaldo para navegadores antiguos (hoy es SVG, suficiente para los
   modernos).
-- A futuro: páginas pre-renderizadas por idioma (URLs separadas) para SEO multilingüe óptimo.
+- ✅ Versión en inglés pre-renderizada (`/en/`). A futuro: lo mismo para DE/FR/IT.
 
 ---
 
